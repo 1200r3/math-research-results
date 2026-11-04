@@ -1,0 +1,49 @@
+{
+  "author": "1200",
+  "execution_check": "CHECK-a647218bbe7d06bb2a9763db",
+  "fixed_id": "F-fed30c64910e057406f3342025deff71",
+  "formal_review": "REV-1efe5b511cb94407150d866d",
+  "licensed_package": "PKG-cceef00d1439606f40e59dfd",
+  "novelty": "partial_known",
+  "project": "QP01",
+  "repository": "1200r3/math-research-results",
+  "results": [
+    {
+      "id": "main-classification",
+      "scope": "All integers d,m≥2; all orders 1≤j≤d; sufficiently large natural n.",
+      "theorem": "main_classification_proved",
+      "title": "Exact eventual-positivity classification"
+    },
+    {
+      "id": "negative-residue",
+      "scope": "Odd d≥2, m above the threshold; m divides n+2d.",
+      "theorem": "above_threshold_failure_proved",
+      "title": "Above-threshold negative residue class"
+    },
+    {
+      "id": "critical-equality",
+      "scope": "Odd d≥3, m=1+binom(2d,d)/2; exceptional residue.",
+      "theorem": "critical_second_coefficient_eq_beta",
+      "title": "The odd critical equality case"
+    },
+    {
+      "id": "periodic-boundary",
+      "scope": "Exact quasi-polynomials with constant high-degree coefficients; general paper identity exceeds the two formal Props.",
+      "theorem": "Paper supporting identity",
+      "title": "Periodic boundary coefficients"
+    },
+    {
+      "id": "effective-bound",
+      "scope": "Rational residue polynomials and natural-number input.",
+      "theorem": "uniform_residue_positive",
+      "title": "Computable eventual sign bounds"
+    }
+  ],
+  "statement_review": "REV-9624ea3509681b98501b1a9b",
+  "status": "formally_accepted_two_exact_targets",
+  "subjects": [
+    "05A17",
+    "05A20",
+    "11P82"
+  ]
+}

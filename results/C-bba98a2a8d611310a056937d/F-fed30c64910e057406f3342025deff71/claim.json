@@ -1,0 +1,40 @@
+{
+  "claim_id": "C-bba98a2a8d611310a056937d",
+  "dependencies": [],
+  "formal_proof": {
+    "evidence_closure": "evidence/qp01-verification/final-main-proof-closure.json",
+    "independent_review": "coordinator_to_arrange",
+    "proof_guide": "proofs/LEAN_MAIN_PROOFS_QP01.md",
+    "status": "author_checks_passed",
+    "targets": {
+      "PartitionLaguerre.aboveThresholdFailure": "PartitionLaguerre.above_threshold_failure_proved",
+      "PartitionLaguerre.mainClassification": "PartitionLaguerre.main_classification_proved"
+    },
+    "verification_report": "research/FINAL_MAIN_FORMAL_VERIFICATION_QP01.md"
+  },
+  "kind": "main",
+  "license": "MIT AND CC-BY-4.0",
+  "license_scope": {
+    "authored_prose": "CC-BY-4.0",
+    "code/": "MIT",
+    "lean/": "MIT",
+    "paper/": "CC-BY-4.0",
+    "third_party": "original terms retained"
+  },
+  "original_problem_relationship": "restricted_family_of_Gajdzica_2024_Problem_5_6",
+  "research_status": "candidate",
+  "revision": 1,
+  "sources": [
+    {
+      "legacy_label": "QP01",
+      "proof_path": "proofs/qp_laguerre_draft.md",
+      "source_doi": "10.1007/s40993-024-00532-7",
+      "source_path": "C:\\Users\\王\\Desktop\\codex\\数学\\成果包_QP01_2026-10-29.zip",
+      "type": "user_supplied_dossier",
+      "zip_sha256": "eaa7a245dcd86bd3e41e03ade9f24a7a4567d665b5191b8cb41b2a7975e79489"
+    }
+  ],
+  "statement_file": "statement.md",
+  "statement_sha256": "198c48cd2fdc4c6e8c9dc6e8f889e353ba63b8b3ef7aad099de60b2d885f3ed5",
+  "title": "QP01：指定分拆族的离散 Laguerre 不等式最终严格正性分类"
+}

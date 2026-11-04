@@ -1,0 +1,69 @@
+{
+  "axioms": [
+    "propext, Classical.choice, Quot.sound"
+  ],
+  "check_id": "CHECK-a647218bbe7d06bb2a9763db",
+  "checker_passed": true,
+  "claim_id": "C-bba98a2a8d611310a056937d",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\王\\.elan\\toolchains\\leanprover--lean4---v4.35.0\\bin\\lake.exe",
+        "--packages=E:\\数学总目录\\reports\\QP01-publication-20261030\\verified-package-overrides.json",
+        "--old",
+        "--no-cache",
+        "build"
+      ],
+      "ended": "2026-11-04T21:12:10+00:00",
+      "job_id": "JOB-247b6fbb0ea51751cf640927",
+      "log_sha256": "d6eb91e8d000d1f0f96c95384dbdc51b26abb17d6133fceba3976f187936042a",
+      "resource_policy": "shared admission reservations + cooperative thread limits; no OS memory/CPU hard cap",
+      "returncode": 0,
+      "timed_out": false
+    },
+    {
+      "argv": [
+        "C:\\Users\\王\\.elan\\toolchains\\leanprover--lean4---v4.35.0\\bin\\lake.exe",
+        "--packages=E:\\数学总目录\\reports\\QP01-publication-20261030\\verified-package-overrides.json",
+        "--old",
+        "--no-cache",
+        "env",
+        "lean",
+        "MathflowAxiomAudit.lean"
+      ],
+      "ended": "2026-11-04T21:12:34+00:00",
+      "job_id": "JOB-ab7f06851b44184e29bd14a7",
+      "log_sha256": "1f8f00e6a090a2517259116571899613f7e83fc69d191e4bf5b7341a66adfea0",
+      "resource_policy": "shared admission reservations + cooperative thread limits; no OS memory/CPU hard cap",
+      "returncode": 0,
+      "timed_out": false
+    },
+    {
+      "argv": [
+        "C:\\Users\\王\\.elan\\toolchains\\leanprover--lean4---v4.35.0\\bin\\lake.exe",
+        "--packages=E:\\数学总目录\\reports\\QP01-publication-20261030\\verified-package-overrides.json",
+        "--old",
+        "--no-cache",
+        "env",
+        "C:\\Users\\王\\.elan\\toolchains\\leanprover--lean4---v4.35.0\\bin\\leanchecker.exe",
+        "--fresh",
+        "AuditFinalQP01"
+      ],
+      "ended": "2026-11-04T21:22:33+00:00",
+      "job_id": "JOB-6a6133c8ba7b6b71d5c09404",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "resource_policy": "shared admission reservations + cooperative thread limits; no OS memory/CPU hard cap",
+      "returncode": 0,
+      "timed_out": false
+    }
+  ],
+  "ended": "2026-11-04T21:26:15+00:00",
+  "isolation": "caller-managed; this runner itself is not an OS sandbox",
+  "kind": "lean",
+  "module": "AuditFinalQP01",
+  "package_id": "PKG-cceef00d1439606f40e59dfd",
+  "package_manifest_sha256": "45f5f6a50e07a5dca44e0bf9eda779b9fc63632186ca3f5f3c22110e1725246f",
+  "passed": true,
+  "started": "2026-11-04T21:03:50+00:00",
+  "theorem": "PartitionLaguerre.main_classification_proved"
+}

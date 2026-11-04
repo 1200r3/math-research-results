@@ -1,0 +1,150 @@
+name = "periodic_laguerre"
+version = "0.1.0"
+buildDir = ".lake/cold-qp01-main"
+defaultTargets = ["CenteredPolynomial", "CenteredSecondCoefficient", "ConcreteLeadingCoefficient", "ConcretePartitionModel", "ConcretePositiveBranches", "CriticalBetaRational", "CriticalBinomialIdentities", "CriticalCancellations", "CriticalCenteredTransform", "CriticalCoefficientTools", "CriticalGreenIdentification", "CriticalPeriodicMoments", "CriticalPositivity", "CriticalReduction", "CriticalSmoothCoefficient", "CriticalSmoothMonomials", "CyclicDifference", "CyclicGreen", "DifferenceProduct", "LaguerreMoments", "LeadingSigns", "MainClassification", "MainReduction", "NextLaguerreMoment", "PartitionDefinitions", "PartitionDifference", "PartitionRecurrence", "PeriodicDifference", "PochhammerDifference", "PolynomialBounds", "PolynomialPart", "PolynomialPartDegree", "PolynomialTopCoefficients", "ResidueDefinitions", "ResidueEvaluation", "ResiduePolynomialExpansion", "ResidueTargets", "RootCancellation", "ShiftTopCoefficients", "SmoothMonomial", "SmoothPolynomial", "Statement", "TargetStatements", "AuditMainProgress", "AuditProgressSupplement", "AuditQP01", "AuditFinalQP01"]
+
+[[lean_lib]]
+name = "CriticalPositivity"
+
+[[lean_lib]]
+name = "LeadingSigns"
+
+[[lean_lib]]
+name = "PartitionDefinitions"
+
+[[lean_lib]]
+name = "PolynomialBounds"
+
+[[lean_lib]]
+name = "ResidueDefinitions"
+
+[[lean_lib]]
+name = "ResidueEvaluation"
+
+[[lean_lib]]
+name = "ResidueTargets"
+
+[[lean_lib]]
+name = "RootCancellation"
+
+[[lean_lib]]
+name = "Statement"
+
+[[lean_lib]]
+name = "TargetStatements"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "56a005855ea17e0b0958f73ec801ae140b0a1679"
+
+[[lean_lib]]
+name = "AuditQP01"
+
+[[lean_lib]]
+name = "MainReduction"
+
+[[lean_lib]]
+name = "ConcretePartitionModel"
+
+[[lean_lib]]
+name = "PolynomialPart"
+
+[[lean_lib]]
+name = "PolynomialPartDegree"
+
+[[lean_lib]]
+name = "PartitionRecurrence"
+
+[[lean_lib]]
+name = "PartitionDifference"
+
+[[lean_lib]]
+name = "LaguerreMoments"
+
+[[lean_lib]]
+name = "PeriodicDifference"
+
+[[lean_lib]]
+name = "SmoothMonomial"
+
+[[lean_lib]]
+name = "SmoothPolynomial"
+
+[[lean_lib]]
+name = "ResiduePolynomialExpansion"
+
+[[lean_lib]]
+name = "ConcreteLeadingCoefficient"
+
+[[lean_lib]]
+name = "ConcretePositiveBranches"
+
+[[lean_lib]]
+name = "AuditMainProgress"
+
+[[lean_lib]]
+name = "CenteredPolynomial"
+
+[[lean_lib]]
+name = "CenteredSecondCoefficient"
+
+[[lean_lib]]
+name = "CriticalBetaRational"
+
+[[lean_lib]]
+name = "CriticalBinomialIdentities"
+
+[[lean_lib]]
+name = "CriticalCancellations"
+
+[[lean_lib]]
+name = "CriticalCenteredTransform"
+
+[[lean_lib]]
+name = "CriticalCoefficientTools"
+
+[[lean_lib]]
+name = "CriticalGreenIdentification"
+
+[[lean_lib]]
+name = "CriticalPeriodicMoments"
+
+[[lean_lib]]
+name = "CriticalReduction"
+
+[[lean_lib]]
+name = "CriticalSmoothCoefficient"
+
+[[lean_lib]]
+name = "CriticalSmoothMonomials"
+
+[[lean_lib]]
+name = "CyclicDifference"
+
+[[lean_lib]]
+name = "CyclicGreen"
+
+[[lean_lib]]
+name = "DifferenceProduct"
+
+[[lean_lib]]
+name = "MainClassification"
+
+[[lean_lib]]
+name = "NextLaguerreMoment"
+
+[[lean_lib]]
+name = "PochhammerDifference"
+
+[[lean_lib]]
+name = "PolynomialTopCoefficients"
+
+[[lean_lib]]
+name = "ShiftTopCoefficients"
+
+[[lean_lib]]
+name = "AuditProgressSupplement"
+
+[[lean_lib]]
+name = "AuditFinalQP01"

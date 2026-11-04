@@ -1,0 +1,89 @@
+{
+  "lakeDir": ".lake",
+  "name": "periodic_laguerre",
+  "packages": [
+    {
+      "configFile": "lakefile.toml",
+      "dir": "E:\\数学总目录\\projects\\verification-dependencies\\qp01-mathlib435\\.lake\\packages\\plausible",
+      "inherited": true,
+      "manifestFile": "lake-manifest.json",
+      "name": "plausible",
+      "scope": "leanprover-community",
+      "type": "path"
+    },
+    {
+      "configFile": "lakefile.toml",
+      "dir": "E:\\数学总目录\\projects\\verification-dependencies\\qp01-mathlib435\\.lake\\packages\\LeanSearchClient",
+      "inherited": true,
+      "manifestFile": "lake-manifest.json",
+      "name": "LeanSearchClient",
+      "scope": "leanprover-community",
+      "type": "path"
+    },
+    {
+      "configFile": "lakefile.toml",
+      "dir": "E:\\数学总目录\\projects\\verification-dependencies\\qp01-mathlib435\\.lake\\packages\\importGraph",
+      "inherited": true,
+      "manifestFile": "lake-manifest.json",
+      "name": "importGraph",
+      "scope": "leanprover-community",
+      "type": "path"
+    },
+    {
+      "configFile": "lakefile.lean",
+      "dir": "E:\\数学总目录\\projects\\verification-dependencies\\qp01-mathlib435\\.lake\\packages\\proofwidgets",
+      "inherited": true,
+      "manifestFile": "lake-manifest.json",
+      "name": "proofwidgets",
+      "scope": "leanprover-community",
+      "type": "path"
+    },
+    {
+      "configFile": "lakefile.toml",
+      "dir": "E:\\数学总目录\\projects\\verification-dependencies\\qp01-mathlib435\\.lake\\packages\\aesop",
+      "inherited": true,
+      "manifestFile": "lake-manifest.json",
+      "name": "aesop",
+      "scope": "leanprover-community",
+      "type": "path"
+    },
+    {
+      "configFile": "lakefile.toml",
+      "dir": "E:\\数学总目录\\projects\\verification-dependencies\\qp01-mathlib435\\.lake\\packages\\Qq",
+      "inherited": true,
+      "manifestFile": "lake-manifest.json",
+      "name": "Qq",
+      "scope": "leanprover-community",
+      "type": "path"
+    },
+    {
+      "configFile": "lakefile.toml",
+      "dir": "E:\\数学总目录\\projects\\verification-dependencies\\qp01-mathlib435\\.lake\\packages\\batteries",
+      "inherited": true,
+      "manifestFile": "lake-manifest.json",
+      "name": "batteries",
+      "scope": "leanprover-community",
+      "type": "path"
+    },
+    {
+      "configFile": "lakefile.toml",
+      "dir": "E:\\数学总目录\\projects\\verification-dependencies\\qp01-mathlib435\\.lake\\packages\\Cli",
+      "inherited": true,
+      "manifestFile": "lake-manifest.json",
+      "name": "Cli",
+      "scope": "leanprover",
+      "type": "path"
+    },
+    {
+      "configFile": "lakefile.lean",
+      "dir": "E:\\数学总目录\\projects\\verification-dependencies\\qp01-mathlib435",
+      "inherited": false,
+      "manifestFile": "lake-manifest.json",
+      "name": "mathlib",
+      "scope": "",
+      "type": "path"
+    }
+  ],
+  "packagesDir": ".lake/packages",
+  "version": "1.3.0"
+}

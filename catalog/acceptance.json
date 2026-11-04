@@ -1,0 +1,18 @@
+{
+  "check_ids": [
+    "CHECK-a647218bbe7d06bb2a9763db"
+  ],
+  "claim_id": "C-bba98a2a8d611310a056937d",
+  "claim_revision": 1,
+  "created": "2026-11-04T21:34:34+00:00",
+  "dependencies": [],
+  "fixed_id": "F-fed30c64910e057406f3342025deff71",
+  "package_id": "PKG-cceef00d1439606f40e59dfd",
+  "package_manifest_sha256": "45f5f6a50e07a5dca44e0bf9eda779b9fc63632186ca3f5f3c22110e1725246f",
+  "publication": "not_authorized",
+  "review_ids": [
+    "REV-9624ea3509681b98501b1a9b",
+    "REV-1efe5b511cb94407150d866d"
+  ],
+  "track": "formal"
+}

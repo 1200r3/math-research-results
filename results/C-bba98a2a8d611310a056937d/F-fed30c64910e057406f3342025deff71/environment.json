@@ -1,0 +1,88 @@
+{
+  "as_of": "2026-10-30T04:19:56.159889+08:00",
+  "device_id": "D-969df4fa12fc0992b2602392",
+  "direct_module_compilation": "passed",
+  "evidence_closure": "evidence/qp01-verification/final-main-proof-closure.json",
+  "execution_records": [
+    "evidence/qp01-verification/final-qp01-v1-run.log.result.json",
+    "evidence/qp01-verification/final-cold-qp01-v1-run.log.result.json"
+  ],
+  "formal_verification": "not_run_on_this_device",
+  "fresh_checker": "passed",
+  "fresh_coverage": "AuditFinalQP01 and all imported constants, empty environment",
+  "full_clean_lake_build": "passed_empty_project_output_with_locked_cached_dependencies",
+  "hub_formal_acceptance": "not_run",
+  "independent_review": "coordinator_to_arrange",
+  "main_theorem_formal": "both_original_Prop_targets_proved_and_fresh_replayed",
+  "named_theorems": 177,
+  "official_check_lean": "not_registered_in_hub",
+  "os": "Windows-11-10.0.26200-SP0",
+  "profile": "formal",
+  "proof_modules": 43,
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "source_dependency_lock": "lean/lake-manifest.json: nine exact Git revisions; local override recorded separately",
+  "source_execution_records": "Historical data/lean* and data/lean_builds retained without endorsement",
+  "tools": {
+    "lake": {
+      "path": "C:\\Users\\王\\.elan\\toolchains\\leanprover--lean4---v4.35.0\\bin\\lake.exe",
+      "sha256": "023feb24d3e7244fe671dba79f1cd1affc6c7a7cacfe497bf3675febb506578c"
+    },
+    "lean": {
+      "path": "C:\\Users\\王\\.elan\\toolchains\\leanprover--lean4---v4.35.0\\bin\\lean.exe",
+      "sha256": "ec7a472d1c12a09b0c0c718f7427c2be527b3f5f07810fdbe076c2507c7a91ea"
+    },
+    "leanchecker": {
+      "path": "C:\\Users\\王\\.elan\\toolchains\\leanprover--lean4---v4.35.0\\bin\\leanchecker.exe",
+      "sha256": "9ef6baeb28d5e28897d5ed6dddd60ff81e511d97374013ece435dff38e9e0137"
+    }
+  },
+  "transferred_from": {
+    "as_of": "2026-10-30T04:19:56.159889+08:00",
+    "device_id": "D-969df4fa12fc0992b2602392",
+    "direct_module_compilation": "passed",
+    "evidence_closure": "evidence/qp01-verification/final-main-proof-closure.json",
+    "execution_records": [
+      "evidence/qp01-verification/final-qp01-v1-run.log.result.json",
+      "evidence/qp01-verification/final-cold-qp01-v1-run.log.result.json"
+    ],
+    "formal_verification": "author_full_main_proof_checks_passed",
+    "fresh_checker": "passed",
+    "fresh_coverage": "AuditFinalQP01 and all imported constants, empty environment",
+    "full_clean_lake_build": "passed_empty_project_output_with_locked_cached_dependencies",
+    "hub_formal_acceptance": "not_run",
+    "independent_review": "coordinator_to_arrange",
+    "main_theorem_formal": "both_original_Prop_targets_proved_and_fresh_replayed",
+    "named_theorems": 177,
+    "official_check_lean": "not_registered_in_hub",
+    "os": "Windows-11-10.0.26200-SP0",
+    "profile": "formal",
+    "proof_modules": 43,
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "source_dependency_lock": "lean/lake-manifest.json: nine exact Git revisions; local override recorded separately",
+    "source_execution_records": "Historical data/lean* and data/lean_builds retained without endorsement",
+    "tools": {
+      "lake": {
+        "path": "C:\\Users\\王\\.elan\\toolchains\\leanprover--lean4---v4.35.0\\bin\\lake.exe",
+        "sha256": "023feb24d3e7244fe671dba79f1cd1affc6c7a7cacfe497bf3675febb506578c"
+      },
+      "lean": {
+        "path": "C:\\Users\\王\\.elan\\toolchains\\leanprover--lean4---v4.35.0\\bin\\lean.exe",
+        "sha256": "ec7a472d1c12a09b0c0c718f7427c2be527b3f5f07810fdbe076c2507c7a91ea"
+      },
+      "leanchecker": {
+        "path": "C:\\Users\\王\\.elan\\toolchains\\leanprover--lean4---v4.35.0\\bin\\leanchecker.exe",
+        "sha256": "9ef6baeb28d5e28897d5ed6dddd60ff81e511d97374013ece435dff38e9e0137"
+      }
+    },
+    "transferred_from": {
+      "device_id": "D-969df4fa12fc0992b2602392",
+      "formal_verification": "not_run",
+      "os": "Windows-11-10.0.26200-SP0",
+      "profile": "formal",
+      "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+      "source_dependency_lock": "lean/lake-manifest.json missing; data/lean_local_manifest.json contains old absolute paths",
+      "source_execution_records": "Historical data/lean* and data/lean_builds retained without endorsement",
+      "tools": {}
+    }
+  }
+}

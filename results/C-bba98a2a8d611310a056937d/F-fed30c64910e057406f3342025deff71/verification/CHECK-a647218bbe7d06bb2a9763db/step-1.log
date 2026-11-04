@@ -1,0 +1,1688 @@
+⚠ [2385/2478] Built Statement (49s)
+warning: Statement.lean: imports `Mathlib.Data.Complex.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Statement.lean:1:0: 'Mathlib.Data.Complex.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Complex.Basic
+⚠ [2387/2478] Built PartitionDefinitions (70s)
+warning: PartitionDefinitions.lean: imports `Mathlib.Data.Nat.Choose.Central` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartitionDefinitions.lean: imports `Mathlib.Data.Rat.Cast.Order` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartitionDefinitions.lean: imports `Mathlib.Data.Real.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartitionDefinitions.lean: imports `Mathlib.Algebra.BigOperators.Group.Finset.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartitionDefinitions.lean: imports `Mathlib.Algebra.Ring.Parity` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartitionDefinitions.lean:3:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+✔ [2389/2478] Built TargetStatements (13s)
+⚠ [2391/2478] Built RootCancellation (14s)
+warning: RootCancellation.lean: imports `Mathlib.Tactic.FieldSimp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RootCancellation.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: RootCancellation.lean:10:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: RootCancellation.lean:10:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: RootCancellation.lean:14:0: 'solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2393/2478] Built ResidueDefinitions (22s)
+warning: ResidueDefinitions.lean: imports `Mathlib.Algebra.Polynomial.Eval.Degree` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: ResidueDefinitions.lean: imports `Mathlib.Data.Rat.Floor` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: ResidueDefinitions.lean: imports `Mathlib.Order.Interval.Finset.Nat` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2395/2478] Built LeadingSigns (14s)
+warning: LeadingSigns.lean:14:56: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LeadingSigns.lean:17:18: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LeadingSigns.lean:14:56: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LeadingSigns.lean:17:18: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: LeadingSigns.lean:21:0: 'PartitionLaguerre.leading_signs' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2397/2478] Built CriticalPositivity (17s)
+warning: CriticalPositivity.lean: imports `Mathlib.Data.Nat.Choose.Cast` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: CriticalPositivity.lean: imports `Mathlib.Tactic.Positivity` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: CriticalPositivity.lean: imports `Mathlib.Tactic.NormNum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: CriticalPositivity.lean: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: CriticalPositivity.lean:84:0: 'PartitionLaguerre.critical_index_large' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalPositivity.lean:85:0: 'PartitionLaguerre.beta_expression_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalPositivity.lean:86:0: 'PartitionLaguerre.critical_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [2399/2478] Built ResidueTargets (15s)
+ℹ [2401/2478] Built ResidueEvaluation (15s)
+info: ResidueEvaluation.lean:23:0: 'PartitionLaguerre.residue_evaluation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ResidueEvaluation.lean:24:0: 'PartitionLaguerre.represented_sequence' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2403/2478] Built ConcretePartitionModel (43s)
+warning: ConcretePartitionModel.lean: imports `Mathlib.NumberTheory.BernoulliPolynomials` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: ConcretePartitionModel.lean: imports `Mathlib.RingTheory.Polynomial.Pochhammer` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: ConcretePartitionModel.lean: imports `Mathlib.Tactic.FieldSimp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: ConcretePartitionModel.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: ConcretePartitionModel.lean: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: ConcretePartitionModel.lean: imports `Mathlib.Algebra.Polynomial.Roots` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: ConcretePartitionModel.lean:154:14: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+info: ConcretePartitionModel.lean:158:0: 'PartitionLaguerre.inclusive_power_sum_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcretePartitionModel.lean:159:0: 'PartitionLaguerre.inclusive_polynomial_sum_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcretePartitionModel.lean:160:0: 'PartitionLaguerre.step_binomial_polynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcretePartitionModel.lean:161:0: 'PartitionLaguerre.partition_count_reindexed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcretePartitionModel.lean:162:0: 'PartitionLaguerre.concrete_partition_representation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcretePartitionModel.lean:163:0: 'PartitionLaguerre.polynomial_eq_of_nat_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcretePartitionModel.lean:164:0: 'PartitionLaguerre.inclusive_polynomial_sum_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcretePartitionModel.lean:165:0: 'PartitionLaguerre.polynomial_constant_of_nonzero_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2405/2478] Built PolynomialBounds (15s)
+warning: PolynomialBounds.lean: imports `Mathlib.Algebra.Order.BigOperators.Group.Finset` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PolynomialBounds.lean: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PolynomialBounds.lean: imports `Mathlib.Tactic.NormNum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PolynomialBounds.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: PolynomialBounds.lean:107:0: 'PartitionLaguerre.polynomial_positive_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PolynomialBounds.lean:108:0: 'PartitionLaguerre.polynomial_negative_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PolynomialBounds.lean:109:0: 'PartitionLaguerre.uniform_residue_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2407/2478] Built MainReduction (17s)
+info: MainReduction.lean:118:0: 'PartitionLaguerre.exceptional_class_unbounded' depends on axioms: [propext, Quot.sound]
+info: MainReduction.lean:119:0: 'PartitionLaguerre.eventual_positive_excludes_negative_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MainReduction.lean:120:0: 'PartitionLaguerre.outside_admissible_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MainReduction.lean:121:0: 'PartitionLaguerre.main_classification_of_branches' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MainReduction.lean:122:0: 'PartitionLaguerre.eventual_positive_of_residue_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MainReduction.lean:123:0: 'PartitionLaguerre.eventual_negative_of_residue_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MainReduction.lean:124:0: 'PartitionLaguerre.above_threshold_of_residue_models' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2409/2478] Built AuditQP01 (17s)
+info: AuditQP01.lean:11:0: solution : formalStatement
+info: AuditQP01.lean:12:0: 'solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditQP01.lean:13:0: PartitionLaguerre.leading_signs : PartitionLaguerre.leadingSignsClaim
+info: AuditQP01.lean:14:0: 'PartitionLaguerre.leading_signs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditQP01.lean:15:0: PartitionLaguerre.critical_index_large (d : ℕ) (hd : 3 ≤ d) : 2 * d < PartitionLaguerre.criticalIndex d
+info: AuditQP01.lean:16:0: 'PartitionLaguerre.critical_index_large' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditQP01.lean:17:0: PartitionLaguerre.beta_expression_positive (d m a F C : ℝ) (hd : 3 ≤ d) (hm : 2 * d < m) (ha : 0 < a) (hF : 0 < F)
+  (hC : 0 < C) : 0 < PartitionLaguerre.betaExpression d m a F C
+info: AuditQP01.lean:18:0: 'PartitionLaguerre.beta_expression_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditQP01.lean:19:0: PartitionLaguerre.critical_beta : PartitionLaguerre.criticalBetaClaim
+info: AuditQP01.lean:20:0: 'PartitionLaguerre.critical_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditQP01.lean:21:0: PartitionLaguerre.residue_evaluation : PartitionLaguerre.residueEvaluationClaim
+info: AuditQP01.lean:22:0: 'PartitionLaguerre.residue_evaluation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditQP01.lean:23:0: PartitionLaguerre.represented_sequence : PartitionLaguerre.representedSequenceClaim
+info: AuditQP01.lean:24:0: 'PartitionLaguerre.represented_sequence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditQP01.lean:25:0: PartitionLaguerre.polynomial_positive_bound : PartitionLaguerre.polynomialPositiveBoundClaim
+info: AuditQP01.lean:26:0: 'PartitionLaguerre.polynomial_positive_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditQP01.lean:27:0: PartitionLaguerre.coefficient_bound_neg (P : Polynomial ℚ) :
+  PartitionLaguerre.coefficientBound (-P) = PartitionLaguerre.coefficientBound P
+info: AuditQP01.lean:28:0: 'PartitionLaguerre.coefficient_bound_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditQP01.lean:29:0: PartitionLaguerre.polynomial_negative_bound : PartitionLaguerre.polynomialNegativeBoundClaim
+info: AuditQP01.lean:30:0: 'PartitionLaguerre.polynomial_negative_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditQP01.lean:31:0: PartitionLaguerre.uniform_residue_positive : PartitionLaguerre.uniformResiduePositiveClaim
+info: AuditQP01.lean:32:0: 'PartitionLaguerre.uniform_residue_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditQP01.lean:33:0: def PartitionLaguerre.mainClassification : Prop :=
+∀ (d m : ℕ),
+  2 ≤ d →
+    2 ≤ m →
+      (PartitionLaguerre.eventualPositiveThrough d (PartitionLaguerre.partitionCount d m) ↔
+        Even d ∨ Odd d ∧ m ≤ PartitionLaguerre.criticalIndex d)
+info: AuditQP01.lean:34:0: def PartitionLaguerre.aboveThresholdFailure : Prop :=
+∀ (d m : ℕ),
+  2 ≤ d →
+    2 ≤ m →
+      Odd d →
+        PartitionLaguerre.criticalIndex d < m →
+          ∃ N,
+            ∀ (n : ℕ), N ≤ n → m ∣ n + 2 * d → PartitionLaguerre.laguerre d (PartitionLaguerre.partitionCount d m) n < 0
+ℹ [2411/2478] Built PartitionRecurrence (22s)
+info: PartitionRecurrence.lean:72:0: 'PartitionLaguerre.colored_partition_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PartitionRecurrence.lean:73:0: 'PartitionLaguerre.colored_partition_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PartitionRecurrence.lean:74:0: 'PartitionLaguerre.colored_partition_zero_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PartitionRecurrence.lean:75:0: 'PartitionLaguerre.partition_count_eq_colored' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2413/2478] Built PolynomialPart (23s)
+info: PolynomialPart.lean:87:0: 'PartitionLaguerre.concrete_residue_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PolynomialPart.lean:88:0: 'PartitionLaguerre.concrete_residue_common_part' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PolynomialPart.lean:89:0: 'PartitionLaguerre.partition_count_common_polynomial_part' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2415/2478] Built PartitionDifference (18s)
+warning: PartitionDifference.lean: imports `Mathlib.Algebra.Group.ForwardDiff` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartitionDifference.lean:22:12: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PartitionDifference.lean:22:12: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: PartitionDifference.lean:36:0: 'PartitionLaguerre.colored_partition_iterated_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PartitionDifference.lean:37:0: 'PartitionLaguerre.partition_count_iterated_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2417/2478] Built PolynomialPartDegree (18s)
+info: PolynomialPartDegree.lean:129:0: 'PartitionLaguerre.bernoulli_polynomial_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PolynomialPartDegree.lean:130:0: 'PartitionLaguerre.inclusive_power_sum_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PolynomialPartDegree.lean:131:0: 'PartitionLaguerre.inclusive_polynomial_sum_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PolynomialPartDegree.lean:132:0: 'PartitionLaguerre.step_binomial_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PolynomialPartDegree.lean:133:0: 'PartitionLaguerre.concrete_residue_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PolynomialPartDegree.lean:134:0: 'PartitionLaguerre.concrete_polynomial_part_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2419/2478] Built LaguerreMoments (18s)
+info: LaguerreMoments.lean:89:0: 'PartitionLaguerre.laguerre_weight_reflect' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LaguerreMoments.lean:90:0: 'PartitionLaguerre.neg_one_pow_mod_two_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LaguerreMoments.lean:91:0: 'PartitionLaguerre.laguerre_weighted_polynomial_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LaguerreMoments.lean:92:0: 'PartitionLaguerre.laguerre_moment_below_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LaguerreMoments.lean:93:0: 'PartitionLaguerre.laguerre_moment_at_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LaguerreMoments.lean:94:0: 'PartitionLaguerre.laguerre_moment_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2421/2478] Built PolynomialTopCoefficients (19s)
+warning: PolynomialTopCoefficients.lean: imports `Mathlib.Algebra.Polynomial.Monic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PolynomialTopCoefficients.lean:36:20: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PolynomialTopCoefficients.lean:36:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: PolynomialTopCoefficients.lean:53:0: 'PartitionLaguerre.shift_polynomial_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PolynomialTopCoefficients.lean:54:0: 'PartitionLaguerre.desc_pochhammer_next_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PolynomialTopCoefficients.lean:55:0: 'PartitionLaguerre.desc_pochhammer_next_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PolynomialTopCoefficients.lean:56:0: 'PartitionLaguerre.desc_pochhammer_second_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2423/2478] Built CenteredPolynomial (20s)
+info: CenteredPolynomial.lean:22:8: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: CenteredPolynomial.lean:96:0: 'PartitionLaguerre.desc_pochhammer_eval_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CenteredPolynomial.lean:97:0: 'PartitionLaguerre.centered_polynomial_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CenteredPolynomial.lean:98:0: 'PartitionLaguerre.centered_increment_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CenteredPolynomial.lean:99:0: 'PartitionLaguerre.centered_polynomial_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CenteredPolynomial.lean:100:0: 'PartitionLaguerre.centered_polynomial_odd_coefficient_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2425/2478] Built SmoothMonomial (19s)
+warning: SmoothMonomial.lean: imports `Mathlib.Algebra.Polynomial.Reverse` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SmoothMonomial.lean: imports `Mathlib.Algebra.Polynomial.Expand` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SmoothMonomial.lean:43:10: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: SmoothMonomial.lean:43:10: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: SmoothMonomial.lean:121:0: 'PartitionLaguerre.paired_shift_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SmoothMonomial.lean:122:0: 'PartitionLaguerre.reverse_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SmoothMonomial.lean:123:0: 'PartitionLaguerre.reverse_shift_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SmoothMonomial.lean:124:0: 'PartitionLaguerre.paired_shift_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SmoothMonomial.lean:125:0: 'PartitionLaguerre.paired_shift_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SmoothMonomial.lean:126:0: 'PartitionLaguerre.smooth_monomial_pair_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SmoothMonomial.lean:127:0: 'PartitionLaguerre.smooth_monomial_pair_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SmoothMonomial.lean:128:0: 'PartitionLaguerre.smooth_monomial_pair_high_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SmoothMonomial.lean:129:0: 'PartitionLaguerre.one_sub_X_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SmoothMonomial.lean:130:0: 'PartitionLaguerre.equal_power_pair_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SmoothMonomial.lean:131:0: 'PartitionLaguerre.smooth_monomial_pair_leading_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2427/2478] Built PeriodicDifference (20s)
+info: PeriodicDifference.lean:73:0: 'PartitionLaguerre.iterated_difference_nat_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicDifference.lean:74:0: 'PartitionLaguerre.concrete_polynomial_full_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicDifference.lean:75:0: 'PartitionLaguerre.concrete_periodic_sequence_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicDifference.lean:76:0: 'PartitionLaguerre.concrete_periodic_full_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicDifference.lean:77:0: 'PartitionLaguerre.laguerre_weighted_sequence_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PeriodicDifference.lean:78:0: 'PartitionLaguerre.concrete_periodic_boundary_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2429/2478] Built ShiftTopCoefficients (19s)
+info: ShiftTopCoefficients.lean:18:18: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: ShiftTopCoefficients.lean:17:74: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ShiftTopCoefficients.lean:18:4: Unused tactic linter: `push_cast` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ShiftTopCoefficients.lean:18:14: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ShiftTopCoefficients.lean:18:23: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ShiftTopCoefficients.lean:17:74: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ShiftTopCoefficients.lean:18:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ShiftTopCoefficients.lean:18:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ShiftTopCoefficients.lean:25:74: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ShiftTopCoefficients.lean:26:4: Unused tactic linter: `push_cast` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ShiftTopCoefficients.lean:26:14: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ShiftTopCoefficients.lean:26:23: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ShiftTopCoefficients.lean:26:27: Unused tactic linter: `simp` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ShiftTopCoefficients.lean:26:27: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ShiftTopCoefficients.lean:25:74: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ShiftTopCoefficients.lean:26:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ShiftTopCoefficients.lean:66:0: 'PartitionLaguerre.cast_choose_add_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ShiftTopCoefficients.lean:67:0: 'PartitionLaguerre.cast_choose_add_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ShiftTopCoefficients.lean:68:0: 'PartitionLaguerre.cast_choose_add_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ShiftTopCoefficients.lean:69:0: 'PartitionLaguerre.shift_coefficient_prefix_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ShiftTopCoefficients.lean:70:0: 'PartitionLaguerre.shift_coefficient_two_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ShiftTopCoefficients.lean:71:0: 'PartitionLaguerre.symmetric_shift_third_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2431/2478] Built SmoothPolynomial (20s)
+warning: SmoothPolynomial.lean:87:61: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: SmoothPolynomial.lean:88:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+info: SmoothPolynomial.lean:129:0: 'PartitionLaguerre.smooth_polynomial_pair_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SmoothPolynomial.lean:130:0: 'PartitionLaguerre.smooth_polynomial_pair_high_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SmoothPolynomial.lean:131:0: 'PartitionLaguerre.smooth_polynomial_pair_top_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SmoothPolynomial.lean:132:0: 'PartitionLaguerre.smooth_polynomial_pair_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2433/2478] Built PochhammerDifference (20s)
+warning: PochhammerDifference.lean:37:77: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PochhammerDifference.lean:37:77: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: PochhammerDifference.lean:41:0: 'PartitionLaguerre.desc_pochhammer_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PochhammerDifference.lean:42:0: 'PartitionLaguerre.desc_pochhammer_iterated_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2435/2478] Built CyclicDifference (20s)
+info: CyclicDifference.lean:135:0: 'PartitionLaguerre.difference_sum_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicDifference.lean:136:0: 'PartitionLaguerre.difference_preserves_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicDifference.lean:137:0: 'PartitionLaguerre.iterated_difference_preserves_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicDifference.lean:138:0: 'PartitionLaguerre.periodic_difference_zero_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicDifference.lean:139:0: 'PartitionLaguerre.periodic_iterated_difference_zero_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicDifference.lean:140:0: 'PartitionLaguerre.sum_range_shift_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicDifference.lean:141:0: 'PartitionLaguerre.periodic_sum_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicDifference.lean:142:0: 'PartitionLaguerre.iterated_second_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicDifference.lean:143:0: 'PartitionLaguerre.periodic_sequence_constant_of_second_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: CyclicDifference.lean:144:0: 'PartitionLaguerre.periodic_second_difference_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2437/2478] Built CenteredSecondCoefficient (20s)
+warning: CenteredSecondCoefficient.lean:73:15: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CenteredSecondCoefficient.lean:73:19: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CenteredSecondCoefficient.lean:73:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CenteredSecondCoefficient.lean:95:20: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CenteredSecondCoefficient.lean:95:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: CenteredSecondCoefficient.lean:99:0: 'PartitionLaguerre.centered_desc_second_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CenteredSecondCoefficient.lean:100:0: 'PartitionLaguerre.centered_polynomial_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CenteredSecondCoefficient.lean:101:0: 'PartitionLaguerre.centered_polynomial_half_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CenteredSecondCoefficient.lean:102:0: 'PartitionLaguerre.centered_second_coefficient_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CenteredSecondCoefficient.lean:103:0: 'PartitionLaguerre.centered_polynomial_second_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2439/2478] Built ResiduePolynomialExpansion (21s)
+info: ResiduePolynomialExpansion.lean:109:0: 'PartitionLaguerre.polynomial_shift_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ResiduePolynomialExpansion.lean:110:0: 'PartitionLaguerre.forward_smooth_polynomial_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ResiduePolynomialExpansion.lean:111:0: 'PartitionLaguerre.periodic_cross_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ResiduePolynomialExpansion.lean:112:0: 'PartitionLaguerre.reflected_periodic_weight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ResiduePolynomialExpansion.lean:113:0: 'PartitionLaguerre.periodic_cross_top_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ResiduePolynomialExpansion.lean:114:0: 'PartitionLaguerre.residue_transform_common_part' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2441/2478] Built DifferenceProduct (20s)
+warning: DifferenceProduct.lean:15:15: This simp argument is unused:
+  Nat.zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Function.iterate_one, Function.iterate_zero_apply, Nat.cast_zero, zero_add, fwdDiff, Nat.cast_add,
+    Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: DifferenceProduct.lean:45:0: 'PartitionLaguerre.iterated_difference_linear_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DifferenceProduct.lean:46:0: 'PartitionLaguerre.iterated_difference_square_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2443/2478] Built CyclicGreen (22s)
+warning: CyclicGreen.lean:72:34: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: CyclicGreen.lean:79:52: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: CyclicGreen.lean:87:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: CyclicGreen.lean:71:16: This simp argument is unused:
+  Nat.add_mod
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [he, Nat.mod_eq_of_lt (show 1 < m by omega)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: CyclicGreen.lean:94:0: 'PartitionLaguerre.cyclic_green_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicGreen.lean:95:0: 'PartitionLaguerre.rational_sum_range_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicGreen.lean:96:0: 'PartitionLaguerre.rational_sum_range_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicGreen.lean:97:0: 'PartitionLaguerre.cyclic_green_zero_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicGreen.lean:98:0: 'PartitionLaguerre.cyclic_green_sequence_zero_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CyclicGreen.lean:99:0: 'PartitionLaguerre.cyclic_green_second_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2445/2478] Built NextLaguerreMoment (22s)
+warning: NextLaguerreMoment.lean:63:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: NextLaguerreMoment.lean:63:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: NextLaguerreMoment.lean:68:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: NextLaguerreMoment.lean:75:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: NextLaguerreMoment.lean:75:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: NextLaguerreMoment.lean:81:67: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+info: NextLaguerreMoment.lean:177:0: 'PartitionLaguerre.centered_pochhammer_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NextLaguerreMoment.lean:178:0: 'PartitionLaguerre.centered_pochhammer_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NextLaguerreMoment.lean:179:0: 'PartitionLaguerre.centered_pochhammer_next_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NextLaguerreMoment.lean:180:0: 'PartitionLaguerre.next_moment_residual_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NextLaguerreMoment.lean:181:0: 'PartitionLaguerre.centered_pochhammer_weighted_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NextLaguerreMoment.lean:182:0: 'PartitionLaguerre.laguerre_moment_next_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2447/2478] Built ConcreteLeadingCoefficient (21s)
+warning: ConcreteLeadingCoefficient.lean:46:20: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ConcreteLeadingCoefficient.lean:46:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ConcreteLeadingCoefficient.lean:103:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: ConcreteLeadingCoefficient.lean:118:23: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ConcreteLeadingCoefficient.lean:118:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ConcreteLeadingCoefficient.lean:135:0: 'PartitionLaguerre.forward_smooth_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcreteLeadingCoefficient.lean:136:0: 'PartitionLaguerre.residue_common_part_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcreteLeadingCoefficient.lean:137:0: 'PartitionLaguerre.concrete_polynomial_part_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcreteLeadingCoefficient.lean:138:0: 'PartitionLaguerre.concrete_transform_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcreteLeadingCoefficient.lean:139:0: 'PartitionLaguerre.concrete_transform_boundary_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcreteLeadingCoefficient.lean:140:0: 'PartitionLaguerre.concrete_above_threshold_coefficient_negative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ConcreteLeadingCoefficient.lean:141:0: 'PartitionLaguerre.concrete_above_threshold_leading_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcreteLeadingCoefficient.lean:142:0: PartitionLaguerre.above_threshold_failure_proved : PartitionLaguerre.aboveThresholdFailure
+info: ConcreteLeadingCoefficient.lean:143:0: 'PartitionLaguerre.above_threshold_failure_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2449/2478] Built CriticalGreenIdentification (22s)
+warning: CriticalGreenIdentification.lean:55:19: This simp argument is unused:
+  mul_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [cyclicGreenSequence, Nat.mod_eq_zero_of_dvd hr, cyclicGreenValue, Nat.cast_zero, zero_mul,
+    zero_div, add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: CriticalGreenIdentification.lean:78:0: 'PartitionLaguerre.periodic_green_identification' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalGreenIdentification.lean:79:0: 'PartitionLaguerre.concrete_periodic_penultimate_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalGreenIdentification.lean:80:0: 'PartitionLaguerre.concrete_penultimate_exceptional_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalGreenIdentification.lean:81:0: 'PartitionLaguerre.concrete_preceding_exceptional_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2451/2478] Built CriticalSmoothMonomials (22s)
+warning: CriticalSmoothMonomials.lean:64:63: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: CriticalSmoothMonomials.lean:99:65: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CriticalSmoothMonomials.lean:99:69: Unused tactic linter: `congr 1` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CriticalSmoothMonomials.lean:99:77: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CriticalSmoothMonomials.lean:99:81: Unused tactic linter: `omega` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CriticalSmoothMonomials.lean:99:69: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CriticalSmoothMonomials.lean:99:81: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+info: CriticalSmoothMonomials.lean:111:0: 'PartitionLaguerre.smooth_monomial_pair_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalSmoothMonomials.lean:112:0: 'PartitionLaguerre.mixed_power_pair_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalSmoothMonomials.lean:113:0: 'PartitionLaguerre.smooth_mixed_critical_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalSmoothMonomials.lean:114:0: 'PartitionLaguerre.smooth_equal_critical_next_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2453/2478] Built CriticalBinomialIdentities (22s)
+warning: CriticalBinomialIdentities.lean:74:13: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CriticalBinomialIdentities.lean:74:17: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CriticalBinomialIdentities.lean:74:17: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+info: CriticalBinomialIdentities.lean:85:0: 'PartitionLaguerre.critical_next_binomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalBinomialIdentities.lean:86:0: 'PartitionLaguerre.critical_previous_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalBinomialIdentities.lean:87:0: 'PartitionLaguerre.critical_binomial_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalBinomialIdentities.lean:88:0: 'PartitionLaguerre.critical_factorial_next_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2455/2478] Built ConcretePositiveBranches (21s)
+warning: ConcretePositiveBranches.lean:59:27: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ConcretePositiveBranches.lean:59:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ConcretePositiveBranches.lean:94:23: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ConcretePositiveBranches.lean:94:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ConcretePositiveBranches.lean:136:0: 'PartitionLaguerre.residue_coefficient_above_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcretePositiveBranches.lean:137:0: 'PartitionLaguerre.concrete_lower_order_leading_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcretePositiveBranches.lean:138:0: 'PartitionLaguerre.concrete_boundary_rational_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcretePositiveBranches.lean:139:0: 'PartitionLaguerre.concrete_noncritical_boundary_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcretePositiveBranches.lean:140:0: 'PartitionLaguerre.concrete_noncritical_top_leading_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcretePositiveBranches.lean:141:0: 'PartitionLaguerre.eventual_positive_noncritical' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcretePositiveBranches.lean:142:0: 'PartitionLaguerre.main_classification_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ConcretePositiveBranches.lean:143:0: 'PartitionLaguerre.main_classification_of_odd_critical' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2457/2478] Built CriticalPeriodicMoments (20s)
+warning: CriticalPeriodicMoments.lean:72:67: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: CriticalPeriodicMoments.lean:84:67: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+info: CriticalPeriodicMoments.lean:92:0: 'PartitionLaguerre.periodic_centered_moment_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalPeriodicMoments.lean:93:0: 'PartitionLaguerre.periodic_centered_moment_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalPeriodicMoments.lean:94:0: 'PartitionLaguerre.concrete_exceptional_first_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalPeriodicMoments.lean:95:0: 'PartitionLaguerre.concrete_exceptional_second_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2459/2478] Built CriticalSmoothCoefficient (22s)
+warning: CriticalSmoothCoefficient.lean:44:39: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hodd, zero_mul, mul_zero, add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: CriticalSmoothCoefficient.lean:80:27: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CriticalSmoothCoefficient.lean:80:39: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CriticalSmoothCoefficient.lean:80:68: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CriticalSmoothCoefficient.lean:80:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CriticalSmoothCoefficient.lean:80:39: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CriticalSmoothCoefficient.lean:80:68: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: CriticalSmoothCoefficient.lean:84:0: 'PartitionLaguerre.smooth_second_coefficient_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalSmoothCoefficient.lean:85:0: 'PartitionLaguerre.centered_smooth_second_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2461/2478] Built AuditMainProgress (20s)
+info: AuditMainProgress.lean:26:0: solution : formalStatement
+info: AuditMainProgress.lean:27:0: 'solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:28:0: PartitionLaguerre.leading_signs : PartitionLaguerre.leadingSignsClaim
+info: AuditMainProgress.lean:29:0: 'PartitionLaguerre.leading_signs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:30:0: PartitionLaguerre.critical_index_large (d : ℕ) (hd : 3 ≤ d) : 2 * d < PartitionLaguerre.criticalIndex d
+info: AuditMainProgress.lean:31:0: 'PartitionLaguerre.critical_index_large' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:32:0: PartitionLaguerre.beta_expression_positive (d m a F C : ℝ) (hd : 3 ≤ d) (hm : 2 * d < m) (ha : 0 < a) (hF : 0 < F)
+  (hC : 0 < C) : 0 < PartitionLaguerre.betaExpression d m a F C
+info: AuditMainProgress.lean:33:0: 'PartitionLaguerre.beta_expression_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:34:0: PartitionLaguerre.critical_beta : PartitionLaguerre.criticalBetaClaim
+info: AuditMainProgress.lean:35:0: 'PartitionLaguerre.critical_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:36:0: PartitionLaguerre.residue_evaluation : PartitionLaguerre.residueEvaluationClaim
+info: AuditMainProgress.lean:37:0: 'PartitionLaguerre.residue_evaluation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:38:0: PartitionLaguerre.represented_sequence : PartitionLaguerre.representedSequenceClaim
+info: AuditMainProgress.lean:39:0: 'PartitionLaguerre.represented_sequence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:40:0: PartitionLaguerre.polynomial_positive_bound : PartitionLaguerre.polynomialPositiveBoundClaim
+info: AuditMainProgress.lean:41:0: 'PartitionLaguerre.polynomial_positive_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:42:0: PartitionLaguerre.polynomial_negative_bound : PartitionLaguerre.polynomialNegativeBoundClaim
+info: AuditMainProgress.lean:43:0: 'PartitionLaguerre.polynomial_negative_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:44:0: PartitionLaguerre.uniform_residue_positive : PartitionLaguerre.uniformResiduePositiveClaim
+info: AuditMainProgress.lean:45:0: 'PartitionLaguerre.uniform_residue_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:46:0: PartitionLaguerre.exceptional_class_unbounded (m shift N : ℕ) (hm : 0 < m) : ∃ n, N ≤ n ∧ m ∣ n + shift
+info: AuditMainProgress.lean:47:0: 'PartitionLaguerre.exceptional_class_unbounded' depends on axioms: [propext, Quot.sound]
+info: AuditMainProgress.lean:48:0: PartitionLaguerre.eventual_positive_excludes_negative_class (d m : ℕ) (f : ℕ → ℚ) (hd : 1 ≤ d) (hm : 0 < m)
+  (hneg : ∃ N, ∀ (n : ℕ), N ≤ n → m ∣ n + 2 * d → PartitionLaguerre.laguerre d f n < 0) :
+  ¬PartitionLaguerre.eventualPositiveThrough d f
+info: AuditMainProgress.lean:49:0: 'PartitionLaguerre.eventual_positive_excludes_negative_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:50:0: PartitionLaguerre.outside_admissible_iff (d m : ℕ) :
+  ¬(Even d ∨ Odd d ∧ m ≤ PartitionLaguerre.criticalIndex d) ↔ Odd d ∧ PartitionLaguerre.criticalIndex d < m
+info: AuditMainProgress.lean:51:0: 'PartitionLaguerre.outside_admissible_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:52:0: PartitionLaguerre.main_classification_of_branches
+  (hpositive :
+    ∀ (d m : ℕ),
+      2 ≤ d →
+        2 ≤ m →
+          Even d ∨ Odd d ∧ m ≤ PartitionLaguerre.criticalIndex d →
+            PartitionLaguerre.eventualPositiveThrough d (PartitionLaguerre.partitionCount d m))
+  (hfailure : PartitionLaguerre.aboveThresholdFailure) : PartitionLaguerre.mainClassification
+info: AuditMainProgress.lean:53:0: 'PartitionLaguerre.main_classification_of_branches' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:54:0: PartitionLaguerre.eventual_positive_of_residue_model (m d : ℕ) (hm : 0 < m) (F : ℕ → Polynomial ℚ) (f : ℕ → ℚ)
+  (hf : ∀ (n : ℕ), f n = Polynomial.eval (↑n) (F (n % m)))
+  (hLC : ∀ (j : ℕ), 1 ≤ j → j ≤ d → ∀ r < m, 0 < (PartitionLaguerre.residueTransform m j F r).leadingCoeff) :
+  PartitionLaguerre.eventualPositiveThrough d f
+info: AuditMainProgress.lean:55:0: 'PartitionLaguerre.eventual_positive_of_residue_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:56:0: PartitionLaguerre.eventual_negative_of_residue_model (m d : ℕ) (hm : 0 < m) (hd : 1 ≤ d) (F : ℕ → Polynomial ℚ)
+  (f : ℕ → ℚ) (hf : ∀ (n : ℕ), f n = Polynomial.eval (↑n) (F (n % m)))
+  (hLC : ∀ r < m, m ∣ r + 2 * d → (PartitionLaguerre.residueTransform m d F r).leadingCoeff < 0) :
+  ∃ N, ∀ (n : ℕ), N ≤ n → m ∣ n + 2 * d → PartitionLaguerre.laguerre d f n < 0
+info: AuditMainProgress.lean:57:0: 'PartitionLaguerre.eventual_negative_of_residue_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:58:0: PartitionLaguerre.above_threshold_of_residue_models
+  (hmodels :
+    ∀ (d m : ℕ),
+      2 ≤ d →
+        2 ≤ m →
+          Odd d →
+            PartitionLaguerre.criticalIndex d < m →
+              ∃ F,
+                (∀ (n : ℕ), PartitionLaguerre.partitionCount d m n = Polynomial.eval (↑n) (F (n % m))) ∧
+                  ∀ r < m, m ∣ r + 2 * d → (PartitionLaguerre.residueTransform m d F r).leadingCoeff < 0) :
+  PartitionLaguerre.aboveThresholdFailure
+info: AuditMainProgress.lean:59:0: 'PartitionLaguerre.above_threshold_of_residue_models' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:60:0: PartitionLaguerre.inclusive_power_sum_eval (k t : ℕ) :
+  Polynomial.eval (↑t) (PartitionLaguerre.inclusivePowerSum k) = ∑ u ∈ Finset.range (t + 1), ↑u ^ k
+info: AuditMainProgress.lean:61:0: 'PartitionLaguerre.inclusive_power_sum_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:62:0: PartitionLaguerre.inclusive_polynomial_sum_eval (P : Polynomial ℚ) (t : ℕ) :
+  Polynomial.eval (↑t) (PartitionLaguerre.inclusivePolynomialSum P) = ∑ u ∈ Finset.range (t + 1), Polynomial.eval (↑u) P
+info: AuditMainProgress.lean:63:0: 'PartitionLaguerre.inclusive_polynomial_sum_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:64:0: PartitionLaguerre.step_binomial_polynomial_eval (k m r t : ℕ) :
+  Polynomial.eval (↑t) (PartitionLaguerre.stepBinomialPolynomial k m r) = ↑((r + m * t + k).choose k)
+info: AuditMainProgress.lean:65:0: 'PartitionLaguerre.step_binomial_polynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:66:0: PartitionLaguerre.partition_count_reindexed (d m n : ℕ) :
+  PartitionLaguerre.partitionCount d m n =
+    ∑ u ∈ Finset.range (n / m + 1), ↑((n % m + m * u + (2 * d - 1)).choose (2 * d - 1))
+info: AuditMainProgress.lean:67:0: 'PartitionLaguerre.partition_count_reindexed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:68:0: PartitionLaguerre.concrete_partition_representation (d m n : ℕ) (hm : 0 < m) :
+  PartitionLaguerre.partitionCount d m n =
+    Polynomial.eval (↑n) (PartitionLaguerre.concreteResiduePolynomial d m (n % m))
+info: AuditMainProgress.lean:69:0: 'PartitionLaguerre.concrete_partition_representation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:70:0: PartitionLaguerre.polynomial_eq_of_nat_eval (P Q : Polynomial ℚ)
+  (h : ∀ (n : ℕ), Polynomial.eval (↑n) P = Polynomial.eval (↑n) Q) : P = Q
+info: AuditMainProgress.lean:71:0: 'PartitionLaguerre.polynomial_eq_of_nat_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:72:0: PartitionLaguerre.inclusive_polynomial_sum_step (P : Polynomial ℚ) :
+  (PartitionLaguerre.inclusivePolynomialSum P).comp (Polynomial.X + 1) - PartitionLaguerre.inclusivePolynomialSum P =
+    P.comp (Polynomial.X + 1)
+info: AuditMainProgress.lean:73:0: 'PartitionLaguerre.inclusive_polynomial_sum_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:74:0: PartitionLaguerre.polynomial_constant_of_nonzero_period (P : Polynomial ℚ) (m : ℚ) (hm : m ≠ 0)
+  (hperiod : ∀ (x : ℚ), Polynomial.eval (x + m) P = Polynomial.eval x P) : P = Polynomial.C (Polynomial.eval 0 P)
+info: AuditMainProgress.lean:75:0: 'PartitionLaguerre.polynomial_constant_of_nonzero_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:76:0: PartitionLaguerre.concrete_residue_step (d m r : ℕ) (hm : 0 < m) (x : ℚ) :
+  Polynomial.eval (x + ↑m) (PartitionLaguerre.concreteResiduePolynomial d m r) -
+      Polynomial.eval x (PartitionLaguerre.concreteResiduePolynomial d m r) =
+    Polynomial.eval (x + ↑m + ↑(2 * d - 1)) (descPochhammer ℚ (2 * d - 1)) / ↑(2 * d - 1).factorial
+info: AuditMainProgress.lean:77:0: 'PartitionLaguerre.concrete_residue_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:78:0: PartitionLaguerre.concrete_residue_common_part (d m r : ℕ) (hm : 0 < m) :
+  PartitionLaguerre.concreteResiduePolynomial d m r =
+    PartitionLaguerre.concreteResiduePolynomial d m 0 +
+      Polynomial.C
+        (Polynomial.eval 0 (PartitionLaguerre.concreteResiduePolynomial d m r) -
+          Polynomial.eval 0 (PartitionLaguerre.concreteResiduePolynomial d m 0))
+info: AuditMainProgress.lean:79:0: 'PartitionLaguerre.concrete_residue_common_part' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:80:0: PartitionLaguerre.partition_count_common_polynomial_part (d m n : ℕ) (hm : 0 < m) :
+  PartitionLaguerre.partitionCount d m n =
+    Polynomial.eval (↑n) (PartitionLaguerre.concretePolynomialPart d m) +
+      PartitionLaguerre.concretePeriodicConstant d m (n % m)
+info: AuditMainProgress.lean:81:0: 'PartitionLaguerre.partition_count_common_polynomial_part' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:82:0: PartitionLaguerre.bernoulli_polynomial_degree_leading (n : ℕ) :
+  (Polynomial.bernoulli n).natDegree = n ∧ (Polynomial.bernoulli n).leadingCoeff = 1
+info: AuditMainProgress.lean:83:0: 'PartitionLaguerre.bernoulli_polynomial_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:84:0: PartitionLaguerre.inclusive_power_sum_degree_leading (k : ℕ) :
+  (PartitionLaguerre.inclusivePowerSum k).natDegree = k + 1 ∧
+    (PartitionLaguerre.inclusivePowerSum k).leadingCoeff = (↑k + 1)⁻¹
+info: AuditMainProgress.lean:85:0: 'PartitionLaguerre.inclusive_power_sum_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:86:0: PartitionLaguerre.inclusive_polynomial_sum_degree_leading (P : Polynomial ℚ) (hP : P ≠ 0) :
+  (PartitionLaguerre.inclusivePolynomialSum P).natDegree = P.natDegree + 1 ∧
+    (PartitionLaguerre.inclusivePolynomialSum P).leadingCoeff = P.leadingCoeff / (↑P.natDegree + 1)
+info: AuditMainProgress.lean:87:0: 'PartitionLaguerre.inclusive_polynomial_sum_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:88:0: PartitionLaguerre.step_binomial_degree_leading (k m r : ℕ) (hm : 0 < m) :
+  (PartitionLaguerre.stepBinomialPolynomial k m r).natDegree = k ∧
+    (PartitionLaguerre.stepBinomialPolynomial k m r).leadingCoeff = ↑m ^ k / ↑k.factorial
+info: AuditMainProgress.lean:89:0: 'PartitionLaguerre.step_binomial_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:90:0: PartitionLaguerre.concrete_residue_degree_leading (d m r : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  (PartitionLaguerre.concreteResiduePolynomial d m r).natDegree = 2 * d ∧
+    (PartitionLaguerre.concreteResiduePolynomial d m r).leadingCoeff = 1 / (↑m * ↑(2 * d).factorial)
+info: AuditMainProgress.lean:91:0: 'PartitionLaguerre.concrete_residue_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:92:0: PartitionLaguerre.concrete_polynomial_part_degree_leading (d m : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  (PartitionLaguerre.concretePolynomialPart d m).natDegree = 2 * d ∧
+    (PartitionLaguerre.concretePolynomialPart d m).leadingCoeff = 1 / (↑m * ↑(2 * d).factorial)
+info: AuditMainProgress.lean:93:0: 'PartitionLaguerre.concrete_polynomial_part_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:94:0: PartitionLaguerre.colored_partition_zero (m n : ℕ) : PartitionLaguerre.coloredPartition 0 m n = ↑(n / m + 1)
+info: AuditMainProgress.lean:95:0: 'PartitionLaguerre.colored_partition_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:96:0: PartitionLaguerre.colored_partition_step (q m n : ℕ) :
+  PartitionLaguerre.coloredPartition (q + 1) m (n + 1) - PartitionLaguerre.coloredPartition (q + 1) m n =
+    PartitionLaguerre.coloredPartition q m (n + 1)
+info: AuditMainProgress.lean:97:0: 'PartitionLaguerre.colored_partition_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:98:0: PartitionLaguerre.colored_partition_zero_step (m n : ℕ) :
+  PartitionLaguerre.coloredPartition 0 m (n + 1) - PartitionLaguerre.coloredPartition 0 m n = if m ∣ n + 1 then 1 else 0
+info: AuditMainProgress.lean:99:0: 'PartitionLaguerre.colored_partition_zero_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:100:0: PartitionLaguerre.partition_count_eq_colored (d m n : ℕ) :
+  PartitionLaguerre.partitionCount d m n = PartitionLaguerre.coloredPartition (2 * d - 1) m n
+info: AuditMainProgress.lean:101:0: 'PartitionLaguerre.partition_count_eq_colored' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:102:0: PartitionLaguerre.colored_partition_iterated_difference (q m n : ℕ) :
+  (fwdDiff 1)^[q + 1] (PartitionLaguerre.coloredPartition q m) n = if m ∣ n + (q + 1) then 1 else 0
+info: AuditMainProgress.lean:103:0: 'PartitionLaguerre.colored_partition_iterated_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:104:0: PartitionLaguerre.partition_count_iterated_difference (d m n : ℕ) (hd : 1 ≤ d) :
+  (fwdDiff 1)^[2 * d] (PartitionLaguerre.partitionCount d m) n = if m ∣ n + 2 * d then 1 else 0
+info: AuditMainProgress.lean:105:0: 'PartitionLaguerre.partition_count_iterated_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:106:0: PartitionLaguerre.laguerre_weight_reflect (j k : ℕ) (hk : k ≤ 2 * j) :
+  PartitionLaguerre.laguerreWeight j (2 * j - k) = PartitionLaguerre.laguerreWeight j k
+info: AuditMainProgress.lean:107:0: 'PartitionLaguerre.laguerre_weight_reflect' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:108:0: PartitionLaguerre.neg_one_pow_mod_two_congr (a b : ℕ) (hab : a % 2 = b % 2) : (-1) ^ a = (-1) ^ b
+info: AuditMainProgress.lean:109:0: 'PartitionLaguerre.neg_one_pow_mod_two_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:110:0: PartitionLaguerre.laguerre_weighted_polynomial_sum (j : ℕ) (P : Polynomial ℚ) (x : ℚ) :
+  ∑ k ∈ Finset.range (2 * j + 1), PartitionLaguerre.laguerreWeight j k * Polynomial.eval (x + ↑k) P =
+    (-1) ^ j * (fwdDiff 1)^[2 * j] (fun x => Polynomial.eval x P) x
+info: AuditMainProgress.lean:111:0: 'PartitionLaguerre.laguerre_weighted_polynomial_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:112:0: PartitionLaguerre.laguerre_moment_below_order (j h : ℕ) (hh : h < 2 * j) : PartitionLaguerre.laguerreMoment j h = 0
+info: AuditMainProgress.lean:113:0: 'PartitionLaguerre.laguerre_moment_below_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:114:0: PartitionLaguerre.laguerre_moment_at_order (j : ℕ) :
+  PartitionLaguerre.laguerreMoment j (2 * j) = (-1) ^ j * ↑(2 * j).factorial
+info: AuditMainProgress.lean:115:0: 'PartitionLaguerre.laguerre_moment_at_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:116:0: PartitionLaguerre.laguerre_moment_odd (j h : ℕ) (hh : Odd h) : PartitionLaguerre.laguerreMoment j h = 0
+info: AuditMainProgress.lean:117:0: 'PartitionLaguerre.laguerre_moment_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:118:0: PartitionLaguerre.iterated_difference_nat_restrict (f : ℚ → ℚ) (h n : ℕ) :
+  (fwdDiff 1)^[h] (fun t => f ↑t) n = (fwdDiff 1)^[h] f ↑n
+info: AuditMainProgress.lean:119:0: 'PartitionLaguerre.iterated_difference_nat_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:120:0: PartitionLaguerre.concrete_polynomial_full_difference (d m n : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  (fwdDiff 1)^[2 * d] (fun t => Polynomial.eval (↑t) (PartitionLaguerre.concretePolynomialPart d m)) n = 1 / ↑m
+info: AuditMainProgress.lean:121:0: 'PartitionLaguerre.concrete_polynomial_full_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:122:0: PartitionLaguerre.concrete_periodic_sequence_period (d m n : ℕ) :
+  PartitionLaguerre.concretePeriodicSequence d m (n + m) = PartitionLaguerre.concretePeriodicSequence d m n
+info: AuditMainProgress.lean:123:0: 'PartitionLaguerre.concrete_periodic_sequence_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:124:0: PartitionLaguerre.concrete_periodic_full_difference (d m n : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  (fwdDiff 1)^[2 * d] (PartitionLaguerre.concretePeriodicSequence d m) n = (if m ∣ n + 2 * d then 1 else 0) - 1 / ↑m
+info: AuditMainProgress.lean:125:0: 'PartitionLaguerre.concrete_periodic_full_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:126:0: PartitionLaguerre.laguerre_weighted_sequence_sum (j n : ℕ) (f : ℕ → ℚ) :
+  ∑ k ∈ Finset.range (2 * j + 1), PartitionLaguerre.laguerreWeight j k * f (n + k) = (-1) ^ j * (fwdDiff 1)^[2 * j] f n
+info: AuditMainProgress.lean:127:0: 'PartitionLaguerre.laguerre_weighted_sequence_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:128:0: PartitionLaguerre.concrete_periodic_boundary_sum (d m n : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  ∑ k ∈ Finset.range (2 * d + 1),
+      PartitionLaguerre.laguerreWeight d k * PartitionLaguerre.concretePeriodicSequence d m (n + k) =
+    (-1) ^ d * ((if m ∣ n + 2 * d then 1 else 0) - 1 / ↑m)
+info: AuditMainProgress.lean:129:0: 'PartitionLaguerre.concrete_periodic_boundary_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:130:0: PartitionLaguerre.paired_shift_degree (a b : ℕ) (c : ℚ) : (PartitionLaguerre.pairedShift a b c).natDegree = a + b
+info: AuditMainProgress.lean:131:0: 'PartitionLaguerre.paired_shift_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:132:0: PartitionLaguerre.reverse_power (P : Polynomial ℚ) (a : ℕ) : (P ^ a).reverse = P.reverse ^ a
+info: AuditMainProgress.lean:133:0: 'PartitionLaguerre.reverse_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:134:0: PartitionLaguerre.reverse_shift_linear (c : ℚ) :
+  (Polynomial.X + Polynomial.C c).reverse = 1 + Polynomial.C c * Polynomial.X
+info: AuditMainProgress.lean:135:0: 'PartitionLaguerre.reverse_shift_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:136:0: PartitionLaguerre.paired_shift_reverse (a b : ℕ) (c : ℚ) :
+  (PartitionLaguerre.pairedShift a b c).reverse =
+    ((1 + Polynomial.X) ^ a * (1 - Polynomial.X) ^ b).comp (Polynomial.C c * Polynomial.X)
+info: AuditMainProgress.lean:137:0: 'PartitionLaguerre.paired_shift_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:138:0: PartitionLaguerre.paired_shift_coefficient (a b h : ℕ) (c : ℚ) (hh : h ≤ a + b) :
+  (PartitionLaguerre.pairedShift a b c).coeff h =
+    ((1 + Polynomial.X) ^ a * (1 - Polynomial.X) ^ b).coeff (a + b - h) * c ^ (a + b - h)
+info: AuditMainProgress.lean:139:0: 'PartitionLaguerre.paired_shift_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:140:0: PartitionLaguerre.smooth_monomial_pair_coefficient (j a b h : ℕ) (hh : h ≤ a + b) :
+  (PartitionLaguerre.smoothMonomialPair j a b).coeff h =
+    ((1 + Polynomial.X) ^ a * (1 - Polynomial.X) ^ b).coeff (a + b - h) * PartitionLaguerre.laguerreMoment j (a + b - h)
+info: AuditMainProgress.lean:141:0: 'PartitionLaguerre.smooth_monomial_pair_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:142:0: PartitionLaguerre.smooth_monomial_pair_degree_bound (j a b : ℕ) :
+  (PartitionLaguerre.smoothMonomialPair j a b).natDegree ≤ a + b
+info: AuditMainProgress.lean:143:0: 'PartitionLaguerre.smooth_monomial_pair_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:144:0: PartitionLaguerre.smooth_monomial_pair_high_zero (j a b h : ℕ) (hh : a + b < h + 2 * j) :
+  (PartitionLaguerre.smoothMonomialPair j a b).coeff h = 0
+info: AuditMainProgress.lean:145:0: 'PartitionLaguerre.smooth_monomial_pair_high_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:146:0: PartitionLaguerre.one_sub_X_coefficient (q j : ℕ) : ((1 - Polynomial.X) ^ q).coeff j = (-1) ^ j * ↑(q.choose j)
+info: AuditMainProgress.lean:147:0: 'PartitionLaguerre.one_sub_X_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:148:0: PartitionLaguerre.equal_power_pair_coefficient (q j : ℕ) :
+  ((1 + Polynomial.X) ^ q * (1 - Polynomial.X) ^ q).coeff (2 * j) = (-1) ^ j * ↑(q.choose j)
+info: AuditMainProgress.lean:149:0: 'PartitionLaguerre.equal_power_pair_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:150:0: PartitionLaguerre.smooth_monomial_pair_leading_coefficient (j q : ℕ) (hj : j ≤ q) :
+  (PartitionLaguerre.smoothMonomialPair j q q).coeff (2 * q - 2 * j) = ↑(2 * j).factorial * ↑(q.choose j)
+info: AuditMainProgress.lean:151:0: 'PartitionLaguerre.smooth_monomial_pair_leading_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:152:0: PartitionLaguerre.smooth_polynomial_pair_formula (j : ℕ) (P Q : Polynomial ℚ) :
+  PartitionLaguerre.smoothPolynomialPair j P Q =
+    ∑ k ∈ Finset.range (2 * j + 1),
+      Polynomial.C (PartitionLaguerre.laguerreWeight j k) * P.comp (Polynomial.X + Polynomial.C (↑k - ↑j)) *
+        Q.comp (Polynomial.X - Polynomial.C (↑k - ↑j))
+info: AuditMainProgress.lean:153:0: 'PartitionLaguerre.smooth_polynomial_pair_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:154:0: PartitionLaguerre.smooth_polynomial_pair_high_zero (j h : ℕ) (P : Polynomial ℚ) (hh : 2 * P.natDegree < h + 2 * j) :
+  (PartitionLaguerre.smoothPolynomialPair j P P).coeff h = 0
+info: AuditMainProgress.lean:155:0: 'PartitionLaguerre.smooth_polynomial_pair_high_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:156:0: PartitionLaguerre.smooth_polynomial_pair_top_coefficient (j : ℕ) (P : Polynomial ℚ) (hj : j ≤ P.natDegree) :
+  (PartitionLaguerre.smoothPolynomialPair j P P).coeff (2 * P.natDegree - 2 * j) =
+    P.leadingCoeff ^ 2 * ↑(2 * j).factorial * ↑(P.natDegree.choose j)
+info: AuditMainProgress.lean:157:0: 'PartitionLaguerre.smooth_polynomial_pair_top_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:158:0: PartitionLaguerre.smooth_polynomial_pair_degree_leading (j : ℕ) (P : Polynomial ℚ) (hj : j ≤ P.natDegree) (hP : P ≠ 0) :
+  (PartitionLaguerre.smoothPolynomialPair j P P).natDegree = 2 * P.natDegree - 2 * j ∧
+    (PartitionLaguerre.smoothPolynomialPair j P P).leadingCoeff =
+      P.leadingCoeff ^ 2 * ↑(2 * j).factorial * ↑(P.natDegree.choose j)
+info: AuditMainProgress.lean:159:0: 'PartitionLaguerre.smooth_polynomial_pair_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:160:0: PartitionLaguerre.polynomial_shift_degree_leading (P : Polynomial ℚ) (c : ℚ) :
+  (P.comp (Polynomial.X + Polynomial.C c)).natDegree = P.natDegree ∧
+    (P.comp (Polynomial.X + Polynomial.C c)).leadingCoeff = P.leadingCoeff
+info: AuditMainProgress.lean:161:0: 'PartitionLaguerre.polynomial_shift_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:162:0: PartitionLaguerre.forward_smooth_polynomial_formula (j : ℕ) (P : Polynomial ℚ) :
+  PartitionLaguerre.forwardSmoothPolynomial j P =
+    ∑ k ∈ Finset.range (2 * j + 1),
+      Polynomial.C (PartitionLaguerre.laguerreWeight j k) * P.comp (Polynomial.X + Polynomial.C ↑k) *
+        P.comp (Polynomial.X + Polynomial.C ↑(2 * j - k))
+info: AuditMainProgress.lean:163:0: 'PartitionLaguerre.forward_smooth_polynomial_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:164:0: PartitionLaguerre.periodic_cross_degree_bound (m j : ℕ) (P : Polynomial ℚ) (b : ℕ → ℚ) (r : ℕ) :
+  (PartitionLaguerre.periodicCrossPolynomial m j P b r).natDegree ≤ P.natDegree
+info: AuditMainProgress.lean:165:0: 'PartitionLaguerre.periodic_cross_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:166:0: PartitionLaguerre.reflected_periodic_weight_sum (m j r : ℕ) (b : ℕ → ℚ) :
+  ∑ k ∈ Finset.range (2 * j + 1), PartitionLaguerre.laguerreWeight j k * b ((r + (2 * j - k)) % m) =
+    ∑ k ∈ Finset.range (2 * j + 1), PartitionLaguerre.laguerreWeight j k * b ((r + k) % m)
+info: AuditMainProgress.lean:167:0: 'PartitionLaguerre.reflected_periodic_weight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:168:0: PartitionLaguerre.periodic_cross_top_coefficient (m j : ℕ) (P : Polynomial ℚ) (b : ℕ → ℚ) (r : ℕ) :
+  (PartitionLaguerre.periodicCrossPolynomial m j P b r).coeff P.natDegree =
+    2 * P.leadingCoeff * ∑ k ∈ Finset.range (2 * j + 1), PartitionLaguerre.laguerreWeight j k * b ((r + k) % m)
+info: AuditMainProgress.lean:169:0: 'PartitionLaguerre.periodic_cross_top_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:170:0: PartitionLaguerre.residue_transform_common_part (m j r : ℕ) (F : ℕ → Polynomial ℚ) (P : Polynomial ℚ) (b : ℕ → ℚ)
+  (hF : ∀ (s : ℕ), F s = P + Polynomial.C (b s)) :
+  PartitionLaguerre.residueTransform m j F r =
+    PartitionLaguerre.forwardSmoothPolynomial j P + PartitionLaguerre.periodicCrossPolynomial m j P b r +
+      Polynomial.C (PartitionLaguerre.periodicProductConstant m j b r)
+info: AuditMainProgress.lean:171:0: 'PartitionLaguerre.residue_transform_common_part' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:172:0: PartitionLaguerre.forward_smooth_degree_leading (j : ℕ) (P : Polynomial ℚ) (hj : j ≤ P.natDegree) (hP : P ≠ 0) :
+  (PartitionLaguerre.forwardSmoothPolynomial j P).natDegree = 2 * P.natDegree - 2 * j ∧
+    (PartitionLaguerre.forwardSmoothPolynomial j P).leadingCoeff =
+      P.leadingCoeff ^ 2 * ↑(2 * j).factorial * ↑(P.natDegree.choose j)
+info: AuditMainProgress.lean:173:0: 'PartitionLaguerre.forward_smooth_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:174:0: PartitionLaguerre.residue_common_part_degree_bound (m j r : ℕ) (F : ℕ → Polynomial ℚ) (P : Polynomial ℚ) (b : ℕ → ℚ)
+  (hF : ∀ (s : ℕ), F s = P + Polynomial.C (b s)) (hj : 2 * j ≤ P.natDegree) (hP : P ≠ 0) :
+  (PartitionLaguerre.residueTransform m j F r).natDegree ≤ 2 * P.natDegree - 2 * j
+info: AuditMainProgress.lean:175:0: 'PartitionLaguerre.residue_common_part_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:176:0: PartitionLaguerre.concrete_polynomial_part_nonzero (d m : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  PartitionLaguerre.concretePolynomialPart d m ≠ 0
+info: AuditMainProgress.lean:177:0: 'PartitionLaguerre.concrete_polynomial_part_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:178:0: PartitionLaguerre.concrete_transform_degree_bound (d m j r : ℕ) (hd : 1 ≤ d) (hm : 0 < m) (hj : j ≤ d) :
+  (PartitionLaguerre.residueTransform m j (PartitionLaguerre.concreteResiduePolynomial d m) r).natDegree ≤ 4 * d - 2 * j
+info: AuditMainProgress.lean:179:0: 'PartitionLaguerre.concrete_transform_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:180:0: PartitionLaguerre.concrete_transform_boundary_coefficient (d m r : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  (PartitionLaguerre.residueTransform m d (PartitionLaguerre.concreteResiduePolynomial d m) r).coeff (2 * d) =
+    (1 / (↑m * ↑(2 * d).factorial)) ^ 2 * ↑(2 * d).factorial * ↑d.centralBinom +
+      2 * (1 / (↑m * ↑(2 * d).factorial)) * (-1) ^ d * ((if m ∣ r + 2 * d then 1 else 0) - 1 / ↑m)
+info: AuditMainProgress.lean:181:0: 'PartitionLaguerre.concrete_transform_boundary_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:182:0: PartitionLaguerre.concrete_above_threshold_coefficient_negative (d m r : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m) (ho : Odd d)
+  (habove : PartitionLaguerre.criticalIndex d < m) (hr : m ∣ r + 2 * d) :
+  (PartitionLaguerre.residueTransform m d (PartitionLaguerre.concreteResiduePolynomial d m) r).coeff (2 * d) < 0
+info: AuditMainProgress.lean:183:0: 'PartitionLaguerre.concrete_above_threshold_coefficient_negative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AuditMainProgress.lean:184:0: PartitionLaguerre.concrete_above_threshold_leading_negative (d m r : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m) (ho : Odd d)
+  (habove : PartitionLaguerre.criticalIndex d < m) (hr : m ∣ r + 2 * d) :
+  (PartitionLaguerre.residueTransform m d (PartitionLaguerre.concreteResiduePolynomial d m) r).leadingCoeff < 0
+info: AuditMainProgress.lean:185:0: 'PartitionLaguerre.concrete_above_threshold_leading_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:186:0: PartitionLaguerre.above_threshold_failure_proved : PartitionLaguerre.aboveThresholdFailure
+info: AuditMainProgress.lean:187:0: 'PartitionLaguerre.above_threshold_failure_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:188:0: PartitionLaguerre.residue_coefficient_above_periodic (m j r h : ℕ) (F : ℕ → Polynomial ℚ) (P : Polynomial ℚ) (b : ℕ → ℚ)
+  (hF : ∀ (s : ℕ), F s = P + Polynomial.C (b s)) (hh : P.natDegree < h) :
+  (PartitionLaguerre.residueTransform m j F r).coeff h = (PartitionLaguerre.forwardSmoothPolynomial j P).coeff h
+info: AuditMainProgress.lean:189:0: 'PartitionLaguerre.residue_coefficient_above_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:190:0: PartitionLaguerre.concrete_lower_order_leading_positive (d m j r : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m) (hj : j < d) :
+  0 < (PartitionLaguerre.residueTransform m j (PartitionLaguerre.concreteResiduePolynomial d m) r).leadingCoeff
+info: AuditMainProgress.lean:191:0: 'PartitionLaguerre.concrete_lower_order_leading_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:192:0: PartitionLaguerre.concrete_boundary_rational_coefficient (d m r : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  (PartitionLaguerre.residueTransform m d (PartitionLaguerre.concreteResiduePolynomial d m) r).coeff (2 * d) =
+    (↑d.centralBinom + 2 * (-1) ^ d * ((if m ∣ r + 2 * d then ↑m else 0) - 1)) / (↑m ^ 2 * ↑(2 * d).factorial)
+info: AuditMainProgress.lean:193:0: 'PartitionLaguerre.concrete_boundary_rational_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:194:0: PartitionLaguerre.concrete_noncritical_boundary_positive (d m r : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m)
+  (ha : Even d ∨ Odd d ∧ m < PartitionLaguerre.criticalIndex d) :
+  0 < (PartitionLaguerre.residueTransform m d (PartitionLaguerre.concreteResiduePolynomial d m) r).coeff (2 * d)
+info: AuditMainProgress.lean:195:0: 'PartitionLaguerre.concrete_noncritical_boundary_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:196:0: PartitionLaguerre.concrete_noncritical_top_leading_positive (d m r : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m)
+  (ha : Even d ∨ Odd d ∧ m < PartitionLaguerre.criticalIndex d) :
+  0 < (PartitionLaguerre.residueTransform m d (PartitionLaguerre.concreteResiduePolynomial d m) r).leadingCoeff
+info: AuditMainProgress.lean:197:0: 'PartitionLaguerre.concrete_noncritical_top_leading_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:198:0: PartitionLaguerre.eventual_positive_noncritical (d m : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m)
+  (ha : Even d ∨ Odd d ∧ m < PartitionLaguerre.criticalIndex d) :
+  PartitionLaguerre.eventualPositiveThrough d (PartitionLaguerre.partitionCount d m)
+info: AuditMainProgress.lean:199:0: 'PartitionLaguerre.eventual_positive_noncritical' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:200:0: PartitionLaguerre.main_classification_necessary (d m : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m)
+  (hp : PartitionLaguerre.eventualPositiveThrough d (PartitionLaguerre.partitionCount d m)) :
+  Even d ∨ Odd d ∧ m ≤ PartitionLaguerre.criticalIndex d
+info: AuditMainProgress.lean:201:0: 'PartitionLaguerre.main_classification_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:202:0: PartitionLaguerre.main_classification_of_odd_critical
+  (hcritical :
+    ∀ (d : ℕ),
+      2 ≤ d →
+        Odd d →
+          PartitionLaguerre.eventualPositiveThrough d
+            (PartitionLaguerre.partitionCount d (PartitionLaguerre.criticalIndex d))) :
+  PartitionLaguerre.mainClassification
+info: AuditMainProgress.lean:203:0: 'PartitionLaguerre.main_classification_of_odd_critical' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditMainProgress.lean:204:0: def PartitionLaguerre.mainClassification : Prop :=
+∀ (d m : ℕ),
+  2 ≤ d →
+    2 ≤ m →
+      (PartitionLaguerre.eventualPositiveThrough d (PartitionLaguerre.partitionCount d m) ↔
+        Even d ∨ Odd d ∧ m ≤ PartitionLaguerre.criticalIndex d)
+info: AuditMainProgress.lean:205:0: def PartitionLaguerre.aboveThresholdFailure : Prop :=
+∀ (d m : ℕ),
+  2 ≤ d →
+    2 ≤ m →
+      Odd d →
+        PartitionLaguerre.criticalIndex d < m →
+          ∃ N,
+            ∀ (n : ℕ), N ≤ n → m ∣ n + 2 * d → PartitionLaguerre.laguerre d (PartitionLaguerre.partitionCount d m) n < 0
+⚠ [2463/2478] Built CriticalReduction (20s)
+warning: CriticalReduction.lean:22:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: CriticalReduction.lean:31:23: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CriticalReduction.lean:31:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CriticalReduction.lean:50:4: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+info: CriticalReduction.lean:78:0: 'PartitionLaguerre.critical_index_at_least_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalReduction.lean:79:0: 'PartitionLaguerre.concrete_odd_nonexceptional_leading_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: CriticalReduction.lean:80:0: 'PartitionLaguerre.concrete_critical_boundary_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalReduction.lean:81:0: 'PartitionLaguerre.main_classification_of_critical_exceptional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [2465/2478] Built CriticalCoefficientTools (20s)
+info: CriticalCoefficientTools.lean:74:0: 'PartitionLaguerre.shift_coefficient_one_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalCoefficientTools.lean:75:0: 'PartitionLaguerre.reflected_periodic_centered_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalCoefficientTools.lean:76:0: 'PartitionLaguerre.smooth_polynomial_pair_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalCoefficientTools.lean:77:0: 'PartitionLaguerre.smooth_polynomial_pair_odd_coefficient_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [2467/2478] Built AuditProgressSupplement (18s)
+info: AuditProgressSupplement.lean:6:0: PartitionLaguerre.coefficient_bound_neg (P : Polynomial ℚ) :
+  PartitionLaguerre.coefficientBound (-P) = PartitionLaguerre.coefficientBound P
+info: AuditProgressSupplement.lean:7:0: 'PartitionLaguerre.coefficient_bound_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2469/2478] Built CriticalCenteredTransform (19s)
+warning: CriticalCenteredTransform.lean:108:32: This simp argument is unused:
+  neg_one_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pow_zero, pow_two, neg_mul, neg_neg, one_mul, mul_one] at href0 href2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: CriticalCenteredTransform.lean:124:58: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [periodicCenteredMoment, pow_zero, mul_one, Finset.sum_add_distrib]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: CriticalCenteredTransform.lean:125:6: This simp argument is unused:
+  Finset.sum_add_distrib
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [periodicCenteredMoment, pow_zero, mul_one, Finset.mul_sum]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: CriticalCenteredTransform.lean:150:0: 'PartitionLaguerre.critical_centered_transform_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalCenteredTransform.lean:151:0: 'PartitionLaguerre.critical_centered_leading_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalCenteredTransform.lean:152:0: 'PartitionLaguerre.critical_centered_degree_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalCenteredTransform.lean:153:0: 'PartitionLaguerre.centered_cross_one_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalCenteredTransform.lean:154:0: 'PartitionLaguerre.centered_cross_two_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalCenteredTransform.lean:155:0: 'PartitionLaguerre.concrete_periodic_zeroth_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2471/2478] Built CriticalCancellations (18s)
+warning: CriticalCancellations.lean:48:22: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CriticalCancellations.lean:48:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: CriticalCancellations.lean:75:0: 'PartitionLaguerre.polynomial_degree_drop' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalCancellations.lean:76:0: 'PartitionLaguerre.critical_centered_penultimate_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalCancellations.lean:77:0: 'PartitionLaguerre.critical_centered_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalCancellations.lean:78:0: 'PartitionLaguerre.main_classification_of_critical_second_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [2473/2478] Built CriticalBetaRational (18s)
+warning: CriticalBetaRational.lean:20:12: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CriticalBetaRational.lean:20:12: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: CriticalBetaRational.lean:30:0: 'PartitionLaguerre.critical_beta_q_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CriticalBetaRational.lean:31:0: 'PartitionLaguerre.critical_beta_q_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2475/2478] Built MainClassification (19s)
+warning: MainClassification.lean:22:69: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MainClassification.lean:23:15: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: MainClassification.lean:23:19: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: MainClassification.lean:23:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+info: MainClassification.lean:57:0: 'PartitionLaguerre.critical_centered_second_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MainClassification.lean:58:0: 'PartitionLaguerre.critical_second_coefficient_eq_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MainClassification.lean:59:0: PartitionLaguerre.main_classification_proved : PartitionLaguerre.mainClassification
+info: MainClassification.lean:60:0: 'PartitionLaguerre.main_classification_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2477/2478] Built AuditFinalQP01 (18s)
+info: AuditFinalQP01.lean:52:0: solution : formalStatement
+info: AuditFinalQP01.lean:53:0: 'solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:54:0: PartitionLaguerre.leading_signs : PartitionLaguerre.leadingSignsClaim
+info: AuditFinalQP01.lean:55:0: 'PartitionLaguerre.leading_signs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:56:0: PartitionLaguerre.critical_index_large (d : ℕ) (hd : 3 ≤ d) : 2 * d < PartitionLaguerre.criticalIndex d
+info: AuditFinalQP01.lean:57:0: 'PartitionLaguerre.critical_index_large' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:58:0: PartitionLaguerre.beta_expression_positive (d m a F C : ℝ) (hd : 3 ≤ d) (hm : 2 * d < m) (ha : 0 < a) (hF : 0 < F)
+  (hC : 0 < C) : 0 < PartitionLaguerre.betaExpression d m a F C
+info: AuditFinalQP01.lean:59:0: 'PartitionLaguerre.beta_expression_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:60:0: PartitionLaguerre.critical_beta : PartitionLaguerre.criticalBetaClaim
+info: AuditFinalQP01.lean:61:0: 'PartitionLaguerre.critical_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:62:0: PartitionLaguerre.residue_evaluation : PartitionLaguerre.residueEvaluationClaim
+info: AuditFinalQP01.lean:63:0: 'PartitionLaguerre.residue_evaluation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:64:0: PartitionLaguerre.represented_sequence : PartitionLaguerre.representedSequenceClaim
+info: AuditFinalQP01.lean:65:0: 'PartitionLaguerre.represented_sequence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:66:0: PartitionLaguerre.polynomial_positive_bound : PartitionLaguerre.polynomialPositiveBoundClaim
+info: AuditFinalQP01.lean:67:0: 'PartitionLaguerre.polynomial_positive_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:68:0: PartitionLaguerre.polynomial_negative_bound : PartitionLaguerre.polynomialNegativeBoundClaim
+info: AuditFinalQP01.lean:69:0: 'PartitionLaguerre.polynomial_negative_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:70:0: PartitionLaguerre.uniform_residue_positive : PartitionLaguerre.uniformResiduePositiveClaim
+info: AuditFinalQP01.lean:71:0: 'PartitionLaguerre.uniform_residue_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:72:0: PartitionLaguerre.exceptional_class_unbounded (m shift N : ℕ) (hm : 0 < m) : ∃ n, N ≤ n ∧ m ∣ n + shift
+info: AuditFinalQP01.lean:73:0: 'PartitionLaguerre.exceptional_class_unbounded' depends on axioms: [propext, Quot.sound]
+info: AuditFinalQP01.lean:74:0: PartitionLaguerre.eventual_positive_excludes_negative_class (d m : ℕ) (f : ℕ → ℚ) (hd : 1 ≤ d) (hm : 0 < m)
+  (hneg : ∃ N, ∀ (n : ℕ), N ≤ n → m ∣ n + 2 * d → PartitionLaguerre.laguerre d f n < 0) :
+  ¬PartitionLaguerre.eventualPositiveThrough d f
+info: AuditFinalQP01.lean:75:0: 'PartitionLaguerre.eventual_positive_excludes_negative_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:76:0: PartitionLaguerre.outside_admissible_iff (d m : ℕ) :
+  ¬(Even d ∨ Odd d ∧ m ≤ PartitionLaguerre.criticalIndex d) ↔ Odd d ∧ PartitionLaguerre.criticalIndex d < m
+info: AuditFinalQP01.lean:77:0: 'PartitionLaguerre.outside_admissible_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:78:0: PartitionLaguerre.main_classification_of_branches
+  (hpositive :
+    ∀ (d m : ℕ),
+      2 ≤ d →
+        2 ≤ m →
+          Even d ∨ Odd d ∧ m ≤ PartitionLaguerre.criticalIndex d →
+            PartitionLaguerre.eventualPositiveThrough d (PartitionLaguerre.partitionCount d m))
+  (hfailure : PartitionLaguerre.aboveThresholdFailure) : PartitionLaguerre.mainClassification
+info: AuditFinalQP01.lean:79:0: 'PartitionLaguerre.main_classification_of_branches' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:80:0: PartitionLaguerre.eventual_positive_of_residue_model (m d : ℕ) (hm : 0 < m) (F : ℕ → Polynomial ℚ) (f : ℕ → ℚ)
+  (hf : ∀ (n : ℕ), f n = Polynomial.eval (↑n) (F (n % m)))
+  (hLC : ∀ (j : ℕ), 1 ≤ j → j ≤ d → ∀ r < m, 0 < (PartitionLaguerre.residueTransform m j F r).leadingCoeff) :
+  PartitionLaguerre.eventualPositiveThrough d f
+info: AuditFinalQP01.lean:81:0: 'PartitionLaguerre.eventual_positive_of_residue_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:82:0: PartitionLaguerre.eventual_negative_of_residue_model (m d : ℕ) (hm : 0 < m) (hd : 1 ≤ d) (F : ℕ → Polynomial ℚ)
+  (f : ℕ → ℚ) (hf : ∀ (n : ℕ), f n = Polynomial.eval (↑n) (F (n % m)))
+  (hLC : ∀ r < m, m ∣ r + 2 * d → (PartitionLaguerre.residueTransform m d F r).leadingCoeff < 0) :
+  ∃ N, ∀ (n : ℕ), N ≤ n → m ∣ n + 2 * d → PartitionLaguerre.laguerre d f n < 0
+info: AuditFinalQP01.lean:83:0: 'PartitionLaguerre.eventual_negative_of_residue_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:84:0: PartitionLaguerre.above_threshold_of_residue_models
+  (hmodels :
+    ∀ (d m : ℕ),
+      2 ≤ d →
+        2 ≤ m →
+          Odd d →
+            PartitionLaguerre.criticalIndex d < m →
+              ∃ F,
+                (∀ (n : ℕ), PartitionLaguerre.partitionCount d m n = Polynomial.eval (↑n) (F (n % m))) ∧
+                  ∀ r < m, m ∣ r + 2 * d → (PartitionLaguerre.residueTransform m d F r).leadingCoeff < 0) :
+  PartitionLaguerre.aboveThresholdFailure
+info: AuditFinalQP01.lean:85:0: 'PartitionLaguerre.above_threshold_of_residue_models' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:86:0: PartitionLaguerre.inclusive_power_sum_eval (k t : ℕ) :
+  Polynomial.eval (↑t) (PartitionLaguerre.inclusivePowerSum k) = ∑ u ∈ Finset.range (t + 1), ↑u ^ k
+info: AuditFinalQP01.lean:87:0: 'PartitionLaguerre.inclusive_power_sum_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:88:0: PartitionLaguerre.inclusive_polynomial_sum_eval (P : Polynomial ℚ) (t : ℕ) :
+  Polynomial.eval (↑t) (PartitionLaguerre.inclusivePolynomialSum P) = ∑ u ∈ Finset.range (t + 1), Polynomial.eval (↑u) P
+info: AuditFinalQP01.lean:89:0: 'PartitionLaguerre.inclusive_polynomial_sum_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:90:0: PartitionLaguerre.step_binomial_polynomial_eval (k m r t : ℕ) :
+  Polynomial.eval (↑t) (PartitionLaguerre.stepBinomialPolynomial k m r) = ↑((r + m * t + k).choose k)
+info: AuditFinalQP01.lean:91:0: 'PartitionLaguerre.step_binomial_polynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:92:0: PartitionLaguerre.partition_count_reindexed (d m n : ℕ) :
+  PartitionLaguerre.partitionCount d m n =
+    ∑ u ∈ Finset.range (n / m + 1), ↑((n % m + m * u + (2 * d - 1)).choose (2 * d - 1))
+info: AuditFinalQP01.lean:93:0: 'PartitionLaguerre.partition_count_reindexed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:94:0: PartitionLaguerre.concrete_partition_representation (d m n : ℕ) (hm : 0 < m) :
+  PartitionLaguerre.partitionCount d m n =
+    Polynomial.eval (↑n) (PartitionLaguerre.concreteResiduePolynomial d m (n % m))
+info: AuditFinalQP01.lean:95:0: 'PartitionLaguerre.concrete_partition_representation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:96:0: PartitionLaguerre.polynomial_eq_of_nat_eval (P Q : Polynomial ℚ)
+  (h : ∀ (n : ℕ), Polynomial.eval (↑n) P = Polynomial.eval (↑n) Q) : P = Q
+info: AuditFinalQP01.lean:97:0: 'PartitionLaguerre.polynomial_eq_of_nat_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:98:0: PartitionLaguerre.inclusive_polynomial_sum_step (P : Polynomial ℚ) :
+  (PartitionLaguerre.inclusivePolynomialSum P).comp (Polynomial.X + 1) - PartitionLaguerre.inclusivePolynomialSum P =
+    P.comp (Polynomial.X + 1)
+info: AuditFinalQP01.lean:99:0: 'PartitionLaguerre.inclusive_polynomial_sum_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:100:0: PartitionLaguerre.polynomial_constant_of_nonzero_period (P : Polynomial ℚ) (m : ℚ) (hm : m ≠ 0)
+  (hperiod : ∀ (x : ℚ), Polynomial.eval (x + m) P = Polynomial.eval x P) : P = Polynomial.C (Polynomial.eval 0 P)
+info: AuditFinalQP01.lean:101:0: 'PartitionLaguerre.polynomial_constant_of_nonzero_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:102:0: PartitionLaguerre.concrete_residue_step (d m r : ℕ) (hm : 0 < m) (x : ℚ) :
+  Polynomial.eval (x + ↑m) (PartitionLaguerre.concreteResiduePolynomial d m r) -
+      Polynomial.eval x (PartitionLaguerre.concreteResiduePolynomial d m r) =
+    Polynomial.eval (x + ↑m + ↑(2 * d - 1)) (descPochhammer ℚ (2 * d - 1)) / ↑(2 * d - 1).factorial
+info: AuditFinalQP01.lean:103:0: 'PartitionLaguerre.concrete_residue_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:104:0: PartitionLaguerre.concrete_residue_common_part (d m r : ℕ) (hm : 0 < m) :
+  PartitionLaguerre.concreteResiduePolynomial d m r =
+    PartitionLaguerre.concreteResiduePolynomial d m 0 +
+      Polynomial.C
+        (Polynomial.eval 0 (PartitionLaguerre.concreteResiduePolynomial d m r) -
+          Polynomial.eval 0 (PartitionLaguerre.concreteResiduePolynomial d m 0))
+info: AuditFinalQP01.lean:105:0: 'PartitionLaguerre.concrete_residue_common_part' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:106:0: PartitionLaguerre.partition_count_common_polynomial_part (d m n : ℕ) (hm : 0 < m) :
+  PartitionLaguerre.partitionCount d m n =
+    Polynomial.eval (↑n) (PartitionLaguerre.concretePolynomialPart d m) +
+      PartitionLaguerre.concretePeriodicConstant d m (n % m)
+info: AuditFinalQP01.lean:107:0: 'PartitionLaguerre.partition_count_common_polynomial_part' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:108:0: PartitionLaguerre.bernoulli_polynomial_degree_leading (n : ℕ) :
+  (Polynomial.bernoulli n).natDegree = n ∧ (Polynomial.bernoulli n).leadingCoeff = 1
+info: AuditFinalQP01.lean:109:0: 'PartitionLaguerre.bernoulli_polynomial_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:110:0: PartitionLaguerre.inclusive_power_sum_degree_leading (k : ℕ) :
+  (PartitionLaguerre.inclusivePowerSum k).natDegree = k + 1 ∧
+    (PartitionLaguerre.inclusivePowerSum k).leadingCoeff = (↑k + 1)⁻¹
+info: AuditFinalQP01.lean:111:0: 'PartitionLaguerre.inclusive_power_sum_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:112:0: PartitionLaguerre.inclusive_polynomial_sum_degree_leading (P : Polynomial ℚ) (hP : P ≠ 0) :
+  (PartitionLaguerre.inclusivePolynomialSum P).natDegree = P.natDegree + 1 ∧
+    (PartitionLaguerre.inclusivePolynomialSum P).leadingCoeff = P.leadingCoeff / (↑P.natDegree + 1)
+info: AuditFinalQP01.lean:113:0: 'PartitionLaguerre.inclusive_polynomial_sum_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:114:0: PartitionLaguerre.step_binomial_degree_leading (k m r : ℕ) (hm : 0 < m) :
+  (PartitionLaguerre.stepBinomialPolynomial k m r).natDegree = k ∧
+    (PartitionLaguerre.stepBinomialPolynomial k m r).leadingCoeff = ↑m ^ k / ↑k.factorial
+info: AuditFinalQP01.lean:115:0: 'PartitionLaguerre.step_binomial_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:116:0: PartitionLaguerre.concrete_residue_degree_leading (d m r : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  (PartitionLaguerre.concreteResiduePolynomial d m r).natDegree = 2 * d ∧
+    (PartitionLaguerre.concreteResiduePolynomial d m r).leadingCoeff = 1 / (↑m * ↑(2 * d).factorial)
+info: AuditFinalQP01.lean:117:0: 'PartitionLaguerre.concrete_residue_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:118:0: PartitionLaguerre.concrete_polynomial_part_degree_leading (d m : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  (PartitionLaguerre.concretePolynomialPart d m).natDegree = 2 * d ∧
+    (PartitionLaguerre.concretePolynomialPart d m).leadingCoeff = 1 / (↑m * ↑(2 * d).factorial)
+info: AuditFinalQP01.lean:119:0: 'PartitionLaguerre.concrete_polynomial_part_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:120:0: PartitionLaguerre.colored_partition_zero (m n : ℕ) : PartitionLaguerre.coloredPartition 0 m n = ↑(n / m + 1)
+info: AuditFinalQP01.lean:121:0: 'PartitionLaguerre.colored_partition_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:122:0: PartitionLaguerre.colored_partition_step (q m n : ℕ) :
+  PartitionLaguerre.coloredPartition (q + 1) m (n + 1) - PartitionLaguerre.coloredPartition (q + 1) m n =
+    PartitionLaguerre.coloredPartition q m (n + 1)
+info: AuditFinalQP01.lean:123:0: 'PartitionLaguerre.colored_partition_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:124:0: PartitionLaguerre.colored_partition_zero_step (m n : ℕ) :
+  PartitionLaguerre.coloredPartition 0 m (n + 1) - PartitionLaguerre.coloredPartition 0 m n = if m ∣ n + 1 then 1 else 0
+info: AuditFinalQP01.lean:125:0: 'PartitionLaguerre.colored_partition_zero_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:126:0: PartitionLaguerre.partition_count_eq_colored (d m n : ℕ) :
+  PartitionLaguerre.partitionCount d m n = PartitionLaguerre.coloredPartition (2 * d - 1) m n
+info: AuditFinalQP01.lean:127:0: 'PartitionLaguerre.partition_count_eq_colored' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:128:0: PartitionLaguerre.colored_partition_iterated_difference (q m n : ℕ) :
+  (fwdDiff 1)^[q + 1] (PartitionLaguerre.coloredPartition q m) n = if m ∣ n + (q + 1) then 1 else 0
+info: AuditFinalQP01.lean:129:0: 'PartitionLaguerre.colored_partition_iterated_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:130:0: PartitionLaguerre.partition_count_iterated_difference (d m n : ℕ) (hd : 1 ≤ d) :
+  (fwdDiff 1)^[2 * d] (PartitionLaguerre.partitionCount d m) n = if m ∣ n + 2 * d then 1 else 0
+info: AuditFinalQP01.lean:131:0: 'PartitionLaguerre.partition_count_iterated_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:132:0: PartitionLaguerre.laguerre_weight_reflect (j k : ℕ) (hk : k ≤ 2 * j) :
+  PartitionLaguerre.laguerreWeight j (2 * j - k) = PartitionLaguerre.laguerreWeight j k
+info: AuditFinalQP01.lean:133:0: 'PartitionLaguerre.laguerre_weight_reflect' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:134:0: PartitionLaguerre.neg_one_pow_mod_two_congr (a b : ℕ) (hab : a % 2 = b % 2) : (-1) ^ a = (-1) ^ b
+info: AuditFinalQP01.lean:135:0: 'PartitionLaguerre.neg_one_pow_mod_two_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:136:0: PartitionLaguerre.laguerre_weighted_polynomial_sum (j : ℕ) (P : Polynomial ℚ) (x : ℚ) :
+  ∑ k ∈ Finset.range (2 * j + 1), PartitionLaguerre.laguerreWeight j k * Polynomial.eval (x + ↑k) P =
+    (-1) ^ j * (fwdDiff 1)^[2 * j] (fun x => Polynomial.eval x P) x
+info: AuditFinalQP01.lean:137:0: 'PartitionLaguerre.laguerre_weighted_polynomial_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:138:0: PartitionLaguerre.laguerre_moment_below_order (j h : ℕ) (hh : h < 2 * j) : PartitionLaguerre.laguerreMoment j h = 0
+info: AuditFinalQP01.lean:139:0: 'PartitionLaguerre.laguerre_moment_below_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:140:0: PartitionLaguerre.laguerre_moment_at_order (j : ℕ) :
+  PartitionLaguerre.laguerreMoment j (2 * j) = (-1) ^ j * ↑(2 * j).factorial
+info: AuditFinalQP01.lean:141:0: 'PartitionLaguerre.laguerre_moment_at_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:142:0: PartitionLaguerre.laguerre_moment_odd (j h : ℕ) (hh : Odd h) : PartitionLaguerre.laguerreMoment j h = 0
+info: AuditFinalQP01.lean:143:0: 'PartitionLaguerre.laguerre_moment_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:144:0: PartitionLaguerre.iterated_difference_nat_restrict (f : ℚ → ℚ) (h n : ℕ) :
+  (fwdDiff 1)^[h] (fun t => f ↑t) n = (fwdDiff 1)^[h] f ↑n
+info: AuditFinalQP01.lean:145:0: 'PartitionLaguerre.iterated_difference_nat_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:146:0: PartitionLaguerre.concrete_polynomial_full_difference (d m n : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  (fwdDiff 1)^[2 * d] (fun t => Polynomial.eval (↑t) (PartitionLaguerre.concretePolynomialPart d m)) n = 1 / ↑m
+info: AuditFinalQP01.lean:147:0: 'PartitionLaguerre.concrete_polynomial_full_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:148:0: PartitionLaguerre.concrete_periodic_sequence_period (d m n : ℕ) :
+  PartitionLaguerre.concretePeriodicSequence d m (n + m) = PartitionLaguerre.concretePeriodicSequence d m n
+info: AuditFinalQP01.lean:149:0: 'PartitionLaguerre.concrete_periodic_sequence_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:150:0: PartitionLaguerre.concrete_periodic_full_difference (d m n : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  (fwdDiff 1)^[2 * d] (PartitionLaguerre.concretePeriodicSequence d m) n = (if m ∣ n + 2 * d then 1 else 0) - 1 / ↑m
+info: AuditFinalQP01.lean:151:0: 'PartitionLaguerre.concrete_periodic_full_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:152:0: PartitionLaguerre.laguerre_weighted_sequence_sum (j n : ℕ) (f : ℕ → ℚ) :
+  ∑ k ∈ Finset.range (2 * j + 1), PartitionLaguerre.laguerreWeight j k * f (n + k) = (-1) ^ j * (fwdDiff 1)^[2 * j] f n
+info: AuditFinalQP01.lean:153:0: 'PartitionLaguerre.laguerre_weighted_sequence_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:154:0: PartitionLaguerre.concrete_periodic_boundary_sum (d m n : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  ∑ k ∈ Finset.range (2 * d + 1),
+      PartitionLaguerre.laguerreWeight d k * PartitionLaguerre.concretePeriodicSequence d m (n + k) =
+    (-1) ^ d * ((if m ∣ n + 2 * d then 1 else 0) - 1 / ↑m)
+info: AuditFinalQP01.lean:155:0: 'PartitionLaguerre.concrete_periodic_boundary_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:156:0: PartitionLaguerre.paired_shift_degree (a b : ℕ) (c : ℚ) : (PartitionLaguerre.pairedShift a b c).natDegree = a + b
+info: AuditFinalQP01.lean:157:0: 'PartitionLaguerre.paired_shift_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:158:0: PartitionLaguerre.reverse_power (P : Polynomial ℚ) (a : ℕ) : (P ^ a).reverse = P.reverse ^ a
+info: AuditFinalQP01.lean:159:0: 'PartitionLaguerre.reverse_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:160:0: PartitionLaguerre.reverse_shift_linear (c : ℚ) :
+  (Polynomial.X + Polynomial.C c).reverse = 1 + Polynomial.C c * Polynomial.X
+info: AuditFinalQP01.lean:161:0: 'PartitionLaguerre.reverse_shift_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:162:0: PartitionLaguerre.paired_shift_reverse (a b : ℕ) (c : ℚ) :
+  (PartitionLaguerre.pairedShift a b c).reverse =
+    ((1 + Polynomial.X) ^ a * (1 - Polynomial.X) ^ b).comp (Polynomial.C c * Polynomial.X)
+info: AuditFinalQP01.lean:163:0: 'PartitionLaguerre.paired_shift_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:164:0: PartitionLaguerre.paired_shift_coefficient (a b h : ℕ) (c : ℚ) (hh : h ≤ a + b) :
+  (PartitionLaguerre.pairedShift a b c).coeff h =
+    ((1 + Polynomial.X) ^ a * (1 - Polynomial.X) ^ b).coeff (a + b - h) * c ^ (a + b - h)
+info: AuditFinalQP01.lean:165:0: 'PartitionLaguerre.paired_shift_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:166:0: PartitionLaguerre.smooth_monomial_pair_coefficient (j a b h : ℕ) (hh : h ≤ a + b) :
+  (PartitionLaguerre.smoothMonomialPair j a b).coeff h =
+    ((1 + Polynomial.X) ^ a * (1 - Polynomial.X) ^ b).coeff (a + b - h) * PartitionLaguerre.laguerreMoment j (a + b - h)
+info: AuditFinalQP01.lean:167:0: 'PartitionLaguerre.smooth_monomial_pair_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:168:0: PartitionLaguerre.smooth_monomial_pair_degree_bound (j a b : ℕ) :
+  (PartitionLaguerre.smoothMonomialPair j a b).natDegree ≤ a + b
+info: AuditFinalQP01.lean:169:0: 'PartitionLaguerre.smooth_monomial_pair_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:170:0: PartitionLaguerre.smooth_monomial_pair_high_zero (j a b h : ℕ) (hh : a + b < h + 2 * j) :
+  (PartitionLaguerre.smoothMonomialPair j a b).coeff h = 0
+info: AuditFinalQP01.lean:171:0: 'PartitionLaguerre.smooth_monomial_pair_high_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:172:0: PartitionLaguerre.one_sub_X_coefficient (q j : ℕ) : ((1 - Polynomial.X) ^ q).coeff j = (-1) ^ j * ↑(q.choose j)
+info: AuditFinalQP01.lean:173:0: 'PartitionLaguerre.one_sub_X_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:174:0: PartitionLaguerre.equal_power_pair_coefficient (q j : ℕ) :
+  ((1 + Polynomial.X) ^ q * (1 - Polynomial.X) ^ q).coeff (2 * j) = (-1) ^ j * ↑(q.choose j)
+info: AuditFinalQP01.lean:175:0: 'PartitionLaguerre.equal_power_pair_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:176:0: PartitionLaguerre.smooth_monomial_pair_leading_coefficient (j q : ℕ) (hj : j ≤ q) :
+  (PartitionLaguerre.smoothMonomialPair j q q).coeff (2 * q - 2 * j) = ↑(2 * j).factorial * ↑(q.choose j)
+info: AuditFinalQP01.lean:177:0: 'PartitionLaguerre.smooth_monomial_pair_leading_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:178:0: PartitionLaguerre.smooth_polynomial_pair_formula (j : ℕ) (P Q : Polynomial ℚ) :
+  PartitionLaguerre.smoothPolynomialPair j P Q =
+    ∑ k ∈ Finset.range (2 * j + 1),
+      Polynomial.C (PartitionLaguerre.laguerreWeight j k) * P.comp (Polynomial.X + Polynomial.C (↑k - ↑j)) *
+        Q.comp (Polynomial.X - Polynomial.C (↑k - ↑j))
+info: AuditFinalQP01.lean:179:0: 'PartitionLaguerre.smooth_polynomial_pair_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:180:0: PartitionLaguerre.smooth_polynomial_pair_high_zero (j h : ℕ) (P : Polynomial ℚ) (hh : 2 * P.natDegree < h + 2 * j) :
+  (PartitionLaguerre.smoothPolynomialPair j P P).coeff h = 0
+info: AuditFinalQP01.lean:181:0: 'PartitionLaguerre.smooth_polynomial_pair_high_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:182:0: PartitionLaguerre.smooth_polynomial_pair_top_coefficient (j : ℕ) (P : Polynomial ℚ) (hj : j ≤ P.natDegree) :
+  (PartitionLaguerre.smoothPolynomialPair j P P).coeff (2 * P.natDegree - 2 * j) =
+    P.leadingCoeff ^ 2 * ↑(2 * j).factorial * ↑(P.natDegree.choose j)
+info: AuditFinalQP01.lean:183:0: 'PartitionLaguerre.smooth_polynomial_pair_top_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:184:0: PartitionLaguerre.smooth_polynomial_pair_degree_leading (j : ℕ) (P : Polynomial ℚ) (hj : j ≤ P.natDegree) (hP : P ≠ 0) :
+  (PartitionLaguerre.smoothPolynomialPair j P P).natDegree = 2 * P.natDegree - 2 * j ∧
+    (PartitionLaguerre.smoothPolynomialPair j P P).leadingCoeff =
+      P.leadingCoeff ^ 2 * ↑(2 * j).factorial * ↑(P.natDegree.choose j)
+info: AuditFinalQP01.lean:185:0: 'PartitionLaguerre.smooth_polynomial_pair_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:186:0: PartitionLaguerre.polynomial_shift_degree_leading (P : Polynomial ℚ) (c : ℚ) :
+  (P.comp (Polynomial.X + Polynomial.C c)).natDegree = P.natDegree ∧
+    (P.comp (Polynomial.X + Polynomial.C c)).leadingCoeff = P.leadingCoeff
+info: AuditFinalQP01.lean:187:0: 'PartitionLaguerre.polynomial_shift_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:188:0: PartitionLaguerre.forward_smooth_polynomial_formula (j : ℕ) (P : Polynomial ℚ) :
+  PartitionLaguerre.forwardSmoothPolynomial j P =
+    ∑ k ∈ Finset.range (2 * j + 1),
+      Polynomial.C (PartitionLaguerre.laguerreWeight j k) * P.comp (Polynomial.X + Polynomial.C ↑k) *
+        P.comp (Polynomial.X + Polynomial.C ↑(2 * j - k))
+info: AuditFinalQP01.lean:189:0: 'PartitionLaguerre.forward_smooth_polynomial_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:190:0: PartitionLaguerre.periodic_cross_degree_bound (m j : ℕ) (P : Polynomial ℚ) (b : ℕ → ℚ) (r : ℕ) :
+  (PartitionLaguerre.periodicCrossPolynomial m j P b r).natDegree ≤ P.natDegree
+info: AuditFinalQP01.lean:191:0: 'PartitionLaguerre.periodic_cross_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:192:0: PartitionLaguerre.reflected_periodic_weight_sum (m j r : ℕ) (b : ℕ → ℚ) :
+  ∑ k ∈ Finset.range (2 * j + 1), PartitionLaguerre.laguerreWeight j k * b ((r + (2 * j - k)) % m) =
+    ∑ k ∈ Finset.range (2 * j + 1), PartitionLaguerre.laguerreWeight j k * b ((r + k) % m)
+info: AuditFinalQP01.lean:193:0: 'PartitionLaguerre.reflected_periodic_weight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:194:0: PartitionLaguerre.periodic_cross_top_coefficient (m j : ℕ) (P : Polynomial ℚ) (b : ℕ → ℚ) (r : ℕ) :
+  (PartitionLaguerre.periodicCrossPolynomial m j P b r).coeff P.natDegree =
+    2 * P.leadingCoeff * ∑ k ∈ Finset.range (2 * j + 1), PartitionLaguerre.laguerreWeight j k * b ((r + k) % m)
+info: AuditFinalQP01.lean:195:0: 'PartitionLaguerre.periodic_cross_top_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:196:0: PartitionLaguerre.residue_transform_common_part (m j r : ℕ) (F : ℕ → Polynomial ℚ) (P : Polynomial ℚ) (b : ℕ → ℚ)
+  (hF : ∀ (s : ℕ), F s = P + Polynomial.C (b s)) :
+  PartitionLaguerre.residueTransform m j F r =
+    PartitionLaguerre.forwardSmoothPolynomial j P + PartitionLaguerre.periodicCrossPolynomial m j P b r +
+      Polynomial.C (PartitionLaguerre.periodicProductConstant m j b r)
+info: AuditFinalQP01.lean:197:0: 'PartitionLaguerre.residue_transform_common_part' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:198:0: PartitionLaguerre.forward_smooth_degree_leading (j : ℕ) (P : Polynomial ℚ) (hj : j ≤ P.natDegree) (hP : P ≠ 0) :
+  (PartitionLaguerre.forwardSmoothPolynomial j P).natDegree = 2 * P.natDegree - 2 * j ∧
+    (PartitionLaguerre.forwardSmoothPolynomial j P).leadingCoeff =
+      P.leadingCoeff ^ 2 * ↑(2 * j).factorial * ↑(P.natDegree.choose j)
+info: AuditFinalQP01.lean:199:0: 'PartitionLaguerre.forward_smooth_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:200:0: PartitionLaguerre.residue_common_part_degree_bound (m j r : ℕ) (F : ℕ → Polynomial ℚ) (P : Polynomial ℚ) (b : ℕ → ℚ)
+  (hF : ∀ (s : ℕ), F s = P + Polynomial.C (b s)) (hj : 2 * j ≤ P.natDegree) (hP : P ≠ 0) :
+  (PartitionLaguerre.residueTransform m j F r).natDegree ≤ 2 * P.natDegree - 2 * j
+info: AuditFinalQP01.lean:201:0: 'PartitionLaguerre.residue_common_part_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:202:0: PartitionLaguerre.concrete_polynomial_part_nonzero (d m : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  PartitionLaguerre.concretePolynomialPart d m ≠ 0
+info: AuditFinalQP01.lean:203:0: 'PartitionLaguerre.concrete_polynomial_part_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:204:0: PartitionLaguerre.concrete_transform_degree_bound (d m j r : ℕ) (hd : 1 ≤ d) (hm : 0 < m) (hj : j ≤ d) :
+  (PartitionLaguerre.residueTransform m j (PartitionLaguerre.concreteResiduePolynomial d m) r).natDegree ≤ 4 * d - 2 * j
+info: AuditFinalQP01.lean:205:0: 'PartitionLaguerre.concrete_transform_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:206:0: PartitionLaguerre.concrete_transform_boundary_coefficient (d m r : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  (PartitionLaguerre.residueTransform m d (PartitionLaguerre.concreteResiduePolynomial d m) r).coeff (2 * d) =
+    (1 / (↑m * ↑(2 * d).factorial)) ^ 2 * ↑(2 * d).factorial * ↑d.centralBinom +
+      2 * (1 / (↑m * ↑(2 * d).factorial)) * (-1) ^ d * ((if m ∣ r + 2 * d then 1 else 0) - 1 / ↑m)
+info: AuditFinalQP01.lean:207:0: 'PartitionLaguerre.concrete_transform_boundary_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:208:0: PartitionLaguerre.concrete_above_threshold_coefficient_negative (d m r : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m) (ho : Odd d)
+  (habove : PartitionLaguerre.criticalIndex d < m) (hr : m ∣ r + 2 * d) :
+  (PartitionLaguerre.residueTransform m d (PartitionLaguerre.concreteResiduePolynomial d m) r).coeff (2 * d) < 0
+info: AuditFinalQP01.lean:209:0: 'PartitionLaguerre.concrete_above_threshold_coefficient_negative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AuditFinalQP01.lean:210:0: PartitionLaguerre.concrete_above_threshold_leading_negative (d m r : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m) (ho : Odd d)
+  (habove : PartitionLaguerre.criticalIndex d < m) (hr : m ∣ r + 2 * d) :
+  (PartitionLaguerre.residueTransform m d (PartitionLaguerre.concreteResiduePolynomial d m) r).leadingCoeff < 0
+info: AuditFinalQP01.lean:211:0: 'PartitionLaguerre.concrete_above_threshold_leading_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:212:0: PartitionLaguerre.above_threshold_failure_proved : PartitionLaguerre.aboveThresholdFailure
+info: AuditFinalQP01.lean:213:0: 'PartitionLaguerre.above_threshold_failure_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:214:0: PartitionLaguerre.residue_coefficient_above_periodic (m j r h : ℕ) (F : ℕ → Polynomial ℚ) (P : Polynomial ℚ) (b : ℕ → ℚ)
+  (hF : ∀ (s : ℕ), F s = P + Polynomial.C (b s)) (hh : P.natDegree < h) :
+  (PartitionLaguerre.residueTransform m j F r).coeff h = (PartitionLaguerre.forwardSmoothPolynomial j P).coeff h
+info: AuditFinalQP01.lean:215:0: 'PartitionLaguerre.residue_coefficient_above_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:216:0: PartitionLaguerre.concrete_lower_order_leading_positive (d m j r : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m) (hj : j < d) :
+  0 < (PartitionLaguerre.residueTransform m j (PartitionLaguerre.concreteResiduePolynomial d m) r).leadingCoeff
+info: AuditFinalQP01.lean:217:0: 'PartitionLaguerre.concrete_lower_order_leading_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:218:0: PartitionLaguerre.concrete_boundary_rational_coefficient (d m r : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  (PartitionLaguerre.residueTransform m d (PartitionLaguerre.concreteResiduePolynomial d m) r).coeff (2 * d) =
+    (↑d.centralBinom + 2 * (-1) ^ d * ((if m ∣ r + 2 * d then ↑m else 0) - 1)) / (↑m ^ 2 * ↑(2 * d).factorial)
+info: AuditFinalQP01.lean:219:0: 'PartitionLaguerre.concrete_boundary_rational_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:220:0: PartitionLaguerre.concrete_noncritical_boundary_positive (d m r : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m)
+  (ha : Even d ∨ Odd d ∧ m < PartitionLaguerre.criticalIndex d) :
+  0 < (PartitionLaguerre.residueTransform m d (PartitionLaguerre.concreteResiduePolynomial d m) r).coeff (2 * d)
+info: AuditFinalQP01.lean:221:0: 'PartitionLaguerre.concrete_noncritical_boundary_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:222:0: PartitionLaguerre.concrete_noncritical_top_leading_positive (d m r : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m)
+  (ha : Even d ∨ Odd d ∧ m < PartitionLaguerre.criticalIndex d) :
+  0 < (PartitionLaguerre.residueTransform m d (PartitionLaguerre.concreteResiduePolynomial d m) r).leadingCoeff
+info: AuditFinalQP01.lean:223:0: 'PartitionLaguerre.concrete_noncritical_top_leading_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:224:0: PartitionLaguerre.eventual_positive_noncritical (d m : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m)
+  (ha : Even d ∨ Odd d ∧ m < PartitionLaguerre.criticalIndex d) :
+  PartitionLaguerre.eventualPositiveThrough d (PartitionLaguerre.partitionCount d m)
+info: AuditFinalQP01.lean:225:0: 'PartitionLaguerre.eventual_positive_noncritical' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:226:0: PartitionLaguerre.main_classification_necessary (d m : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m)
+  (hp : PartitionLaguerre.eventualPositiveThrough d (PartitionLaguerre.partitionCount d m)) :
+  Even d ∨ Odd d ∧ m ≤ PartitionLaguerre.criticalIndex d
+info: AuditFinalQP01.lean:227:0: 'PartitionLaguerre.main_classification_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:228:0: PartitionLaguerre.main_classification_of_odd_critical
+  (hcritical :
+    ∀ (d : ℕ),
+      2 ≤ d →
+        Odd d →
+          PartitionLaguerre.eventualPositiveThrough d
+            (PartitionLaguerre.partitionCount d (PartitionLaguerre.criticalIndex d))) :
+  PartitionLaguerre.mainClassification
+info: AuditFinalQP01.lean:229:0: 'PartitionLaguerre.main_classification_of_odd_critical' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:230:0: PartitionLaguerre.coefficient_bound_neg (P : Polynomial ℚ) :
+  PartitionLaguerre.coefficientBound (-P) = PartitionLaguerre.coefficientBound P
+info: AuditFinalQP01.lean:231:0: 'PartitionLaguerre.coefficient_bound_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:232:0: PartitionLaguerre.desc_pochhammer_eval_reflection (k : ℕ) (x : ℚ) :
+  Polynomial.eval (↑k - 1 - x) (descPochhammer ℚ k) = (-1) ^ k * Polynomial.eval x (descPochhammer ℚ k)
+info: AuditFinalQP01.lean:233:0: 'PartitionLaguerre.desc_pochhammer_eval_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:234:0: PartitionLaguerre.centered_polynomial_step (d m : ℕ) (hm : 0 < m) (x : ℚ) :
+  Polynomial.eval (x + ↑m) (PartitionLaguerre.centeredPolynomialPart d m) -
+      Polynomial.eval x (PartitionLaguerre.centeredPolynomialPart d m) =
+    Polynomial.eval (x - PartitionLaguerre.partitionCenter d m + ↑m + ↑(2 * d - 1)) (descPochhammer ℚ (2 * d - 1)) /
+      ↑(2 * d - 1).factorial
+info: AuditFinalQP01.lean:235:0: 'PartitionLaguerre.centered_polynomial_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:236:0: PartitionLaguerre.centered_increment_reflection (d m : ℕ) (hd : 1 ≤ d) (x : ℚ) :
+  Polynomial.eval (-x - ↑m - PartitionLaguerre.partitionCenter d m + ↑m + ↑(2 * d - 1)) (descPochhammer ℚ (2 * d - 1)) /
+      ↑(2 * d - 1).factorial =
+    -(Polynomial.eval (x - PartitionLaguerre.partitionCenter d m + ↑m + ↑(2 * d - 1)) (descPochhammer ℚ (2 * d - 1)) /
+        ↑(2 * d - 1).factorial)
+info: AuditFinalQP01.lean:237:0: 'PartitionLaguerre.centered_increment_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:238:0: PartitionLaguerre.centered_polynomial_even (d m : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  (PartitionLaguerre.centeredPolynomialPart d m).comp (Polynomial.C (-1) * Polynomial.X) =
+    PartitionLaguerre.centeredPolynomialPart d m
+info: AuditFinalQP01.lean:239:0: 'PartitionLaguerre.centered_polynomial_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:240:0: PartitionLaguerre.centered_polynomial_odd_coefficient_zero (d m i : ℕ) (hd : 1 ≤ d) (hm : 0 < m) (hi : Odd i) :
+  (PartitionLaguerre.centeredPolynomialPart d m).coeff i = 0
+info: AuditFinalQP01.lean:241:0: 'PartitionLaguerre.centered_polynomial_odd_coefficient_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:242:0: PartitionLaguerre.centered_desc_second_coefficient (k : ℕ) :
+  ((descPochhammer ℚ (k + 2)).comp (Polynomial.X + Polynomial.C ((↑k + 1) / 2))).coeff k =
+    -(↑k + 2) * (↑k + 1) * (↑k + 3) / 24
+info: AuditFinalQP01.lean:243:0: 'PartitionLaguerre.centered_desc_second_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:244:0: PartitionLaguerre.centered_polynomial_degree_leading (d m : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  (PartitionLaguerre.centeredPolynomialPart d m).natDegree = 2 * d ∧
+    (PartitionLaguerre.centeredPolynomialPart d m).leadingCoeff = 1 / (↑m * ↑(2 * d).factorial)
+info: AuditFinalQP01.lean:245:0: 'PartitionLaguerre.centered_polynomial_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:246:0: PartitionLaguerre.centered_polynomial_half_difference (d m : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  (PartitionLaguerre.centeredPolynomialPart d m).comp (Polynomial.X + Polynomial.C (↑m / 2)) -
+      (PartitionLaguerre.centeredPolynomialPart d m).comp (Polynomial.X + Polynomial.C (-(↑m / 2))) =
+    Polynomial.C (↑(2 * d - 1).factorial)⁻¹ *
+      (descPochhammer ℚ (2 * d - 1)).comp (Polynomial.X + Polynomial.C ((2 * ↑d - 2) / 2))
+info: AuditFinalQP01.lean:247:0: 'PartitionLaguerre.centered_polynomial_half_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:248:0: PartitionLaguerre.centered_second_coefficient_index (d m k : ℕ) (hd : 2 ≤ d) (hm : 0 < m) (hk : 2 * d = k + 3) :
+  (PartitionLaguerre.centeredPolynomialPart d m).coeff (k + 1) =
+    -(1 / (↑m * ↑(2 * d).factorial)) * (↑k + 3) * (↑k + 2) * (↑k + 3 + ↑m ^ 2) / 24
+info: AuditFinalQP01.lean:249:0: 'PartitionLaguerre.centered_second_coefficient_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:250:0: PartitionLaguerre.centered_polynomial_second_coefficient (d m : ℕ) (hd : 2 ≤ d) (hm : 0 < m) :
+  (PartitionLaguerre.centeredPolynomialPart d m).coeff (2 * d - 2) =
+    -(1 / (↑m * ↑(2 * d).factorial)) * (2 * ↑d) * (2 * ↑d - 1) * (2 * ↑d + ↑m ^ 2) / 24
+info: AuditFinalQP01.lean:251:0: 'PartitionLaguerre.centered_polynomial_second_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:252:0: PartitionLaguerre.critical_beta_q_cast (d : ℕ) : ↑(PartitionLaguerre.criticalBetaQ d) = PartitionLaguerre.criticalBeta d
+info: AuditFinalQP01.lean:253:0: 'PartitionLaguerre.critical_beta_q_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:254:0: PartitionLaguerre.critical_beta_q_positive (d : ℕ) (hd : 2 ≤ d) (ho : Odd d) : 0 < PartitionLaguerre.criticalBetaQ d
+info: AuditFinalQP01.lean:255:0: 'PartitionLaguerre.critical_beta_q_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:256:0: PartitionLaguerre.critical_next_binomial (d : ℕ) : ↑((2 * d).choose (d + 1)) = ↑d.centralBinom * ↑d / (↑d + 1)
+info: AuditFinalQP01.lean:257:0: 'PartitionLaguerre.critical_next_binomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:258:0: PartitionLaguerre.critical_previous_central (d : ℕ) (hd : 1 ≤ d) :
+  ↑((2 * d - 2).choose (d - 1)) = ↑d.centralBinom * ↑d / (2 * (2 * ↑d - 1))
+info: AuditFinalQP01.lean:259:0: 'PartitionLaguerre.critical_previous_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:260:0: PartitionLaguerre.critical_binomial_difference (d : ℕ) (hd : 1 ≤ d) :
+  ↑((2 * d - 2).choose d) - ↑((2 * d - 2).choose (d - 1)) = -↑d.centralBinom / (2 * (2 * ↑d - 1))
+info: AuditFinalQP01.lean:261:0: 'PartitionLaguerre.critical_binomial_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:262:0: PartitionLaguerre.critical_factorial_next_two (d : ℕ) :
+  ↑(2 * d + 2).factorial = (2 * ↑d + 2) * (2 * ↑d + 1) * ↑(2 * d).factorial
+info: AuditFinalQP01.lean:263:0: 'PartitionLaguerre.critical_factorial_next_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:264:0: PartitionLaguerre.polynomial_degree_drop (P : Polynomial ℚ) (N : ℕ) (hN : 0 < N) (hbound : P.natDegree ≤ N)
+  (hzero : P.coeff N = 0) : P.natDegree < N
+info: AuditFinalQP01.lean:265:0: 'PartitionLaguerre.polynomial_degree_drop' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:266:0: PartitionLaguerre.critical_centered_penultimate_zero (d m r : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m) (hr : m ∣ r + 2 * d) :
+  (PartitionLaguerre.criticalCenteredTransform d m r).coeff (2 * d - 1) = 0
+info: AuditFinalQP01.lean:267:0: 'PartitionLaguerre.critical_centered_penultimate_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:268:0: PartitionLaguerre.critical_centered_degree_bound (d r : ℕ) (hd : 2 ≤ d) (ho : Odd d)
+  (hr : PartitionLaguerre.criticalIndex d ∣ r + 2 * d) :
+  (PartitionLaguerre.criticalCenteredTransform d (PartitionLaguerre.criticalIndex d) r).natDegree ≤ 2 * d - 2
+info: AuditFinalQP01.lean:269:0: 'PartitionLaguerre.critical_centered_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:270:0: PartitionLaguerre.main_classification_of_critical_second_positive
+  (hpositive :
+    ∀ (d r : ℕ),
+      2 ≤ d →
+        Odd d →
+          r < PartitionLaguerre.criticalIndex d →
+            PartitionLaguerre.criticalIndex d ∣ r + 2 * d →
+              0 <
+                (PartitionLaguerre.criticalCenteredTransform d (PartitionLaguerre.criticalIndex d) r).coeff
+                  (2 * d - 2)) :
+  PartitionLaguerre.mainClassification
+info: AuditFinalQP01.lean:271:0: 'PartitionLaguerre.main_classification_of_critical_second_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AuditFinalQP01.lean:272:0: PartitionLaguerre.critical_centered_transform_formula (d m r : ℕ) (hm : 0 < m) :
+  PartitionLaguerre.criticalCenteredTransform d m r =
+    PartitionLaguerre.smoothPolynomialPair d (PartitionLaguerre.centeredPolynomialPart d m)
+          (PartitionLaguerre.centeredPolynomialPart d m) +
+        PartitionLaguerre.centeredCrossPolynomial m d (PartitionLaguerre.centeredPolynomialPart d m)
+          (PartitionLaguerre.concretePeriodicConstant d m) r +
+      Polynomial.C (PartitionLaguerre.periodicProductConstant m d (PartitionLaguerre.concretePeriodicConstant d m) r)
+info: AuditFinalQP01.lean:273:0: 'PartitionLaguerre.critical_centered_transform_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:274:0: PartitionLaguerre.critical_centered_leading_eq (d m r : ℕ) :
+  (PartitionLaguerre.criticalCenteredTransform d m r).leadingCoeff =
+    (PartitionLaguerre.residueTransform m d (PartitionLaguerre.concreteResiduePolynomial d m) r).leadingCoeff
+info: AuditFinalQP01.lean:275:0: 'PartitionLaguerre.critical_centered_leading_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:276:0: PartitionLaguerre.critical_centered_degree_eq (d m r : ℕ) :
+  (PartitionLaguerre.criticalCenteredTransform d m r).natDegree =
+    (PartitionLaguerre.residueTransform m d (PartitionLaguerre.concreteResiduePolynomial d m) r).natDegree
+info: AuditFinalQP01.lean:277:0: 'PartitionLaguerre.critical_centered_degree_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:278:0: PartitionLaguerre.centered_cross_one_below (m d r k : ℕ) (P : Polynomial ℚ) (b : ℕ → ℚ) (hP : P.natDegree = k + 1)
+  (hodd : P.coeff k = 0) :
+  (PartitionLaguerre.centeredCrossPolynomial m d P b r).coeff k =
+    -2 * (↑k + 1) * P.leadingCoeff * PartitionLaguerre.periodicCenteredMoment d 1 (fun n => b (n % m)) r
+info: AuditFinalQP01.lean:279:0: 'PartitionLaguerre.centered_cross_one_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:280:0: PartitionLaguerre.centered_cross_two_below (m d r k : ℕ) (P : Polynomial ℚ) (b : ℕ → ℚ) (hP : P.natDegree = k + 2)
+  (hodd : P.coeff (k + 1) = 0) :
+  (PartitionLaguerre.centeredCrossPolynomial m d P b r).coeff k =
+    2 * P.coeff k * PartitionLaguerre.periodicCenteredMoment d 0 (fun n => b (n % m)) r +
+      (↑k + 2) * (↑k + 1) * P.leadingCoeff * PartitionLaguerre.periodicCenteredMoment d 2 (fun n => b (n % m)) r
+info: AuditFinalQP01.lean:281:0: 'PartitionLaguerre.centered_cross_two_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:282:0: PartitionLaguerre.concrete_periodic_zeroth_moment (d m n : ℕ) (hd : 1 ≤ d) (hm : 0 < m) :
+  PartitionLaguerre.periodicCenteredMoment d 0 (PartitionLaguerre.concretePeriodicSequence d m) n =
+    (-1) ^ d * ((if m ∣ n + 2 * d then 1 else 0) - 1 / ↑m)
+info: AuditFinalQP01.lean:283:0: 'PartitionLaguerre.concrete_periodic_zeroth_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:284:0: PartitionLaguerre.shift_coefficient_one_below (P : Polynomial ℚ) (k : ℕ) (c : ℚ) (hP : P.natDegree = k + 1) :
+  (P.comp (Polynomial.X + Polynomial.C c)).coeff k = P.coeff k + (↑k + 1) * c * P.leadingCoeff
+info: AuditFinalQP01.lean:285:0: 'PartitionLaguerre.shift_coefficient_one_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:286:0: PartitionLaguerre.reflected_periodic_centered_moment (m d r h : ℕ) (b : ℕ → ℚ) :
+  ∑ k ∈ Finset.range (2 * d + 1), PartitionLaguerre.laguerreWeight d k * (↑k - ↑d) ^ h * b ((r + (2 * d - k)) % m) =
+    (-1) ^ h * PartitionLaguerre.periodicCenteredMoment d h (fun n => b (n % m)) r
+info: AuditFinalQP01.lean:287:0: 'PartitionLaguerre.reflected_periodic_centered_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:288:0: PartitionLaguerre.smooth_polynomial_pair_even (j : ℕ) (P : Polynomial ℚ)
+  (heven : P.comp (Polynomial.C (-1) * Polynomial.X) = P) :
+  (PartitionLaguerre.smoothPolynomialPair j P P).comp (Polynomial.C (-1) * Polynomial.X) =
+    PartitionLaguerre.smoothPolynomialPair j P P
+info: AuditFinalQP01.lean:289:0: 'PartitionLaguerre.smooth_polynomial_pair_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:290:0: PartitionLaguerre.smooth_polynomial_pair_odd_coefficient_zero (j i : ℕ) (P : Polynomial ℚ)
+  (heven : P.comp (Polynomial.C (-1) * Polynomial.X) = P) (hi : Odd i) :
+  (PartitionLaguerre.smoothPolynomialPair j P P).coeff i = 0
+info: AuditFinalQP01.lean:291:0: 'PartitionLaguerre.smooth_polynomial_pair_odd_coefficient_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AuditFinalQP01.lean:292:0: PartitionLaguerre.periodic_green_identification (b : ℕ → ℚ) (q m : ℕ) (hq : 3 ≤ q) (hm : 2 ≤ m)
+  (hp : ∀ (n : ℕ), b (n + m) = b n) (hD : ∀ (n : ℕ), (fwdDiff 1)^[q] b n = (if m ∣ n + q then 1 else 0) - 1 / ↑m) :
+  (fwdDiff 1)^[q - 2] b = fun n => PartitionLaguerre.cyclicGreenSequence m (n + (q - 1))
+info: AuditFinalQP01.lean:293:0: 'PartitionLaguerre.periodic_green_identification' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:294:0: PartitionLaguerre.concrete_periodic_penultimate_difference (d m n : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m) :
+  (fwdDiff 1)^[2 * d - 2] (PartitionLaguerre.concretePeriodicSequence d m) n =
+    PartitionLaguerre.cyclicGreenSequence m (n + (2 * d - 1))
+info: AuditFinalQP01.lean:295:0: 'PartitionLaguerre.concrete_periodic_penultimate_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:296:0: PartitionLaguerre.concrete_penultimate_exceptional_value (d m n : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m) (hr : m ∣ n + 2 * d) :
+  (fwdDiff 1)^[2 * d - 2] (PartitionLaguerre.concretePeriodicSequence d m) (n + 1) = -(↑m ^ 2 - 1) / (12 * ↑m)
+info: AuditFinalQP01.lean:297:0: 'PartitionLaguerre.concrete_penultimate_exceptional_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:298:0: PartitionLaguerre.concrete_preceding_exceptional_value (d m n : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m) (hr : m ∣ n + 2 * d) :
+  (fwdDiff 1)^[2 * d - 1] (PartitionLaguerre.concretePeriodicSequence d m) (n + 1) = (↑m - 1) / (2 * ↑m)
+info: AuditFinalQP01.lean:299:0: 'PartitionLaguerre.concrete_preceding_exceptional_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:300:0: PartitionLaguerre.periodic_centered_moment_one (d n : ℕ) (hd : 1 ≤ d) (b : ℕ → ℚ) :
+  PartitionLaguerre.periodicCenteredMoment d 1 b n =
+    (-1) ^ d * (-↑d * (fwdDiff 1)^[2 * d] b n + 2 * ↑d * (fwdDiff 1)^[2 * d - 1] b (n + 1))
+info: AuditFinalQP01.lean:301:0: 'PartitionLaguerre.periodic_centered_moment_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:302:0: PartitionLaguerre.periodic_centered_moment_two (d n : ℕ) (hd : 1 ≤ d) (b : ℕ → ℚ) :
+  PartitionLaguerre.periodicCenteredMoment d 2 b n =
+    (-1) ^ d * (↑d ^ 2 * (fwdDiff 1)^[2 * d] b n + 2 * ↑d * (2 * ↑d - 1) * (fwdDiff 1)^[2 * d - 2] b (n + 1))
+info: AuditFinalQP01.lean:303:0: 'PartitionLaguerre.periodic_centered_moment_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:304:0: PartitionLaguerre.concrete_exceptional_first_moment (d m n : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m) (hr : m ∣ n + 2 * d) :
+  PartitionLaguerre.periodicCenteredMoment d 1 (PartitionLaguerre.concretePeriodicSequence d m) n = 0
+info: AuditFinalQP01.lean:305:0: 'PartitionLaguerre.concrete_exceptional_first_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:306:0: PartitionLaguerre.concrete_exceptional_second_moment (d m n : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m) (ho : Odd d)
+  (hr : m ∣ n + 2 * d) :
+  PartitionLaguerre.periodicCenteredMoment d 2 (PartitionLaguerre.concretePeriodicSequence d m) n =
+    (↑m - 1) / ↑m * (-↑d ^ 2 + ↑d * (2 * ↑d - 1) * (↑m + 1) / 6)
+info: AuditFinalQP01.lean:307:0: 'PartitionLaguerre.concrete_exceptional_second_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:308:0: PartitionLaguerre.critical_index_at_least_two (d : ℕ) (hd : 2 ≤ d) : 2 ≤ PartitionLaguerre.criticalIndex d
+info: AuditFinalQP01.lean:309:0: 'PartitionLaguerre.critical_index_at_least_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:310:0: PartitionLaguerre.concrete_odd_nonexceptional_leading_positive (d m r : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m) (ho : Odd d)
+  (hr : ¬m ∣ r + 2 * d) :
+  0 < (PartitionLaguerre.residueTransform m d (PartitionLaguerre.concreteResiduePolynomial d m) r).leadingCoeff
+info: AuditFinalQP01.lean:311:0: 'PartitionLaguerre.concrete_odd_nonexceptional_leading_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AuditFinalQP01.lean:312:0: PartitionLaguerre.concrete_critical_boundary_zero (d r : ℕ) (hd : 2 ≤ d) (ho : Odd d)
+  (hr : PartitionLaguerre.criticalIndex d ∣ r + 2 * d) :
+  (PartitionLaguerre.residueTransform (PartitionLaguerre.criticalIndex d) d
+          (PartitionLaguerre.concreteResiduePolynomial d (PartitionLaguerre.criticalIndex d)) r).coeff
+      (2 * d) =
+    0
+info: AuditFinalQP01.lean:313:0: 'PartitionLaguerre.concrete_critical_boundary_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:314:0: PartitionLaguerre.main_classification_of_critical_exceptional
+  (hcritical :
+    ∀ (d : ℕ),
+      2 ≤ d →
+        Odd d →
+          ∀ r < PartitionLaguerre.criticalIndex d,
+            PartitionLaguerre.criticalIndex d ∣ r + 2 * d →
+              0 <
+                (PartitionLaguerre.residueTransform (PartitionLaguerre.criticalIndex d) d
+                    (PartitionLaguerre.concreteResiduePolynomial d (PartitionLaguerre.criticalIndex d))
+                    r).leadingCoeff) :
+  PartitionLaguerre.mainClassification
+info: AuditFinalQP01.lean:315:0: 'PartitionLaguerre.main_classification_of_critical_exceptional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AuditFinalQP01.lean:316:0: PartitionLaguerre.smooth_second_coefficient_reduction (d k : ℕ) (P : Polynomial ℚ) (hP : P.natDegree = k + 2)
+  (horder : 2 * d = k + 2) (hodd : P.coeff (k + 1) = 0) :
+  (PartitionLaguerre.smoothPolynomialPair d P P).coeff k =
+    P.leadingCoeff ^ 2 * (PartitionLaguerre.smoothMonomialPair d (k + 2) (k + 2)).coeff k +
+      2 * P.leadingCoeff * P.coeff k * (PartitionLaguerre.smoothMonomialPair d (k + 2) k).coeff k
+info: AuditFinalQP01.lean:317:0: 'PartitionLaguerre.smooth_second_coefficient_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:318:0: PartitionLaguerre.centered_smooth_second_coefficient (d m : ℕ) (hd : 2 ≤ d) (hm : 0 < m) :
+  (PartitionLaguerre.smoothPolynomialPair d (PartitionLaguerre.centeredPolynomialPart d m)
+          (PartitionLaguerre.centeredPolynomialPart d m)).coeff
+      (2 * d - 2) =
+    (1 / (↑m * ↑(2 * d).factorial)) ^ 2 * ↑(2 * d).factorial * ↑d.centralBinom * ↑d * (↑m ^ 2 - 4 * ↑d ^ 2) / 12
+info: AuditFinalQP01.lean:319:0: 'PartitionLaguerre.centered_smooth_second_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:320:0: PartitionLaguerre.smooth_monomial_pair_symm (j a b : ℕ) :
+  PartitionLaguerre.smoothMonomialPair j a b = PartitionLaguerre.smoothMonomialPair j b a
+info: AuditFinalQP01.lean:321:0: 'PartitionLaguerre.smooth_monomial_pair_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:322:0: PartitionLaguerre.mixed_power_pair_coefficient (d : ℕ) (hd : 1 ≤ d) :
+  ((1 + Polynomial.X) ^ (2 * d) * (1 - Polynomial.X) ^ (2 * d - 2)).coeff (2 * d) =
+    (-1) ^ d * (↑((2 * d - 2).choose d) - ↑((2 * d - 2).choose (d - 1)))
+info: AuditFinalQP01.lean:323:0: 'PartitionLaguerre.mixed_power_pair_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:324:0: PartitionLaguerre.smooth_mixed_critical_coefficient (d : ℕ) (hd : 1 ≤ d) :
+  (PartitionLaguerre.smoothMonomialPair d (2 * d) (2 * d - 2)).coeff (2 * d - 2) =
+    ↑(2 * d).factorial * (↑((2 * d - 2).choose d) - ↑((2 * d - 2).choose (d - 1)))
+info: AuditFinalQP01.lean:325:0: 'PartitionLaguerre.smooth_mixed_critical_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:326:0: PartitionLaguerre.smooth_equal_critical_next_coefficient (d : ℕ) (hd : 1 ≤ d) :
+  (PartitionLaguerre.smoothMonomialPair d (2 * d) (2 * d)).coeff (2 * d - 2) =
+    -↑((2 * d).choose (d + 1)) * ↑(2 * d + 2).factorial * ↑d / 12
+info: AuditFinalQP01.lean:327:0: 'PartitionLaguerre.smooth_equal_critical_next_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:328:0: PartitionLaguerre.difference_sum_range (f : ℕ → ℚ) (m : ℕ) : ∑ n ∈ Finset.range m, (f (n + 1) - f n) = f m - f 0
+info: AuditFinalQP01.lean:329:0: 'PartitionLaguerre.difference_sum_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:330:0: PartitionLaguerre.difference_preserves_period (f : ℕ → ℚ) (m : ℕ) (hp : ∀ (n : ℕ), f (n + m) = f n) (n : ℕ) :
+  fwdDiff 1 f (n + m) = fwdDiff 1 f n
+info: AuditFinalQP01.lean:331:0: 'PartitionLaguerre.difference_preserves_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:332:0: PartitionLaguerre.iterated_difference_preserves_period (f : ℕ → ℚ) (m h : ℕ) (hp : ∀ (n : ℕ), f (n + m) = f n) (n : ℕ) :
+  (fwdDiff 1)^[h] f (n + m) = (fwdDiff 1)^[h] f n
+info: AuditFinalQP01.lean:333:0: 'PartitionLaguerre.iterated_difference_preserves_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:334:0: PartitionLaguerre.periodic_difference_zero_mean (f : ℕ → ℚ) (m : ℕ) (hp : ∀ (n : ℕ), f (n + m) = f n) :
+  ∑ n ∈ Finset.range m, fwdDiff 1 f n = 0
+info: AuditFinalQP01.lean:335:0: 'PartitionLaguerre.periodic_difference_zero_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:336:0: PartitionLaguerre.periodic_iterated_difference_zero_mean (f : ℕ → ℚ) (m h : ℕ) (hp : ∀ (n : ℕ), f (n + m) = f n) :
+  ∑ n ∈ Finset.range m, (fwdDiff 1)^[h + 1] f n = 0
+info: AuditFinalQP01.lean:337:0: 'PartitionLaguerre.periodic_iterated_difference_zero_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:338:0: PartitionLaguerre.sum_range_shift_step (f : ℕ → ℚ) (m s : ℕ) :
+  ∑ n ∈ Finset.range m, f (n + s + 1) - ∑ n ∈ Finset.range m, f (n + s) = f (m + s) - f s
+info: AuditFinalQP01.lean:339:0: 'PartitionLaguerre.sum_range_shift_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:340:0: PartitionLaguerre.periodic_sum_shift (f : ℕ → ℚ) (m s : ℕ) (hp : ∀ (n : ℕ), f (n + m) = f n) :
+  ∑ n ∈ Finset.range m, f (n + s) = ∑ n ∈ Finset.range m, f n
+info: AuditFinalQP01.lean:341:0: 'PartitionLaguerre.periodic_sum_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:342:0: PartitionLaguerre.iterated_second_difference (f : ℕ → ℚ) (h n : ℕ) :
+  (fwdDiff 1)^[h + 2] f n = (fwdDiff 1)^[h] f (n + 2) - 2 * (fwdDiff 1)^[h] f (n + 1) + (fwdDiff 1)^[h] f n
+info: AuditFinalQP01.lean:343:0: 'PartitionLaguerre.iterated_second_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:344:0: PartitionLaguerre.periodic_sequence_constant_of_second_difference (f : ℕ → ℚ) (m : ℕ) (hm : 0 < m)
+  (hp : ∀ (n : ℕ), f (n + m) = f n) (hsecond : ∀ (n : ℕ), f (n + 2) - 2 * f (n + 1) + f n = 0) (n : ℕ) : f n = f 0
+info: AuditFinalQP01.lean:345:0: 'PartitionLaguerre.periodic_sequence_constant_of_second_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AuditFinalQP01.lean:346:0: PartitionLaguerre.periodic_second_difference_unique (f g : ℕ → ℚ) (m : ℕ) (hm : 0 < m)
+  (hfp : ∀ (n : ℕ), f (n + m) = f n) (hgp : ∀ (n : ℕ), g (n + m) = g n)
+  (hsecond : ∀ (n : ℕ), f (n + 2) - 2 * f (n + 1) + f n = g (n + 2) - 2 * g (n + 1) + g n)
+  (hmean : ∑ n ∈ Finset.range m, f n = ∑ n ∈ Finset.range m, g n) : f = g
+info: AuditFinalQP01.lean:347:0: 'PartitionLaguerre.periodic_second_difference_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:348:0: PartitionLaguerre.cyclic_green_period (m n : ℕ) :
+  PartitionLaguerre.cyclicGreenSequence m (n + m) = PartitionLaguerre.cyclicGreenSequence m n
+info: AuditFinalQP01.lean:349:0: 'PartitionLaguerre.cyclic_green_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:350:0: PartitionLaguerre.rational_sum_range_first (m : ℕ) : ∑ t ∈ Finset.range m, ↑t = ↑m * (↑m - 1) / 2
+info: AuditFinalQP01.lean:351:0: 'PartitionLaguerre.rational_sum_range_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:352:0: PartitionLaguerre.rational_sum_range_second (m : ℕ) : ∑ t ∈ Finset.range m, ↑t ^ 2 = ↑m * (↑m - 1) * (2 * ↑m - 1) / 6
+info: AuditFinalQP01.lean:353:0: 'PartitionLaguerre.rational_sum_range_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:354:0: PartitionLaguerre.cyclic_green_zero_mean (m : ℕ) (hm : 0 < m) :
+  ∑ t ∈ Finset.range m, PartitionLaguerre.cyclicGreenValue m t = 0
+info: AuditFinalQP01.lean:355:0: 'PartitionLaguerre.cyclic_green_zero_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:356:0: PartitionLaguerre.cyclic_green_sequence_zero_mean (m : ℕ) (hm : 0 < m) :
+  ∑ t ∈ Finset.range m, PartitionLaguerre.cyclicGreenSequence m t = 0
+info: AuditFinalQP01.lean:357:0: 'PartitionLaguerre.cyclic_green_sequence_zero_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:358:0: PartitionLaguerre.cyclic_green_second_difference (m n : ℕ) (hm : 2 ≤ m) :
+  PartitionLaguerre.cyclicGreenSequence m (n + 2) - 2 * PartitionLaguerre.cyclicGreenSequence m (n + 1) +
+      PartitionLaguerre.cyclicGreenSequence m n =
+    (if m ∣ n + 1 then 1 else 0) - 1 / ↑m
+info: AuditFinalQP01.lean:359:0: 'PartitionLaguerre.cyclic_green_second_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:360:0: PartitionLaguerre.iterated_difference_linear_product (b : ℕ → ℚ) (c : ℚ) (q n : ℕ) :
+  (fwdDiff 1)^[q + 1] (fun t => (↑t + c) * b t) n =
+    (↑n + c) * (fwdDiff 1)^[q + 1] b n + (↑q + 1) * (fwdDiff 1)^[q] b (n + 1)
+info: AuditFinalQP01.lean:361:0: 'PartitionLaguerre.iterated_difference_linear_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:362:0: PartitionLaguerre.iterated_difference_square_product (b : ℕ → ℚ) (c : ℚ) (q n : ℕ) :
+  (fwdDiff 1)^[q + 2] (fun t => (↑t + c) ^ 2 * b t) n =
+    (↑n + c) ^ 2 * (fwdDiff 1)^[q + 2] b n + (↑q + 2) * (2 * (↑n + c) + 1) * (fwdDiff 1)^[q + 1] b (n + 1) +
+      (↑q + 2) * (↑q + 1) * (fwdDiff 1)^[q] b (n + 2)
+info: AuditFinalQP01.lean:363:0: 'PartitionLaguerre.iterated_difference_square_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:364:0: PartitionLaguerre.critical_centered_second_formula (d m r : ℕ) (hd : 2 ≤ d) (hm : 2 ≤ m) (ho : Odd d)
+  (hr : m ∣ r + 2 * d) :
+  (PartitionLaguerre.criticalCenteredTransform d m r).coeff (2 * d - 2) =
+    PartitionLaguerre.betaExpressionQ (↑d) (↑m) (1 / (↑m * ↑(2 * d).factorial)) ↑(2 * d).factorial ↑d.centralBinom
+info: AuditFinalQP01.lean:365:0: 'PartitionLaguerre.critical_centered_second_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:366:0: PartitionLaguerre.critical_second_coefficient_eq_beta (d r : ℕ) (hd : 2 ≤ d) (ho : Odd d)
+  (hr : PartitionLaguerre.criticalIndex d ∣ r + 2 * d) :
+  (PartitionLaguerre.criticalCenteredTransform d (PartitionLaguerre.criticalIndex d) r).coeff (2 * d - 2) =
+    PartitionLaguerre.criticalBetaQ d
+info: AuditFinalQP01.lean:367:0: 'PartitionLaguerre.critical_second_coefficient_eq_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:368:0: PartitionLaguerre.main_classification_proved : PartitionLaguerre.mainClassification
+info: AuditFinalQP01.lean:369:0: 'PartitionLaguerre.main_classification_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:370:0: PartitionLaguerre.centered_pochhammer_data (q : ℕ) :
+  (PartitionLaguerre.centeredPochhammer q).natDegree = q + 2 ∧
+    (PartitionLaguerre.centeredPochhammer q).leadingCoeff = 1 ∧
+      (PartitionLaguerre.centeredPochhammer q).coeff q = -(↑q + 2) * (↑q + 1) * (↑q + 3) / 24
+info: AuditFinalQP01.lean:371:0: 'PartitionLaguerre.centered_pochhammer_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:372:0: PartitionLaguerre.centered_pochhammer_even (d : ℕ) :
+  (PartitionLaguerre.centeredPochhammer (2 * d)).comp (Polynomial.C (-1) * Polynomial.X) =
+    PartitionLaguerre.centeredPochhammer (2 * d)
+info: AuditFinalQP01.lean:373:0: 'PartitionLaguerre.centered_pochhammer_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:374:0: PartitionLaguerre.centered_pochhammer_next_zero (d : ℕ) :
+  (PartitionLaguerre.centeredPochhammer (2 * d)).coeff (2 * d + 1) = 0
+info: AuditFinalQP01.lean:375:0: 'PartitionLaguerre.centered_pochhammer_next_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:376:0: PartitionLaguerre.next_moment_residual_degree (d : ℕ) (hd : 1 ≤ d) :
+  (PartitionLaguerre.nextMomentResidual d).natDegree < 2 * d
+info: AuditFinalQP01.lean:377:0: 'PartitionLaguerre.next_moment_residual_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:378:0: PartitionLaguerre.centered_pochhammer_weighted_value (d : ℕ) :
+  ∑ k ∈ Finset.range (2 * d + 1),
+      PartitionLaguerre.laguerreWeight d k * Polynomial.eval (↑k - ↑d) (PartitionLaguerre.centeredPochhammer (2 * d)) =
+    (-1) ^ d * (-↑(2 * d + 2).factorial / 8)
+info: AuditFinalQP01.lean:379:0: 'PartitionLaguerre.centered_pochhammer_weighted_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:380:0: PartitionLaguerre.laguerre_moment_next_even (d : ℕ) (hd : 1 ≤ d) :
+  PartitionLaguerre.laguerreMoment d (2 * d + 2) = (-1) ^ d * ↑(2 * d + 2).factorial * ↑d / 12
+info: AuditFinalQP01.lean:381:0: 'PartitionLaguerre.laguerre_moment_next_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:382:0: PartitionLaguerre.desc_pochhammer_difference (k : ℕ) :
+  (fwdDiff 1 fun x => Polynomial.eval x (descPochhammer ℚ (k + 1))) =
+    (↑k + 1) • fun x => Polynomial.eval x (descPochhammer ℚ k)
+info: AuditFinalQP01.lean:383:0: 'PartitionLaguerre.desc_pochhammer_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:384:0: PartitionLaguerre.desc_pochhammer_iterated_difference (j q : ℕ) :
+  ((fwdDiff 1)^[q] fun x => Polynomial.eval x (descPochhammer ℚ (j + q))) =
+    (↑(j + q).factorial / ↑j.factorial) • fun x => Polynomial.eval x (descPochhammer ℚ j)
+info: AuditFinalQP01.lean:385:0: 'PartitionLaguerre.desc_pochhammer_iterated_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:386:0: PartitionLaguerre.shift_polynomial_coefficient (P : Polynomial ℚ) (c : ℚ) (h : ℕ) :
+  (P.comp (Polynomial.X + Polynomial.C c)).coeff h =
+    ∑ i ∈ Finset.range (P.natDegree + 1), P.coeff i * (c ^ (i - h) * ↑(i.choose h))
+info: AuditFinalQP01.lean:387:0: 'PartitionLaguerre.shift_polynomial_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:388:0: PartitionLaguerre.desc_pochhammer_next_coefficient (k : ℕ) : (descPochhammer ℚ k).nextCoeff = -↑k * (↑k - 1) / 2
+info: AuditFinalQP01.lean:389:0: 'PartitionLaguerre.desc_pochhammer_next_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:390:0: PartitionLaguerre.desc_pochhammer_next_at (k : ℕ) : (descPochhammer ℚ (k + 1)).coeff k = -(↑k + 1) * ↑k / 2
+info: AuditFinalQP01.lean:391:0: 'PartitionLaguerre.desc_pochhammer_next_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:392:0: PartitionLaguerre.desc_pochhammer_second_at (k : ℕ) :
+  (descPochhammer ℚ (k + 2)).coeff k = (↑k + 2) * (↑k + 1) * ↑k * (3 * ↑k + 5) / 24
+info: AuditFinalQP01.lean:393:0: 'PartitionLaguerre.desc_pochhammer_second_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:394:0: PartitionLaguerre.cast_choose_add_one (k : ℕ) : ↑((k + 1).choose k) = ↑k + 1
+info: AuditFinalQP01.lean:395:0: 'PartitionLaguerre.cast_choose_add_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:396:0: PartitionLaguerre.cast_choose_add_two (k : ℕ) : ↑((k + 2).choose k) = (↑k + 2) * (↑k + 1) / 2
+info: AuditFinalQP01.lean:397:0: 'PartitionLaguerre.cast_choose_add_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:398:0: PartitionLaguerre.cast_choose_add_three (k : ℕ) : ↑((k + 3).choose k) = (↑k + 3) * (↑k + 2) * (↑k + 1) / 6
+info: AuditFinalQP01.lean:399:0: 'PartitionLaguerre.cast_choose_add_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:400:0: PartitionLaguerre.shift_coefficient_prefix_zero (P : Polynomial ℚ) (c : ℚ) (k : ℕ) :
+  ∑ i ∈ Finset.range k, P.coeff i * (c ^ (i - k) * ↑(i.choose k)) = 0
+info: AuditFinalQP01.lean:401:0: 'PartitionLaguerre.shift_coefficient_prefix_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:402:0: PartitionLaguerre.shift_coefficient_two_below (P : Polynomial ℚ) (k : ℕ) (c : ℚ) (hP : P.natDegree = k + 2) :
+  (P.comp (Polynomial.X + Polynomial.C c)).coeff k =
+    P.coeff k + (↑k + 1) * c * P.coeff (k + 1) + (↑k + 2) * (↑k + 1) / 2 * c ^ 2 * P.leadingCoeff
+info: AuditFinalQP01.lean:403:0: 'PartitionLaguerre.shift_coefficient_two_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:404:0: PartitionLaguerre.symmetric_shift_third_coefficient (P : Polynomial ℚ) (k : ℕ) (c : ℚ) (hP : P.natDegree = k + 3) :
+  (P.comp (Polynomial.X + Polynomial.C c) - P.comp (Polynomial.X + Polynomial.C (-c))).coeff k =
+    2 * c * (↑k + 1) * P.coeff (k + 1) + c ^ 3 / 3 * (↑k + 3) * (↑k + 2) * (↑k + 1) * P.leadingCoeff
+info: AuditFinalQP01.lean:405:0: 'PartitionLaguerre.symmetric_shift_third_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AuditFinalQP01.lean:406:0: def PartitionLaguerre.mainClassification : Prop :=
+∀ (d m : ℕ),
+  2 ≤ d →
+    2 ≤ m →
+      (PartitionLaguerre.eventualPositiveThrough d (PartitionLaguerre.partitionCount d m) ↔
+        Even d ∨ Odd d ∧ m ≤ PartitionLaguerre.criticalIndex d)
+info: AuditFinalQP01.lean:407:0: def PartitionLaguerre.aboveThresholdFailure : Prop :=
+∀ (d m : ℕ),
+  2 ≤ d →
+    2 ≤ m →
+      Odd d →
+        PartitionLaguerre.criticalIndex d < m →
+          ∃ N,
+            ∀ (n : ℕ), N ≤ n → m ∣ n + 2 * d → PartitionLaguerre.laguerre d (PartitionLaguerre.partitionCount d m) n < 0
+Build completed successfully (2478 jobs).

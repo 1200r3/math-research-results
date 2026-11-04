@@ -1,0 +1,47 @@
+{
+  "checked_entire_claim": true,
+  "checked_scope": [
+    "完整原目标 mainClassification 与 aboveThresholdFailure 的两个无条件命名证明、原Prop直接填充、实际分拆模型、所有正负与奇数临界分支、有限显式尾界的形式连接。",
+    "47个项目Lean模块的实际干净构建；两个目标公理、454次全部公理报告及leanchecker --fresh AuditFinalQP01实际成功记录。",
+    "Lean 4.35.0、Mathlib及八项传递依赖锁；缓存适配器真实argv、9971个依赖源字节的独立重哈希、27147个对象部分运行前后稳定性证据。",
+    "557份请求材料哈希及全部三次execution-checks目录摘要、日志和作业回执；最新成功CHECK-a647218bbe7d06bb2a9763db。"
+  ],
+  "context_id": "qp01-public-formal-context-20261105",
+  "decision": "PASS",
+  "execution_records": [
+    {
+      "check_id": "CHECK-996ed227a0209df1317f89a1",
+      "passed": false,
+      "record_sha256": "3d3f0efffa0c382f15d94871411637eb1fede809d4eaf5cb5587b3e7fc8a1c98"
+    },
+    {
+      "check_id": "CHECK-87cc39fb9925fa71c554f407",
+      "passed": false,
+      "record_sha256": "7cc19187be7851bfaf6138637043404135b489e482120cc47bd933b238814a92"
+    },
+    {
+      "check_id": "CHECK-a647218bbe7d06bb2a9763db",
+      "passed": true,
+      "record_sha256": "253da5d126f12dcda4bafbc050204272264d6237b1b3597d4a67defd14ec032b"
+    }
+  ],
+  "findings": [
+    {"id":"FA-01","status":"PASS","location":"request.json; execution-checks/*","detail":"全部材料及原生执行目录摘要匹配；旧网络失败和依赖构建超时完整保留，最新完整成功实际消解环境障碍。"},
+    {"id":"FA-02","status":"PASS","location":"lean/TargetStatements.lean; lean/MainClassification.lean; lean/ConcreteLeadingCoefficient.lean; lean/AuditFinalQP01.lean:49","detail":"两项完整原Prop均由无条件定理填充；实际分拆表示、临界下一系数和统一显式界均已连接，无新增未证假设。"},
+    {"id":"FA-03","status":"PASS","location":"CHECK-a647218bbe7d06bb2a9763db/step-1.log, step-2.log, step-3.log.result.json","detail":"47模块实际Built，两个最终目标均仅依赖允许的三公理；鲜环境内核重放退出0且未超时。123条警告为维护提示，不是证明缺口。"},
+    {"id":"FA-04","status":"PASS_WITH_LIMITATION","location":"CHECK-a647218bbe7d06bb2a9763db/collector-dependency-adapter.py; dependency-source-verification.json; dependency-object-stability.json","detail":"适配器保持原collector三步与成功判定；已修复checker路径匹配及完整olean parts稳定性检查。第三方缓存源精确锁定并核验，27147对象部分稳定；不能宣称Mathlib全部源码冷构建。"}
+  ],
+  "fresh_context": true,
+  "kind": "formal_audit",
+  "limitations": [
+    "本上下文独立于作者与statement审稿者；同一上下文的前期静态准备不另计审稿。模型登记UNKNOWN。",
+    "第三方依赖复用历史本机缓存，以--packages --old --no-cache显式留档；本次未全部从源码重建Mathlib。源码逐项核验、对象稳定性及fresh重放不构成一般的独立编译等价证明。",
+    "leanchecker为Lean自身内核重放，不是独立实现的外部内核；依赖受信任本机Lean 4.35.0工具链。",
+    "本次为formal_audit，不是查新或全球优先权认证、独立纸面全推导或双盲read-back；不宣称逐字形式化纸面全部展示公式、任意分拆族或d=1。"
+  ],
+  "manifest_sha256": "45f5f6a50e07a5dca44e0bf9eda779b9fc63632186ca3f5f3c22110e1725246f",
+  "model": "UNKNOWN",
+  "open_issues": [],
+  "request_id": "REQ-ec89d9e89db72575d3726958",
+  "reviewer": "qp01-public-formal-auditor"
+}

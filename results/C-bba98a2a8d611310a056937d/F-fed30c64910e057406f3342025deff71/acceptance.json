@@ -1,0 +1,11 @@
+{
+  "claim_id": "C-bba98a2a8d611310a056937d",
+  "dependencies": [],
+  "fixed_id": "F-fed30c64910e057406f3342025deff71",
+  "kind": "main",
+  "license": "MIT AND CC-BY-4.0",
+  "revision": 1,
+  "source_package_sha256": "45f5f6a50e07a5dca44e0bf9eda779b9fc63632186ca3f5f3c22110e1725246f",
+  "title": "QP01：指定分拆族的离散 Laguerre 不等式最终严格正性分类",
+  "validation_track": "formal"
+}

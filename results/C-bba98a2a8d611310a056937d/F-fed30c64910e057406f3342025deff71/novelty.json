@@ -1,0 +1,43 @@
+{
+  "as_of": "2026-10-29T20:23:28.949284+08:00",
+  "closest_results": [
+    {
+      "doi": "10.1007/s40993-024-00532-7",
+      "locations": [
+        "Theorems 4.3-4.4",
+        "Examples 4.5-4.6",
+        "Problem 5.6"
+      ],
+      "relation": "known sufficient criteria, smooth leading coefficient, periodic examples and d2 m300 special case; full A/B/C not identified"
+    }
+  ],
+  "open_source_check": "actual_source_and_issue_read; native_search_and_discussions_incomplete",
+  "searches": [
+    "evidence/qp01-verification/web1-search-results.json",
+    "evidence/qp01-verification/web3-search-results.json",
+    "evidence/qp01-verification/web4-search-results.json",
+    "evidence/qp01-verification/web5-results.json",
+    "evidence/qp01-verification/web6-results.json",
+    "evidence/qp01-verification/web7-results.json",
+    "evidence/qp01-verification/web8-results.json",
+    "evidence/qp01-verification/web9-results.json",
+    "evidence/qp01-verification/web10-results.json",
+    "evidence/qp01-verification/web11-results.json",
+    "evidence/qp01-verification/web12-results.json"
+  ],
+  "status": "partial_known",
+  "unavailable_channels": [
+    "full forward citation coverage",
+    "MathSciNet authorization",
+    "Acta2025 final full text",
+    "native GitHub code search and some Issues/PR/Discussions",
+    "unindexed or private proofs"
+  ],
+  "global_priority": "unclear",
+  "report": "research/NOVELTY_RECHECK_QP01.md",
+  "formalization_update": {
+    "as_of": "2026-10-30T04:19:56.159889+08:00",
+    "both_targets_proved": true,
+    "effect_on_priority": "none; partial_known and global priority unclear unchanged"
+  }
+}

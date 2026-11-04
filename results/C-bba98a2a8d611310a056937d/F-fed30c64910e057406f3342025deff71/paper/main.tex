@@ -1,0 +1,532 @@
+\documentclass[11pt,reqno]{amsart}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amssymb,mathtools,booktabs}
+\usepackage[margin=1in]{geometry}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\Lag}{\mathcal{T}}
+\newcommand{\cenLag}{\mathcal{H}}
+\newcommand{\Dlt}{\Delta}
+\newcommand{\ind}{\mathbf{1}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\CC}{\mathbb{C}}
+\title{Discrete Laguerre inequalities for a colored partition family}
+\author{1200}
+\date{30 October 2026; public-release preparation}
+\subjclass[2020]{Primary 05A17, 05A20; Secondary 11P82}
+\keywords{restricted partitions, discrete Laguerre inequality, quasi-polynomial, periodic coefficient}
+\begin{document}
+\begin{abstract}
+For integers \(d\ge2\) and \(m\ge2\), let \(p_{d,m}(n)\) be the coefficient of
+\((1-z)^{-2d}(1-z^m)^{-1}\). We determine exactly when all discrete Laguerre
+inequalities of orders at most \(d\) for this sequence hold strictly for all
+sufficiently large indices. This occurs for every \(m\) when \(d\) is even,
+and precisely for \(m\le 1+\frac12\binom{2d}{d}\) when \(d\) is odd.
+Above the latter threshold, the order-\(d\) transform is eventually negative
+on a specified residue class. At equality, its leading term vanishes on that
+class; we compute a positive term two degrees lower. The argument gives a
+cyclic-difference formula for the boundary coefficient of the order-\(d\)
+transform of exact quasi-polynomials whose coefficients above degree
+\(\ell-2d\) are constant. Rational residue polynomials provide explicit,
+parameter-dependent thresholds and independently checkable sign certificates.
+\end{abstract}
+\maketitle
+
+\section{Introduction}
+
+For a real sequence \(f=(f(n))_{n\ge0}\), define its discrete Laguerre transform
+of order \(d\ge1\) by
+\begin{equation}\label{eq:lag}
+ \Lag_d(f)(n)=
+ \sum_{j=0}^{2d}(-1)^{j+d}\binom{2d}{j}f(n+j)f(n+2d-j).
+\end{equation}
+The corresponding inequality is \(\Lag_d(f)(n)\ge0\). In order one this is
+twice the usual adjacent log-concavity difference, with a shift of the index.
+We distinguish non-strict inequalities from eventual strict positivity.
+
+Gajdzica proved sufficient conditions under which quasi-polynomial-like
+functions satisfy discrete Laguerre inequalities
+\cite[Theorems 4.3--4.4]{Gajdzica_2024}.
+His criterion requires the relevant upper coefficients to be constant.
+Examples 4.5--4.6 of that article demonstrate that this condition is not
+necessary; the latter example treats a multiset with four ones and one part
+of size \(300\). Problem 5.6 asks for more effective criteria.
+The present paper studies the first periodic coefficient and gives a complete
+eventual classification for the family
+\begin{equation}\label{eq:gf}
+ \sum_{n\ge0}p_{d,m}(n)z^n=\frac{1}{(1-z)^{2d}(1-z^m)}.
+\end{equation}
+Here the \(2d\) parts of size one have distinct colors. The smooth asymptotic
+coefficient from the earlier criterion and the isolated example just
+mentioned are existing results. Our principal contribution is the
+all-parameter classification, including the odd critical case.
+
+\begin{theorem}\label{thm:main}
+Let \(d\ge2\) and \(m\ge2\) be integers. There is an explicitly computable
+integer \(N(d,m)\) such that
+\[
+ \Lag_j(p_{d,m})(n)>0
+ \qquad(1\le j\le d,\ n\ge N(d,m))
+\]
+if and only if either \(d\) is even, or \(d\) is odd and
+\begin{equation}\label{eq:cutoff}
+ m\le 1+\frac12\binom{2d}{d}.
+\end{equation}
+If \(d\) is odd and \eqref{eq:cutoff} fails, then
+\(\Lag_d(p_{d,m})(n)<0\) for every sufficiently large integer \(n\) satisfying
+\(m\mid n+2d\). Explicit thresholds are supplied by the finite coefficient
+formulas in Sections \ref{sec:cert} and \ref{sec:partition}.
+\end{theorem}
+
+The bound depends on the fixed parameters \(d,m\); no bound independent of
+both parameters is asserted. A few consequences illustrate the parity
+distinction:
+\begin{center}
+\begin{tabular}{ccc}
+\toprule
+Order \(d\) & Allowed \(m\) for eventual strict positivity & Critical value\\
+\midrule
+\(2\) & every \(m\ge2\) & none\\
+\(3\) & \(2\le m\le11\) & \(11\)\\
+\(4\) & every \(m\ge2\) & none\\
+\(5\) & \(2\le m\le127\) & \(127\)\\
+\bottomrule
+\end{tabular}
+\end{center}
+These entries are consequences of the theorem, rather than a finite-search
+claim.
+
+We work with exact quasi-polynomials. This is a specified subclass of the
+broader functions in the source problem: an arbitrary unspecified
+little-\(o\) remainder does not provide an explicit error modulus.
+We do not claim a classification for all restricted partition multisets
+or for arbitrary periodic upper coefficients.
+
+\section{The first periodic coefficient}\label{sec:boundary}
+
+A quasi-polynomial of period \(M\ge1\) is specified by polynomials
+\(f_0(X),\ldots,f_{M-1}(X)\), with \(f(n)=f_r(n)\) when \(n\equiv r\pmod M\).
+For a periodic vector \(b\), all its arguments are understood modulo \(M\).
+Put
+\[
+ \Dlt b(t)=2b(t)-b(t-1)-b(t+1).
+\]
+It is useful to center \eqref{eq:lag}:
+\[
+ \cenLag_d(f)(t)=\sum_{j=-d}^{d}w_jf(t+j)f(t-j),
+ \qquad w_j=(-1)^j\binom{2d}{d+j}.
+\]
+Then \(\Lag_d(f)(n)=\cenLag_d(f)(n+d)\), and \(w_j=w_{-j}\).
+
+\begin{lemma}\label{lem:moment}
+For the preceding weights,
+\[
+ \sum_{j=-d}^{d}w_jj^k=0\quad(0\le k<2d),
+ \qquad
+ \sum_{j=-d}^{d}w_jj^{2d}=(-1)^d(2d)!.
+\]
+Moreover, \(\sum_jw_jb(t+j)=\Dlt^db(t)\).
+\end{lemma}
+\begin{proof}
+The finite binomial identities
+\[
+ \sum_j w_jz^j=(2-z-z^{-1})^d,\qquad
+ \sum_jw_je^{jv}=(2-2\cosh v)^d
+\]
+give the cyclic-shift formula and the required moments. Indeed, the second
+expression has expansion \((-1)^dv^{2d}+O(v^{2d+2})\) as a formal power series.
+\end{proof}
+
+\begin{theorem}\label{thm:boundary}
+Let \(d\ge1\), \(\ell\ge2d\), and let \(P\) be a real polynomial of degree
+\(\ell\) and leading coefficient \(a>0\). Suppose
+\[
+ f_r(X)=P(X)+b_rX^{\ell-2d}+Q_r(X),\qquad
+ \deg Q_r\le\ell-2d-1.
+\]
+When \(\ell=2d\), the last condition means \(Q_r=0\).
+The residue polynomial of \(\Lag_d(f)\) has degree at most \(2\ell-2d\);
+its coefficient at this degree on residue \(r\) is
+\begin{equation}\label{eq:gamma}
+ \gamma_r=(2d)!\binom{\ell}{d}a^2+2a\Dlt^db(r+d).
+\end{equation}
+For \(1\le j<d\), the residue polynomials of \(\Lag_j(f)\) have degree
+\(2\ell-2j\) and positive, residue-independent leading coefficient
+\((2j)!\binom{\ell}{j}a^2\).
+\end{theorem}
+\begin{proof}
+The coefficient of \(t^k\) in \(P(t+j)P(t-j)\) has degree at most
+\(2\ell-k\) as a polynomial in \(j\). Lemma \ref{lem:moment} therefore
+annihilates the terms with \(k>2\ell-2d\). At equality, any term involving
+a lower-degree monomial of \(P\) still has \(j\)-degree less than \(2d\).
+The leading monomials give
+\[
+ a^2(t+j)^\ell(t-j)^\ell=a^2(t^2-j^2)^\ell.
+\]
+The coefficient of \(t^{2\ell-2d}\) before weighted summation is
+\(a^2(-1)^d\binom{\ell}{d}j^{2d}\). This yields the first term of
+\eqref{eq:gamma}.
+
+Write \(R=f-P\). On a fixed residue of \(t\), the leading term of
+\(R(t+j)\) is \(b(t+j)t^{\ell-2d}\). The cross terms contribute
+\[
+ a\sum_jw_j\bigl(b(t+j)+b(t-j)\bigr)=2a\Dlt^db(t)
+\]
+at degree \(2\ell-2d\). Products of two \(R\) terms have degree at most
+\(2\ell-4d\), and terms involving \(Q_r\) contribute below \(2\ell-2d\).
+The translation \(t=n+d\) preserves the highest possible coefficient and
+gives the residue shift in \eqref{eq:gamma}.
+For \(j<d\), the periodic term is below the boundary degree for order \(j\);
+the same argument gives the last assertion.
+\end{proof}
+
+If all \(\gamma_r\) are positive, the order-\(d\) transform is eventually
+strictly positive. A negative \(\gamma_r\) gives infinitely many failures.
+A zero \(\gamma_r\) supplies no conclusion without lower coefficients.
+The latter distinction is essential in the proof of Theorem \ref{thm:main}.
+
+\section{Explicit bounds and residue certificates}\label{sec:cert}
+
+For a nonzero polynomial \(h(X)=c_kX^k+\cdots+c_0\), define
+\begin{equation}\label{eq:bound}
+ B(h)=1+\left\lceil
+       \frac{\sum_{i=0}^{k-1}|c_i|}{|c_k|}
+       \right\rceil.
+\end{equation}
+The sum is empty for a constant polynomial.
+
+\begin{lemma}\label{lem:bound}
+For every real \(X\ge B(h)\), \(h(X)\) has the sign of \(c_k\).
+\end{lemma}
+\begin{proof}
+The constant case is immediate. Otherwise put \(S=\sum_{i<k}|c_i|\).
+Since \(X\ge1\), the absolute value of the lower-degree part is at most
+\(SX^{k-1}\). But \(X>S/|c_k|\), so the leading monomial strictly dominates.
+\end{proof}
+
+For exact rational input, the transform on residue \(r\) is the explicitly
+known rational polynomial
+\begin{equation}\label{eq:residue}
+ h_{d,r}(X)=\sum_{j=0}^{2d}(-1)^{j+d}\binom{2d}{j}
+ f_{r+j}(X+j)f_{r+2d-j}(X+2d-j).
+\end{equation}
+The residue subscripts are reduced modulo \(M\). A zero polynomial has
+sign zero throughout that residue; every nonzero polynomial has the eventual
+sign of its leading nonzero coefficient. For one order a common bound is
+\[
+ N=\max\bigl(\{1\}\cup\{B(h_{d,r}):h_{d,r}\ne0\}\bigr).
+\]
+For orders \(1,\ldots,d\), take the same maximum over the order as well.
+This convention gives \(N=1\) even if all output polynomials vanish.
+Zero polynomials never count as strictly positive.
+
+Thus an exact certificate consists of input coefficient vectors, the vectors
+in \eqref{eq:residue}, their actual leading signs, and the integer bounds
+\eqref{eq:bound}. Rational arithmetic checks all identities and inequalities.
+This elementary polynomial-sign mechanism is used for effectivity; it is
+not itself presented as a new general principle.
+
+\section{Exact decomposition of the partition family}\label{sec:partition}
+
+Fix \(q=2d\) and \(m\ge2\). From \eqref{eq:gf},
+\begin{equation}\label{eq:direct}
+ p_{d,m}(n)=\sum_{v=0}^{\lfloor n/m\rfloor}
+               \binom{n-mv+q-1}{q-1}.
+\end{equation}
+Set \(u_0=1/m\), and recursively define
+\begin{equation}\label{eq:u}
+ u_h=-\frac1m\sum_{k=1}^{\min(h,m-1)}
+             (-1)^k\binom{m}{k+1}u_{h-k}
+       \qquad(1\le h\le q).
+\end{equation}
+Let
+\begin{equation}\label{eq:P}
+ P(X)=\sum_{h=0}^qu_h\binom{X+q-h}{q-h},
+ \qquad
+ b_r=\binom{r+q-1}{q-1}-P(r)\quad(0\le r<m).
+\end{equation}
+Binomial expressions in \(X\) denote their polynomial expansions.
+
+\begin{lemma}\label{lem:partition}
+For every \(n\ge0\), \(p_{d,m}(n)=P(n)+b(n)\), where \(b\) is the periodic
+extension of the vector in \eqref{eq:P}. The leading coefficient of \(P\) is
+\begin{equation}\label{eq:a}
+ a=\frac1{mq!}.
+\end{equation}
+Furthermore,
+\begin{equation}\label{eq:bdiff}
+ \Dlt^db(t)=\frac{(-1)^d}{m}
+       \bigl(m\ind_{\{m\mid t+d\}}-1\bigr).
+\end{equation}
+\end{lemma}
+\begin{proof}
+Write \(S_m(z)=1+z+\cdots+z^{m-1}\). Its expansion at \(z=1\) is
+\[
+ S_m(1-y)=\sum_{k=0}^{m-1}(-1)^k\binom{m}{k+1}y^k.
+\]
+Thus \eqref{eq:u} gives the first \(q+1\) coefficients of its reciprocal.
+The principal part of
+\((1-z)^{-q-1}/S_m(z)\) at \(z=1\) is
+\(\sum_{h=0}^qu_h(1-z)^{-q-1+h}\). Its coefficients give \(P\) and
+\eqref{eq:a}.
+
+At every nontrivial \(m\)th root of unity \(\zeta\), the remaining pole is
+simple. Multiplication by \(1-z/\zeta\) and passage to the limit gives the
+partial-fraction term
+\[
+ \frac{1}{m(1-\zeta)^q}\frac{1}{1-z/\zeta}.
+\]
+These terms account for all poles. Both sides are proper rational functions,
+so their difference has no polynomial remainder. Hence
+\begin{equation}\label{eq:broot}
+ b(t)=\frac1m\sum_{\substack{\zeta^m=1\\\zeta\ne1}}
+                 \frac{\zeta^{-t}}{(1-\zeta)^q}.
+\end{equation}
+This is periodic. When \(0\le r<m\), only \(v=0\) occurs in \eqref{eq:direct},
+which verifies the rational formula for \(b_r\) in \eqref{eq:P}.
+
+The cyclic difference acts on \(\zeta^{-t}\) by the multiplier
+\[
+ 2-\zeta-\zeta^{-1}=-\frac{(1-\zeta)^2}{\zeta}.
+\]
+Raising this to \(d\) cancels the denominator in \eqref{eq:broot}, since
+\(q=2d\). The sum of all \(m\)th roots raised to an integer power is \(m\)
+if the power is divisible by \(m\), and zero otherwise. Removing the root
+one proves \eqref{eq:bdiff}.
+\end{proof}
+
+Combining Theorem \ref{thm:boundary} and Lemma \ref{lem:partition}, the
+coefficient of \(n^{2d}\) in the forward transform is
+\begin{equation}\label{eq:familygamma}
+ \frac{\binom{2d}{d}
+       +2(-1)^d\bigl(m\ind_{\{m\mid n+2d\}}-1\bigr)}
+      {m^2(2d)!}.
+\end{equation}
+All lower-order transforms have positive leading coefficients.
+
+\section{The critical odd case}\label{sec:critical}
+
+For even \(d\ge2\), the two numerators in \eqref{eq:familygamma} are
+\(\binom{2d}{d}-2\) and \(\binom{2d}{d}+2(m-1)\), both positive.
+For odd \(d\), the only potentially nonpositive numerator is
+\(\binom{2d}{d}-2(m-1)\), on \(m\mid n+2d\).
+This settles every case except
+\begin{equation}\label{eq:critical}
+ d\ge3\text{ odd},\qquad C=\binom{2d}{d},\qquad m=1+C/2.
+\end{equation}
+The parameter is an integer because \(C=2\binom{2d-1}{d-1}\).
+
+Put \(q=2d\), \(\sigma=(q+m)/2\), and \(x=t+\sigma\). The polynomial part
+has the centered expansion
+\begin{equation}\label{eq:centerP}
+ P(t)=ax^q+cx^{q-2}+O(x^{q-4}),\qquad
+ c=-\frac{a q(q-1)(q+m^2)}{24}.
+\end{equation}
+Here and below the \(O\) notation in polynomial identities means a polynomial
+of at most the indicated degree; no effective estimate is hidden in it.
+To verify \eqref{eq:centerP}, write \(P(t)\) as minus the residue at \(z=1\)
+of the generating function multiplied by \(z^{-t-1}\), and substitute
+\(z=e^{-v}\). Formal residue invariance gives
+\[
+ P(t)=\frac1m[v^q]e^{(t+\sigma)v}
+       \left(\frac{v}{2\sinh(v/2)}\right)^q
+       \frac{mv}{2\sinh(mv/2)}.
+\]
+The product after the exponential is even and equals
+\(1-(q+m^2)v^2/24+O(v^4)\), proving \eqref{eq:centerP}.
+
+On a residue with \(m\mid t+d\), put
+\[
+ B_k=\sum_{j=-d}^{d}w_jj^k b(t+j).
+\]
+We require its first three moments:
+\begin{equation}\label{eq:B}
+ B_0=-\frac{m-1}{m},\qquad B_1=0,\qquad
+ B_2=\frac{m-1}{m}
+       \left(-d^2+\frac{d(2d-1)(m+1)}6\right).
+\end{equation}
+The first formula follows from \eqref{eq:bdiff}.
+For the others, set
+\(S(z)=(2-z-z^{-1})^d=(-1)^d(1-z)^qz^{-d}\) and
+\(D=z\,d/dz\). Direct differentiation gives
+\begin{equation}\label{eq:derivatives}
+ \frac{DS}{S}=-d\frac{1+z}{1-z},
+ \qquad
+ \frac{D^2S}{S}=d^2+(4d^2-2d)\frac{z}{(1-z)^2}.
+\end{equation}
+In \eqref{eq:broot}, the critical residue has \(\zeta^{-t}=\zeta^d\).
+The first moment is therefore a constant multiple of
+\(\sum_{\zeta\ne1}(1+\zeta)/(1-\zeta)=0\), by pairing inverse roots.
+The self-inverse root \(-1\), if present, contributes zero.
+For the second moment use
+\begin{equation}\label{eq:rootsum}
+ \sum_{\substack{\zeta^m=1\\\zeta\ne1}}\frac{\zeta}{(1-\zeta)^2}
+       =-\frac{m^2-1}{12}.
+\end{equation}
+Indeed, the logarithmic derivative of \(S_m\) at \(1\) gives
+\(\sum(1-\zeta)^{-1}=(m-1)/2\) and
+\(\sum(1-\zeta)^{-2}=(m-1)(5-m)/12\); subtraction proves
+\eqref{eq:rootsum}. Equations \eqref{eq:broot} and
+\eqref{eq:derivatives} now give \eqref{eq:B}.
+The operator \(D\) acting on \(z^{-j}\) introduces \(-j\), whereas \(D^2\)
+introduces \(j^2\); this sign distinction leaves \(B_1=0\) unchanged.
+
+\begin{lemma}\label{lem:beta}
+Under \eqref{eq:critical}, on the residue class \(m\mid t+d\), the residue polynomial of
+\(\cenLag_d(p_{d,m})(t)\) has degree exactly \(q-2\), with positive leading
+coefficient
+\begin{equation}\label{eq:beta}
+ \beta=
+ \frac{a^2q!C\,d(m^2-4d^2)}{12}
+ +2a\binom q2 B_2+2cB_0.
+\end{equation}
+\end{lemma}
+\begin{proof}
+The degree-\(q\) coefficient is zero by \eqref{eq:critical}.
+There is no degree-\(q-1\) coefficient: the smooth part is even in \(x\),
+and the only possible periodic cross term at this degree is a multiple
+of \(B_1=0\).
+
+For the next coefficient, expand the moment identity one term further:
+\[
+ \sum_jw_je^{jv}=(-1)^dv^q
+                   \left(1+\frac{d}{12}v^2+O(v^4)\right).
+\]
+The \(a^2\) contribution to \(x^{q-2}\) is
+\(-a^2\binom q{d+1}(q+2)!d/12\). The mixed smooth contribution is
+\[
+ 2acq!\left(\binom{q-2}{d}-\binom{q-2}{d-1}\right).
+\]
+It follows either by direct expansion or by the identity
+\[
+ (x+j)^q(x-j)^{q-2}+(x+j)^{q-2}(x-j)^q
+       =2(x^2+j^2)(x^2-j^2)^{q-2}.
+\]
+Substitute \eqref{eq:centerP},
+\(\binom q{d+1}=Cd/(d+1)\), and
+\(\binom{q-2}{d-1}=Cd/[2(2d-1)]\).
+The two contributions reduce to the first term of \eqref{eq:beta}.
+All lower smooth terms are annihilated at this degree by
+Lemma \ref{lem:moment}. The cross terms with \(b\) contribute the remaining
+two terms in \eqref{eq:beta}; the purely periodic product has degree zero,
+which is below \(q-2\ge4\).
+
+Every displayed summand in \eqref{eq:beta} is positive.
+For \(d\ge3\),
+\[
+ C\ge\binom{2d}{2}=d(2d-1),\qquad
+ 1+\frac{d(2d-1)}2-2d=\frac{(2d-1)(d-2)}2>0.
+\]
+Thus \(m>2d\). Also \(c<0\), \(B_0<0\), and
+\[
+ (2d-1)(m+1)>(2d-1)(2d+1)=4d^2-1>6d,
+\]
+so \(B_2>0\). This proves \(\beta>0\).
+\end{proof}
+
+\begin{proof}[Proof of Theorem \ref{thm:main}]
+The noncritical cases follow from \eqref{eq:familygamma}, and
+Lemma \ref{lem:beta} resolves equality in \eqref{eq:cutoff}.
+Every lower order has a positive leading coefficient by
+Theorem \ref{thm:boundary}. Translation from \(t\) to \(n\) preserves
+each actual leading sign. Formulas \eqref{eq:u}--\eqref{eq:P} give the exact
+input residue polynomials; \eqref{eq:residue} gives each transform.
+Taking the maximum of \eqref{eq:bound} over the finitely many nonzero
+polynomials and adjoining \(1\) gives the asserted \(N(d,m)\).
+Above the cutoff, the negative leading coefficient on
+\(n\equiv-2d\pmod m\) gives the stated repeated failure, with an explicit
+bound from the same construction.
+\end{proof}
+
+\begin{remark}
+The restriction \(d\ge2\) is essential for this strict classification.
+For \(d=1,m=2\),
+\(p_{1,2}(n)=\lfloor(n+2)^2/4\rfloor\) and
+\(\Lag_1(p_{1,2})(2k)=0\),
+\(\Lag_1(p_{1,2})(2k+1)=2(k+2)^2>0\).
+For \(m\ge3\), \eqref{eq:familygamma} has a negative residue.
+\end{remark}
+
+\section{Computational and formal verification}
+
+The mathematical proofs above are algebraic and do not depend on finite
+experiments. The accompanying code generates rational residue polynomials,
+their transformed coefficient vectors, and the explicit sign bounds.
+The initial certificate set includes the critical pairs \((3,11)\) and
+\((5,127)\), the pairs immediately above and below the latter cutoff,
+and the previously known pair \((2,300)\).
+Two separate model sessions reviewed the paper argument; their single
+minor threshold-convention issue was repaired.
+
+Independent Newton interpolation from direct partition counts, followed by
+recurrence and initial-value checks, reproduces all coefficients, signs,
+and bounds in 724 partition records and 14 boundary test polynomials.
+A counterexample search covered 63 parameter pairs (all orders up to the
+specified order) and 56 rational periodic examples with a fixed seed.
+All 41,705 exact identity checks passed; point and bound checks are included
+in that total. These finite checks do not prove the infinite-parameter theorem.
+
+The Lean-verified component is the algebraic cancellation
+\[
+ \frac{(2-z-z^{-1})^d}{(1-z)^{2d}}
+       =\frac{(-1)^d}{z^d}
+ \qquad(z\in\CC\setminus\{0,1\},\ d\in\NN),
+\]
+used in \eqref{eq:bdiff}. Further checked statements establish the sign criterion
+for the explicit numerators in \eqref{eq:familygamma}, positivity of the
+expression \eqref{eq:beta}, the transformation formula \eqref{eq:residue}
+for a supplied rational residue representation, and the rational version of
+the coefficient bound \eqref{eq:bound}, including a common finite bound.
+These components pass Lake builds with Lean 4.35.0 and Mathlib and independent
+blind statement comparisons. The axiom audits report only \texttt{propext},
+\texttt{Classical.choice}, and \texttt{Quot.sound}, without admitted proofs,
+custom axioms, or \texttt{native\_decide}.
+The original targets now have author-supplied unconditional Lean proofs:
+\texttt{main\_classification\_proved} and
+\texttt{above\_threshold\_failure\_proved}. The concrete Bernoulli residue
+construction is for the same finite partition sum; not every displayed
+partial-fraction identity has been formalized verbatim. Author checks report
+a clean project rebuild, axiom audits and \texttt{leanchecker --fresh}.
+Independent statement and formal audits under the repository workflow remain
+pending. The general real-coefficient bound is not claimed formalized.
+
+\section{Concluding remarks}
+
+The centered polynomial and two Fourier moments resolve the vanishing
+boundary coefficient for \eqref{eq:gf}. Finding similarly explicit critical
+coefficients for other finite multisets is a natural further question.
+
+The documented search found no equivalent full classification. Access to
+some databases and a related final Acta Arithmetica article was incomplete;
+global publication absence is not proved. The uninspected article is not
+used in the argument, and the known smooth criterion and earlier example
+are explicitly credited above.
+
+\section*{Use of AI tools}
+This research draft was developed with OpenAI Codex language models during
+21--30 October 2026, including
+formulation of candidate statements, proofs, computational programs, and
+exposition. Separate model sessions performed paper review, a novelty audit,
+and a blind comparison of the Lean statement. Computational and formal
+verification statuses are stated above. These are AI-assisted checks and
+do not replace human authorship or editorial review. No AI system is listed
+as an author. Human author review and sign-off are required before public
+release or submission.
+Exact deployed model build identifiers were not recorded.
+
+\section*{Data and code availability}
+The local research package contains the original and independent-check
+programs, rational coefficient certificates, SHA-256 manifests, review
+records, and Lean sources. The planned public repository is \url{https://github.com/1200r3/math-research-results}; its release and independent-verification status are tracked separately. The package is intended to accompany any subsequently authorized
+submission.
+
+\bibliographystyle{plainurl}
+\bibliography{refs}
+\end{document}
+

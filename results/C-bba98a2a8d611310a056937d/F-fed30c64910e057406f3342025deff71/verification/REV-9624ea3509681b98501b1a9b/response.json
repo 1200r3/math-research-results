@@ -1,0 +1,53 @@
+{
+  "checked_entire_claim": true,
+  "checked_scope": [
+    "statement.md全部：主分类、异常余数严格负性、显式界与限制域",
+    "mainClassification和aboveThresholdFailure的定义、完整无条件证明入口及连接",
+    "d,m≥2；n,j,k量词；自然数减法；整数除法和严格符号；n+2d余数",
+    "Bernoulli具体分支与纸面(4.4)–(4.5)的独立代数等同推导",
+    "uniformResidueBound、零多项式处理及实际证明中的显式见证",
+    "奇数临界参数、实际次领先系数识别、次数消去与平移",
+    "request列出557项材料SHA-256全部一致"
+  ],
+  "context_id": "qp01-public-statement-20261030",
+  "decision": "PASS",
+  "findings": [
+    {
+      "id": "S1",
+      "status": "resolved",
+      "location": "PartitionDefinitions.lean; TargetStatements.lean",
+      "detail": "参数、量词、减法、阈值整除和严格性均等价；详见report第2节"
+    },
+    {
+      "id": "S2",
+      "status": "resolved",
+      "location": "ConcretePartitionModel.lean; PolynomialPart.lean; proofs/qp_laguerre_draft.md(4.4)-(4.5)",
+      "detail": "两种分支构造相同；P与周期常数的规范可差b_0，相加F相同；报告给出全参数独立推导"
+    },
+    {
+      "id": "S3",
+      "status": "resolved",
+      "location": "ResidueDefinitions.lean; PolynomialBounds.lean; MainReduction.lean",
+      "detail": "有效界逐项一致；零多项式B=1不改变max；两个证明实际使用该显式N"
+    },
+    {
+      "id": "S4",
+      "status": "resolved",
+      "location": "CriticalCancellations.lean; MainClassification.lean; ConcreteLeadingCoefficient.lean",
+      "detail": "奇数临界真实系数已连接且最终两个入口无额外假设；旧Statement.lean并非主目标"
+    }
+  ],
+  "fresh_context": true,
+  "kind": "statement",
+  "limitations": [
+    "完整材料对应性审查，不是盲read-back",
+    "未运行构建、公理检查、leanchecker；不替代formal_audit",
+    "未重新证明全部系数引理，未做外部查新或文献核验",
+    "纸面递推到Bernoulli分支的直接等同由本报告给出数学核对，不冒称存在单独Lean命名等同定理"
+  ],
+  "manifest_sha256": "45f5f6a50e07a5dca44e0bf9eda779b9fc63632186ca3f5f3c22110e1725246f",
+  "model": "UNKNOWN",
+  "open_issues": [],
+  "request_id": "REQ-eb15c587a712f8cb26370ad3",
+  "reviewer": "qp01-public-statement"
+}

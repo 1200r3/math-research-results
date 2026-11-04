@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite the project and exact release or commit used."
+title: "Discrete Laguerre inequalities for a colored partition family"
+authors:
+  - name: "1200"
+type: software
+version: "F-fed30c64910e057406f3342025deff71"
+date-released: "2026-11-05"
+repository-code: "https://github.com/1200r3/math-research-results"
+url: "https://github.com/1200r3/math-research-results/blob/main/projects/qp01/paper/main.pdf"
