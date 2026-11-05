@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this version of the paper if you use these results."
+title: "Perron defects under reciprocal edge twists: Cycle rigidity and minimum realization sizes"
+type: article
+authors:
+  - family-names: "1200"
+version: "5"
+date-released: "2026-11-05"
+url: "https://github.com/1200r3/math-research-results/tree/main/projects/perron-cycle-defect"
+license: CC-BY-4.0

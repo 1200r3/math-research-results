@@ -1,0 +1,204 @@
+{
+  "activity_20261101": {
+    "artifacts": "research/novelty-20261101/",
+    "external_code_executed": false,
+    "formal_verification": "not_run",
+    "new_numerical_jobs": 0,
+    "new_subagents": 0,
+    "toolchain_recheck": "not_run; previous environment observations retained",
+    "type": "targeted_source_comparison_and_author_algebra"
+  },
+  "actual_job_resources": {
+    "memory_gb": 0.25,
+    "threads": 1,
+    "timeout_seconds": [
+      120,
+      60
+    ]
+  },
+  "actual_model": "unknown",
+  "agents_used": 5,
+  "agents_used_scope": "Historical total: one research author plus four user-authorized review assignments; three responses delivered and one boundary response absent. Not a current live-agent count.",
+  "continuation_checks": [
+    "dimension: m=1..8, matrices 6/8/10/20",
+    "zero diagonal: exact rational weighted certificates and Decimal radical matrices"
+  ],
+  "continuation_generation": 2,
+  "current_track": "paper",
+  "current_verification": "independent_review_pending",
+  "decimal_precision": 80,
+  "delivery_20261101": {
+    "existing_code_and_evidence_files_hash_matched": 35,
+    "future_tool_download_location_authorized_by_user": "D:; subject to host permissions",
+    "historical_successful_run_logs_hash_matched": 5,
+    "mathematical_reexecution": "not_run; unchanged sources and inputs",
+    "new_agents": 0,
+    "new_mathematical_jobs": 0,
+    "new_tool_downloads": 0,
+    "structural_package_validation": "Run separately by trusted v2 validate; external receipt accompanies output"
+  },
+  "device_budget": {
+    "max_jobs": 1,
+    "memory_gb": 0.5,
+    "threads": 4
+  },
+  "device_id": "D-86e3ea4cd15f4865ce018549",
+  "formal_limitations": [
+    "Mathlib not established in this workspace",
+    "Workspace setup reported Lean build/axiom check but full replay timed out; not evidence for this theorem"
+  ],
+  "formal_verification": "not_run_no_Lean_project",
+  "independent_review": "Two full fresh-context AI paper reviews PASS on immutable r5; novelty INCONCLUSIVE; counterexample response not delivered. Working proof has a subsequent wording clarification.",
+  "kit_version": "2.0.0",
+  "memory_measurement": "CIM free-memory query returned access denied; no heavy task launched; small standard-library jobs used the shared admission budget.",
+  "model_routing": "Research and current delivery use the single root author. Historical review subagents were explicitly requested by the user. Configured review models are reported separately from unobservable actual backend identities.",
+  "numerical_dependencies": "Python standard library only",
+  "numerical_seed": 20261025,
+  "observed_on": "2026-10-26",
+  "os": "Windows-11-10.0.26200-SP0",
+  "profile": "reasoning",
+  "publication": "not_run",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\msys64\\mingw64\\bin\\python.exe",
+  "registered_review_ids": [
+    "REV-7834d40fabc5f4efedeaadd2",
+    "REV-ca22ef7c325f0bf76125a331",
+    "REV-52d92791988fa2e9dbd2e10b"
+  ],
+  "requested_parent_model": "GPT-6 Astra Max",
+  "subagents": [
+    {
+      "actual_model": "unknown",
+      "configured_model": "gpt-6.1-sol",
+      "status": "paper PASS delivered",
+      "task": "r5_paper_a_sol"
+    },
+    {
+      "actual_model": "unknown",
+      "configured_model": "gpt-6.1-sol",
+      "status": "paper PASS delivered",
+      "task": "r5_paper_b_sol"
+    },
+    {
+      "actual_model": "unknown",
+      "configured_model": "gpt-6.1-sol",
+      "status": "INCONCLUSIVE delivered",
+      "task": "r5_novelty_sol"
+    },
+    {
+      "actual_model": "unknown",
+      "configured_model": "gpt-6.1-sol",
+      "status": "no report delivered",
+      "task": "r5_boundary_sol"
+    }
+  ],
+  "tools": {
+    "gh": "C:\\Program Files\\GitHub CLI\\gh.EXE",
+    "git": "C:\\Program Files\\Git\\cmd\\git.EXE",
+    "lake": "D:\\math-env\\elan\\bin\\lake.EXE",
+    "lean": "D:\\math-env\\elan\\bin\\lean.EXE",
+    "lean4checker": null,
+    "leanchecker": "D:\\math-env\\elan\\bin\\leanchecker.EXE"
+  },
+  "transferred_from": {
+    "activity_20261101": {
+      "artifacts": "research/novelty-20261101/",
+      "external_code_executed": false,
+      "formal_verification": "not_run",
+      "new_numerical_jobs": 0,
+      "new_subagents": 0,
+      "toolchain_recheck": "not_run; previous environment observations retained",
+      "type": "targeted_source_comparison_and_author_algebra"
+    },
+    "actual_job_resources": {
+      "memory_gb": 0.25,
+      "threads": 1,
+      "timeout_seconds": [
+        120,
+        60
+      ]
+    },
+    "actual_model": "unknown",
+    "agents_used": 5,
+    "agents_used_scope": "Historical total: one research author plus four user-authorized review assignments; three responses delivered and one boundary response absent. Not a current live-agent count.",
+    "continuation_checks": [
+      "dimension: m=1..8, matrices 6/8/10/20",
+      "zero diagonal: exact rational weighted certificates and Decimal radical matrices"
+    ],
+    "continuation_generation": 2,
+    "decimal_precision": 80,
+    "delivery_20261101": {
+      "existing_code_and_evidence_files_hash_matched": 35,
+      "future_tool_download_location_authorized_by_user": "D:; subject to host permissions",
+      "historical_successful_run_logs_hash_matched": 5,
+      "mathematical_reexecution": "not_run; unchanged sources and inputs",
+      "new_agents": 0,
+      "new_mathematical_jobs": 0,
+      "new_tool_downloads": 0,
+      "structural_package_validation": "Run separately by trusted v2 validate; external receipt accompanies output"
+    },
+    "device_budget": {
+      "max_jobs": 1,
+      "memory_gb": 0.5,
+      "threads": 4
+    },
+    "device_id": "D-86e3ea4cd15f4865ce018549",
+    "formal_limitations": [
+      "Mathlib not established in this workspace",
+      "Workspace setup reported Lean build/axiom check but full replay timed out; not evidence for this theorem"
+    ],
+    "formal_verification": "not_run",
+    "independent_review": "Two full fresh-context AI paper reviews PASS on immutable r5; novelty INCONCLUSIVE; counterexample response not delivered. Working proof has a subsequent wording clarification.",
+    "kit_version": "2.0.0",
+    "memory_measurement": "CIM free-memory query returned access denied; no heavy task launched; small standard-library jobs used the shared admission budget.",
+    "model_routing": "Research and current delivery use the single root author. Historical review subagents were explicitly requested by the user. Configured review models are reported separately from unobservable actual backend identities.",
+    "numerical_dependencies": "Python standard library only",
+    "numerical_seed": 20261025,
+    "observed_on": "2026-10-26",
+    "os": "Windows-10-10.0.19045-SP0",
+    "profile": "reasoning",
+    "publication": "not_run",
+    "python": "3.14.7 (main, Aug  9 2026, 02:08:46)  [MINGW GCC 16.2.0 64 bit (AMD64)]",
+    "python_executable": "C:\\msys64\\mingw64\\bin\\python.exe",
+    "registered_review_ids": [
+      "REV-7834d40fabc5f4efedeaadd2",
+      "REV-ca22ef7c325f0bf76125a331",
+      "REV-52d92791988fa2e9dbd2e10b"
+    ],
+    "requested_parent_model": "GPT-6 Astra Max",
+    "subagents": [
+      {
+        "actual_model": "unknown",
+        "configured_model": "gpt-6.1-sol",
+        "status": "paper PASS delivered",
+        "task": "r5_paper_a_sol"
+      },
+      {
+        "actual_model": "unknown",
+        "configured_model": "gpt-6.1-sol",
+        "status": "paper PASS delivered",
+        "task": "r5_paper_b_sol"
+      },
+      {
+        "actual_model": "unknown",
+        "configured_model": "gpt-6.1-sol",
+        "status": "INCONCLUSIVE delivered",
+        "task": "r5_novelty_sol"
+      },
+      {
+        "actual_model": "unknown",
+        "configured_model": "gpt-6.1-sol",
+        "status": "no report delivered",
+        "task": "r5_boundary_sol"
+      }
+    ],
+    "tools": {
+      "gh": "C:\\Program Files\\GitHub CLI\\gh.EXE",
+      "git": "C:\\Program Files\\Git\\cmd\\git.EXE",
+      "lake": "D:\\math-env\\elan\\bin\\lake.EXE",
+      "lean": "D:\\math-env\\elan\\bin\\lean.EXE",
+      "lean4checker": null,
+      "leanchecker": "D:\\math-env\\elan\\bin\\leanchecker.EXE"
+    }
+  }
+}

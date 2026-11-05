@@ -1,0 +1,79 @@
+{
+  "checked_entire_claim": true,
+  "checked_scope": [
+    "T1–T3：非线性规范、Perron 界与等号、四阶解析扰动、单圈电流及完整四阶见证（FULL_PROOF.md §§1–8）",
+    "T4–T5：局部投影逆公式、首阶层级、纯圈三次系数测试及精确见证（HIERARCHY.md §§1–6）",
+    "T6：任意阶有理构造与二部提升（ARBITRARY_ORDER.md §§1–4）",
+    "T7–T8：压缩构造、两组受限最优、一般低阶最小维数（DIMENSION.md §§1–5）",
+    "T9：常对角单圈二分、精确零对角二部见证及最小维数（ZERO_DIAGONAL.md §§1–5）"
+  ],
+  "context_id": "perron-r5-clarified-fresh-paper-a-20261105",
+  "decision": "PASS",
+  "findings": [
+    {
+      "id": "A01",
+      "severity": "info",
+      "location": "proofs/FULL_PROOF.md §§1–3",
+      "summary": "紧子水平集论证、钉点散度及等号条件通过。"
+    },
+    {
+      "id": "A02",
+      "severity": "info",
+      "location": "proofs/FULL_PROOF.md §§4–6",
+      "summary": "解析规范与四阶 Perron 缺陷公式通过。"
+    },
+    {
+      "id": "A03",
+      "severity": "info",
+      "location": "proofs/FULL_PROOF.md §§7–8",
+      "summary": "单圈电流归约与叶子见证通过；置换展开只乘 λ−3。"
+    },
+    {
+      "id": "A04",
+      "severity": "info",
+      "location": "proofs/HIERARCHY.md §§1–2",
+      "summary": "双边块公式、余项偶性与首阶正性通过。"
+    },
+    {
+      "id": "A05",
+      "severity": "info",
+      "location": "proofs/HIERARCHY.md §§3–6",
+      "summary": "循环分类及高阶精确见证通过；原始能量除质量、中心化向量除平方根质量。"
+    },
+    {
+      "id": "A06",
+      "severity": "info",
+      "location": "proofs/ARBITRARY_ORDER.md §§1–4",
+      "summary": "全阶构造、维数、系数及二部提升保缺陷通过。"
+    },
+    {
+      "id": "A07",
+      "severity": "info",
+      "location": "proofs/DIMENSION.md §§1–3",
+      "summary": "压缩商矩阵构造与两组受限类下界通过。"
+    },
+    {
+      "id": "A08",
+      "severity": "info",
+      "location": "proofs/DIMENSION.md §4",
+      "summary": "一般最小维数 N₁=N₂=3、N₃=4 及其余维数界通过。"
+    },
+    {
+      "id": "A09",
+      "severity": "info",
+      "location": "proofs/ZERO_DIAGONAL.md §§1–5",
+      "summary": "常对角圈二分、两个零对角加权见证和二部维数结论通过。"
+    }
+  ],
+  "fresh_context": true,
+  "kind": "paper",
+  "limitations": [
+    "本审查限于本请求材料的数学证明；未进行查新、形式化核验或作者程序复现。",
+    "44 个材料文件均独立核验字节数与 SHA-256；请求之外的 manifest 本体不在可读范围。"
+  ],
+  "manifest_sha256": "c4bf138b0ee3bdff299816b33115ef9aee4030bada98c412cb5e40dc18d8e827",
+  "model": "UNKNOWN",
+  "open_issues": [],
+  "request_id": "REQ-c919722cd66f9a1ec9603a6a",
+  "reviewer": "perron-clarified-paper-a-20261105"
+}

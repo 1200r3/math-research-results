@@ -1,0 +1,53 @@
+{
+  "checked_entire_claim": true,
+  "checked_scope": [
+    "T1–T9 的全部陈述、证明、显式见证、构造及维数边界；报告 PB-01 至 PB-06。",
+    "44 个送审材料的大小、SHA-256、陈述摘要与规范化包 manifest 绑定。"
+  ],
+  "context_id": "perron-r5-clarified-fresh-paper-b-20261105",
+  "decision": "PASS",
+  "findings": [
+    {
+      "id": "PB-01",
+      "location": "proofs/FULL_PROOF.md §§1–7; statement.md T1–T3",
+      "finding": "核实固定势的存在唯一、Perron 规范恒等式和取等；独立重推谐和规范、四阶展开与单圈桥电流公式。"
+    },
+    {
+      "id": "PB-02",
+      "location": "proofs/HIERARCHY.md §§1–2; statement.md T4",
+      "finding": "核实相同的左、右残量、近零 Schur 消元、正定性和解析偶性带来的阶次。"
+    },
+    {
+      "id": "PB-03",
+      "location": "proofs/FULL_PROOF.md §8; proofs/HIERARCHY.md §§3–6; statement.md T5",
+      "finding": "重推三检验刚性、两周期的双向判定；复算排列式符号、圈外固定因子及三个见证的精确系数。"
+    },
+    {
+      "id": "PB-04",
+      "location": "proofs/ARBITRARY_ORDER.md §§1–4; proofs/DIMENSION.md §§1–3; statement.md T6–T7",
+      "finding": "重推矩条件、简单图构造、正 Perron 向量提升、双层规范与精确缺陷，以及受限两组类的 Vandermonde 维数下界。"
+    },
+    {
+      "id": "PB-05",
+      "location": "proofs/DIMENSION.md §4; statement.md T8",
+      "finding": "排除二点非零缺陷和三点十二阶以上的非零缺陷，复算三点四阶系数，确认 N1=N2=3、N3=4 及一般上下界。"
+    },
+    {
+      "id": "PB-06",
+      "location": "proofs/ZERO_DIAGONAL.md §§1–5; statement.md T9",
+      "finding": "重推常对角刚性，复算有理加权算式与五点 K_(2,3) 的 5/512，核实二部 Z1=4、Z2=5、5≤Z3≤8。"
+    }
+  ],
+  "fresh_context": true,
+  "kind": "paper",
+  "limitations": [
+    "仅审查绑定的 R5 陈述；未评定新颖性，未做形式化验证或独立反例搜索。",
+    "未执行随包作者代码；明示见证使用独立的精确分数重算。",
+    "一般 N_m、Z3 的精确值和非二部零对角最小维数未在本命题中主张。"
+  ],
+  "manifest_sha256": "c4bf138b0ee3bdff299816b33115ef9aee4030bada98c412cb5e40dc18d8e827",
+  "model": "UNKNOWN",
+  "open_issues": [],
+  "request_id": "REQ-3888d68e15b7cb523caace70",
+  "reviewer": "perron-clarified-paper-b-20261105"
+}

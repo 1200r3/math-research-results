@@ -1,0 +1,950 @@
+{
+  "status": "partial_known",
+  "as_of": "2026-11-01",
+  "claim_id": "C-e83ae1e1d8f8447c846f8208",
+  "claim_revision": 5,
+  "scope": "Base variational/matrix-balancing/current-cost principles have verified antecedents. T4-T9 classification and dimension priority remain pending; no no_prior_solution_found assertion.",
+  "open_source_check": "partial; front pages and external searches inspected; native source/issue/PR access incomplete",
+  "searches": [
+    {
+      "channel": "academic web search",
+      "query": "spectral radius unicyclic graph reciprocal weights cycle affinity cosh characteristic polynomial",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "tilted generator unicyclic network affinity spectral bound hyperbolic cosine",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "quantitative stability spectral radius diagonal symmetrization cycle imbalance nonnegative matrix",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "spectral radius geometric symmetrization Fiedler cosh variational formula nonnegative matrices",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "Perron eigenvalue antisymmetric perturbation graph cycle space fourth derivative",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "Donsker Varadhan reversible Markov current cosh variational bound effective resistance",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "\"spectral radius\" \"cosh\" \"diagonal\" variational",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "\"Perron\" \"fourth\" \"antisymmetric\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "\"spectral radius\" \"cycle space\" perturbation",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "\"Donsker\" \"cosh\" \"current\" bound equilibrium",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "\"Perron\" \"quartic\" \"cycle\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "\"geometric symmetrization\" spectral radius equality",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "\"fourth cumulant\" \"equilibrium\" \"Markov\" current",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "\"Perron\" \"fourth-order\" perturbation spectral radius",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "\"cosh\" \"variational\" \"Perron\" \"bound\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "Baiesi Maes Netocny computation current cumulants 2009 algorithm",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "\"spectral radius\" \"eighth\" \"perturbation\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "\"Perron\" \"defect\" \"variational\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "\"An Extension of the Rayleigh Quotient\" Crossref Semantic Scholar",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "\"unicyclic\" \"twelfth\" spectral",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "\"unicyclic\" \"eighth\" \"cumulant\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "\"Perron\" \"defect\" \"cosh\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "academic web search",
+      "query": "\"current cumulants\" \"harmonic\" gauge fourth",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "GitHub external search",
+      "query": "site:github.com \"spectral radius\" \"cosh\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "GitHub external search",
+      "query": "site:github.com \"Perron\" \"fourth\" proof",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "GitHub external search",
+      "query": "site:github.com \"geometric symmetrization\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "GitHub external search",
+      "query": "site:github.com/leanprover-community/mathlib4 Perron Frobenius Matrix",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "GitHub external search",
+      "query": "site:github.com/openai/math \"Perron\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "GitHub external search",
+      "query": "site:github.com/google-deepmind/formal-conjectures \"Perron\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "AI and formalization external search",
+      "query": "\"Perron\" \"cosh\" \"LLM\" OR \"ChatGPT\" OR \"Lean\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "mathematical community external search",
+      "query": "site:mathoverflow.net \"spectral radius\" \"symmetrization\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "mathematical community external search",
+      "query": "site:mathoverflow.net \"Perron\" \"perturbation\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "mathematical community external search",
+      "query": "site:math.stackexchange.com \"spectral radius\" \"geometric symmetrization\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "mathematical community external search",
+      "query": "site:mathoverflow.net \"current\" \"cumulant\" \"Markov\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "HAL external search",
+      "query": "site:hal.science \"Perron\" \"symmetrization\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "Zenodo external search",
+      "query": "site:zenodo.org \"Perron\" \"cycle\" \"spectral\"",
+      "date": "2026-10-25",
+      "result": "Executed; inspected relevant sources are in closest_results. Some results were broad or unrelated. No priority or absence conclusion.",
+      "limitations": "Search indexing incomplete; not exhaustive native database/code search."
+    },
+    {
+      "channel": "GitHub source",
+      "query": "https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/LinearAlgebra/Matrix/PerronFrobenius.lean",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/LinearAlgebra/Matrix/PerronFrobenius.lean",
+      "date": "2026-10-25",
+      "result": "unavailable",
+      "detail": "Cache miss; candidate filename unconfirmed."
+    },
+    {
+      "channel": "GitHub source",
+      "query": "https://github.com/AI-MathPhys/renewal-geometry/tree/main/MathPhys/NCG/PerronFrobenius",
+      "url": "https://github.com/AI-MathPhys/renewal-geometry/tree/main/MathPhys/NCG/PerronFrobenius",
+      "date": "2026-10-25",
+      "result": "unavailable",
+      "detail": "Cache miss."
+    },
+    {
+      "channel": "GitHub issues",
+      "query": "https://github.com/AI-MathPhys/renewal-geometry/issues?q=is%3Aissue+Perron",
+      "url": "https://github.com/AI-MathPhys/renewal-geometry/issues?q=is%3Aissue+Perron",
+      "date": "2026-10-25",
+      "result": "unavailable",
+      "detail": "Cache miss."
+    },
+    {
+      "channel": "GitHub PRs",
+      "query": "https://github.com/AI-MathPhys/renewal-geometry/pulls?q=is%3Apr+Perron",
+      "url": "https://github.com/AI-MathPhys/renewal-geometry/pulls?q=is%3Apr+Perron",
+      "date": "2026-10-25",
+      "result": "unavailable",
+      "detail": "Cache miss."
+    },
+    {
+      "channel": "GitHub API",
+      "query": "https://api.github.com/repos/AI-MathPhys/renewal-geometry/contents/MathPhys/NCG/PerronFrobenius",
+      "url": "https://api.github.com/repos/AI-MathPhys/renewal-geometry/contents/MathPhys/NCG/PerronFrobenius",
+      "date": "2026-10-25",
+      "result": "unavailable",
+      "detail": "Web inaccessible; read-only PowerShell failed SSL; no TLS bypass."
+    },
+    {
+      "channel": "GitHub code search",
+      "query": "https://github.com/google-deepmind/formal-conjectures/search?q=Perron&type=code",
+      "url": "https://github.com/google-deepmind/formal-conjectures/search?q=Perron&type=code",
+      "date": "2026-10-25",
+      "result": "unavailable",
+      "detail": "Cache miss."
+    },
+    {
+      "channel": "GitHub code search",
+      "query": "https://github.com/openai/math/search?q=Perron&type=code",
+      "url": "https://github.com/openai/math/search?q=Perron&type=code",
+      "date": "2026-10-25",
+      "result": "unavailable",
+      "detail": "Cache miss."
+    },
+    {
+      "channel": "GitHub code search",
+      "query": "https://github.com/teorth/erdosproblems/search?q=Perron&type=code",
+      "url": "https://github.com/teorth/erdosproblems/search?q=Perron&type=code",
+      "date": "2026-10-25",
+      "result": "unavailable",
+      "detail": "Cache miss."
+    },
+    {
+      "channel": "Crossref",
+      "query": "https://api.crossref.org/works/10.1007/s10955-009-9723-3",
+      "url": "https://api.crossref.org/works/10.1007/s10955-009-9723-3",
+      "date": "2026-10-25",
+      "result": "unavailable",
+      "detail": "Web inaccessible."
+    },
+    {
+      "channel": "Author PDF",
+      "query": "https://www2.pd.infn.it/~baiesi/papers/P___0903JSP_BaiesiMaesNetocny_cumulants.pdf",
+      "url": "https://www2.pd.infn.it/~baiesi/papers/P___0903JSP_BaiesiMaesNetocny_cumulants.pdf",
+      "date": "2026-10-25",
+      "result": "unavailable",
+      "detail": "Cache miss; arXiv alternative successfully inspected."
+    },
+    {
+      "channel": "local hub",
+      "query": "workflow.py status --hub codex-workspace/hub",
+      "date": "2026-10-25",
+      "result": "packages, fixed, review_requests and events empty; setup-checks demos excluded."
+    },
+    {
+      "channel": "incremental academic/community web search",
+      "query": "\"unicyclic\" \"current fluctuations\" \"equality\"",
+      "date": "2026-10-26",
+      "result": "Executed; found prior current-fluctuation and line-sum-scaling leads, no inspected exact T4-T5 match. Priority remains pending."
+    },
+    {
+      "channel": "incremental academic/community web search",
+      "query": "\"line-sum-symmetric\" \"perturbation\" spectral",
+      "date": "2026-10-26",
+      "result": "Executed; found prior current-fluctuation and line-sum-scaling leads, no inspected exact T4-T5 match. Priority remains pending."
+    },
+    {
+      "channel": "incremental academic/community web search",
+      "query": "\"Perron\" \"defect order\"",
+      "date": "2026-10-26",
+      "result": "Executed; found prior current-fluctuation and line-sum-scaling leads, no inspected exact T4-T5 match. Priority remains pending."
+    },
+    {
+      "channel": "incremental academic/community web search",
+      "query": "site:erdosproblems.com \"spectral radius\" symmetrization",
+      "date": "2026-10-26",
+      "result": "Executed; found prior current-fluctuation and line-sum-scaling leads, no inspected exact T4-T5 match. Priority remains pending."
+    },
+    {
+      "channel": "GitHub discussions",
+      "query": "https://github.com/AI-MathPhys/renewal-geometry/discussions",
+      "url": "https://github.com/AI-MathPhys/renewal-geometry/discussions",
+      "date": "2026-10-26",
+      "result": "unavailable",
+      "detail": "Web fetch returned cache miss."
+    },
+    {
+      "channel": "GitHub releases",
+      "query": "https://github.com/AI-MathPhys/renewal-geometry/releases",
+      "url": "https://github.com/AI-MathPhys/renewal-geometry/releases",
+      "date": "2026-10-26",
+      "result": "unavailable",
+      "detail": "Web fetch returned cache miss."
+    },
+    {
+      "channel": "GitHub tags",
+      "query": "https://github.com/AI-MathPhys/renewal-geometry/tags",
+      "url": "https://github.com/AI-MathPhys/renewal-geometry/tags",
+      "date": "2026-10-26",
+      "result": "unavailable",
+      "detail": "Web fetch returned cache miss."
+    },
+    {
+      "channel": "GitHub commits/main/",
+      "query": "https://github.com/AI-MathPhys/renewal-geometry/commits/main/",
+      "url": "https://github.com/AI-MathPhys/renewal-geometry/commits/main/",
+      "date": "2026-10-26",
+      "result": "unavailable",
+      "detail": "Web fetch returned cache miss."
+    },
+    {
+      "channel": "incremental T6 academic web search",
+      "query": "\"Perron\" \"arbitrarily high\" \"order\"",
+      "date": "2026-10-26",
+      "result": "Executed; mostly broad or unrelated results, including random-matrix moment matching. No exact prior T6 proof inspected; no absence conclusion."
+    },
+    {
+      "channel": "incremental T6 academic web search",
+      "query": "\"spectral radius\" \"moment matching\" \"lower bound\"",
+      "date": "2026-10-26",
+      "result": "Executed; mostly broad or unrelated results, including random-matrix moment matching. No exact prior T6 proof inspected; no absence conclusion."
+    },
+    {
+      "channel": "incremental T6 academic web search",
+      "query": "\"matrix balancing\" \"order of vanishing\"",
+      "date": "2026-10-26",
+      "result": "Executed; mostly broad or unrelated results, including random-matrix moment matching. No exact prior T6 proof inspected; no absence conclusion."
+    },
+    {
+      "channel": "incremental T6 academic web search",
+      "query": "\"current fluctuations\" \"high order\" \"bound\" \"equality\"",
+      "date": "2026-10-26",
+      "result": "Executed; mostly broad or unrelated results, including random-matrix moment matching. No exact prior T6 proof inspected; no absence conclusion."
+    },
+    {
+      "channel": "generation-2 incremental web search",
+      "query": "\"Perron\" \"variational\" \"defect\"",
+      "date": "2026-10-26",
+      "result": "Executed; original matrix-balancing and current-fluctuation papers were inspected through resulting citations. Other broad/irrelevant matches were not treated as same-problem results."
+    },
+    {
+      "channel": "generation-2 incremental web search",
+      "query": "\"matrix balancing\" \"fourth order\"",
+      "date": "2026-10-26",
+      "result": "Executed; original matrix-balancing and current-fluctuation papers were inspected through resulting citations. Other broad/irrelevant matches were not treated as same-problem results."
+    },
+    {
+      "channel": "generation-2 incremental web search",
+      "query": "\"current fluctuations\" \"cosh\" \"equality\" equilibrium",
+      "date": "2026-10-26",
+      "result": "Executed; original matrix-balancing and current-fluctuation papers were inspected through resulting citations. Other broad/irrelevant matches were not treated as same-problem results."
+    },
+    {
+      "channel": "generation-2 incremental web search",
+      "query": "\"Donsker Varadhan\" \"higher order\" \"perturbation\"",
+      "date": "2026-10-26",
+      "result": "Executed; original matrix-balancing and current-fluctuation papers were inspected through resulting citations. Other broad/irrelevant matches were not treated as same-problem results."
+    },
+    {
+      "channel": "generation-2 incremental web search",
+      "query": "\"Affinity- and topology-dependent bound\" current fluctuations",
+      "date": "2026-10-26",
+      "result": "Executed; original matrix-balancing and current-fluctuation papers were inspected through resulting citations. Other broad/irrelevant matches were not treated as same-problem results."
+    },
+    {
+      "channel": "generation-2 incremental web search",
+      "query": "\"Line-sum-symmetric scalings of square nonnegative matrices\" pdf",
+      "date": "2026-10-26",
+      "result": "Executed; original matrix-balancing and current-fluctuation papers were inspected through resulting citations. Other broad/irrelevant matches were not treated as same-problem results."
+    },
+    {
+      "channel": "generation-2 incremental web search",
+      "query": "\"spectral radius\" \"order of contact\"",
+      "date": "2026-10-26",
+      "result": "Executed; original matrix-balancing and current-fluctuation papers were inspected through resulting citations. Other broad/irrelevant matches were not treated as same-problem results."
+    },
+    {
+      "channel": "generation-2 incremental web search",
+      "query": "\"Perron\" \"moment matching\" \"dimension\"",
+      "date": "2026-10-26",
+      "result": "Executed; original matrix-balancing and current-fluctuation papers were inspected through resulting citations. Other broad/irrelevant matches were not treated as same-problem results."
+    },
+    {
+      "channel": "generation-2 incremental web search",
+      "query": "\"current cumulants\" \"eighth\" \"equilibrium\"",
+      "date": "2026-10-26",
+      "result": "Executed; original matrix-balancing and current-fluctuation papers were inspected through resulting citations. Other broad/irrelevant matches were not treated as same-problem results."
+    },
+    {
+      "channel": "generation-2 incremental web search",
+      "query": "site:github.com \"Perron\" \"cosh\" \"defect\"",
+      "date": "2026-10-26",
+      "result": "Executed; original matrix-balancing and current-fluctuation papers were inspected through resulting citations. Other broad/irrelevant matches were not treated as same-problem results."
+    },
+    {
+      "channel": "primary-source retrieval",
+      "query": "https://people.math.wisc.edu/hans/paper_archive/scanned_papers/hs074.pdf",
+      "url": "https://people.math.wisc.edu/hans/paper_archive/scanned_papers/hs074.pdf",
+      "date": "2026-10-26",
+      "result": "Original PDF, Theorems 2-3 and Corollary 3, including proof",
+      "detail": "The nonlinear minimizing gauge in T1 is classical matrix balancing."
+    },
+    {
+      "channel": "primary-source retrieval",
+      "query": "https://arxiv.org/html/1605.07542",
+      "url": "https://arxiv.org/html/1605.07542",
+      "date": "2026-10-26",
+      "result": "Original HTML proof, equations (19)-(20), equilibrium (31)-(34)",
+      "detail": "Confirms proven current bound and fixed-density current-cost antecedent; not a verified T4-T9 priority match."
+    },
+    {
+      "channel": "primary-source retrieval",
+      "query": "https://elib.uni-stuttgart.de/server/api/core/bitstreams/308abaab-0856-45c9-ab31-819fb1cecdcb/content",
+      "url": "https://elib.uni-stuttgart.de/server/api/core/bitstreams/308abaab-0856-45c9-ab31-819fb1cecdcb/content",
+      "date": "2026-10-26",
+      "result": "Thesis PDF metadata and accessible Chapter 6 excerpts; citation path followed to original paper",
+      "detail": "Background/citation chain only; not audited in full."
+    },
+    {
+      "query": "\"unicyclic\" \"fourth\" \"eighth\" spectral",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"unicyclic\" \"twelfth\" \"defect\"",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"Perron\" \"high-order\" \"saturation\"",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"fixed-traffic\" \"circulation\" \"conjecture-engine\"",
+      "channel": "GitHub external search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"Markov\" \"current\" \"fourth\" \"eighth\" \"cumulants\" equilibrium",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"unicyclic\" \"saturation\" \"bound\" current",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"fixed density\" \"current fluctuations\" \"equality\"",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"Perron\" \"defect\" \"2m+2\"",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"current fluctuations\" \"fourth-order\" \"bound\"",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"unicyclic\" \"eighth-order\"",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"Perron\" \"vanishing order\"",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"variational bound\" \"high-order\" eigenvalue saturation",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"Perron\" \"cosh\" \"twelfth\"",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"nonlinear\" \"cycle\" \"4/8/12\"",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"eigenvalue\" \"two-cell\" \"moment\" \"optimal\"",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"current fluctuations\" \"eighth-order\" \"bound\"",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"Dynamical equivalence classes for Markov jump processes\"",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"Bounds on skewness and kurtosis of steady-state currents\"",
+      "channel": "academic web search",
+      "date": "2026-10-27",
+      "result": "Executed; relevant primary materials are compared in report.md. Unrelated graph-ranking, PDE, quantum-cumulant and other keyword hits were screened, not treated as same-problem results."
+    },
+    {
+      "query": "\"Tight uncertainty relations for cycle currents\" arxiv",
+      "channel": "web search",
+      "result": "Located arXiv 2106.00425v1 and institutional journal-version links; inspected v1 sections, journal search excerpts only.",
+      "date": "2026-11-01",
+      "evidence": "research/novelty-20261101/searches.json"
+    },
+    {
+      "query": "\"Tightening the uncertainty principle for stochastic currents\" arxiv",
+      "channel": "web search",
+      "result": "Located arXiv 1605.09692v3; inspected finite-state jump-process and optimal quadratic-bound sections.",
+      "date": "2026-11-01",
+      "evidence": "research/novelty-20261101/searches.json"
+    },
+    {
+      "query": "\"Nonequilibrium thermodynamic potentials for continuous-time Markov chains\" arxiv",
+      "channel": "web search",
+      "result": "Located arXiv 1508.01143; PDF v2 accessible after HTML retrieval failure. Inspected escape-rate and Doob formulas.",
+      "date": "2026-11-01",
+      "evidence": "research/novelty-20261101/searches.json"
+    },
+    {
+      "query": "\"unicyclic\" \"escape rate\" \"bound\"",
+      "channel": "web search",
+      "result": "Located a secondary lead to Cycle affinity and winding localize eigenvalues of Markov generators; followed to primary arXiv v3 before mathematical comparison.",
+      "date": "2026-11-01",
+      "evidence": "research/novelty-20261101/searches.json"
+    },
+    {
+      "query": "\"Markov\" \"fixed density\" \"higher order\"",
+      "channel": "web search",
+      "result": "Returned unrelated Markov-operator approximation/interacting-system material; no same-target primary theorem inspected from this query. Weak keyword coverage, not an absence proof.",
+      "date": "2026-11-01",
+      "evidence": "research/novelty-20261101/searches.json"
+    },
+    {
+      "query": "\"Variational and optimal control representations of conditioned and driven processes\"",
+      "channel": "web search",
+      "result": "Located primary arXiv 1506.05291v3. Inspected Section III.4 and Appendix B.",
+      "date": "2026-11-01",
+      "evidence": "research/novelty-20261101/searches.json"
+    },
+    {
+      "query": "\"Cycle affinity and winding localize eigenvalues of Markov generators\"",
+      "channel": "web search",
+      "result": "Located primary arXiv 2605.15884v3, dated 2026-10-08; inspected exact model, Theorems 1-2, derivation entry, and portions of the winding-index proof.",
+      "date": "2026-11-01",
+      "evidence": "research/novelty-20261101/searches.json"
+    }
+  ],
+  "closest_results": [
+    {
+      "id": "S1",
+      "url": "https://arxiv.org/html/1912.12771",
+      "title": "Altenberg (2019), An Extension of the Rayleigh Quotient to the Spectral Radius of Asymmetric Nonnegative Matrices",
+      "inspected": "Full HTML, variational formulas (2)-(3), proof discussion.",
+      "relation": "T1 is a fixed-vector specialization of known variational theory.",
+      "status": "known_background"
+    },
+    {
+      "id": "S2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6566214/",
+      "title": "Canonical Structure and Orthogonality of Forces and Currents in Irreversible Markov Chains",
+      "inspected": "Full HTML; equations (69)-(71) and optimal-control discussion.",
+      "relation": "Nonlinear divergence-free sinh gauge has known antecedents.",
+      "status": "partial_known"
+    },
+    {
+      "id": "S3",
+      "url": "https://doi.org/10.1103/PhysRevE.93.052145",
+      "title": "Pietzonka, Barato, Seifert (2016), Universal bounds on current fluctuations",
+      "inspected": "Publisher abstract and search-rendered Section V / Appendix C.",
+      "relation": "Unicyclic cosh bounds and determinant arguments are known background.",
+      "status": "partial_known",
+      "limitation": "Paper not audited end-to-end."
+    },
+    {
+      "id": "S4",
+      "url": "https://arxiv.org/html/0807.0145",
+      "title": "Baiesi, Maes, Netocny (2008/2009), Computation of current cumulants for small nonequilibrium systems",
+      "inspected": "HTML and PDF; Section 2.4, especially equation (20).",
+      "relation": "T2's spectral coefficient is a specialization of established pseudoinverse perturbation machinery. T4-T5 priority is a separate question.",
+      "status": "partial_known"
+    },
+    {
+      "id": "S5",
+      "url": "https://files.ele-math.com/articles/jmi-18-87.pdf",
+      "title": "Bogdanovic and Peperko (2024), Monotonicity properties of weighted geometric symmetrizations",
+      "inspected": "Search-rendered introduction.",
+      "relation": "Geometric-symmetrization inequality is classical.",
+      "status": "known_background"
+    },
+    {
+      "id": "S6",
+      "url": "https://combinatorialpress.com/article/ars/Volume%20116/volume-116-paper-12.pdf",
+      "title": "Tao, Huang, Liu (2014), The Spectral Radius of Maximum Weighted Unicyclic Graph",
+      "inspected": "Search-rendered abstract/introduction.",
+      "relation": "Candidate screening: weight-placement optimization differs from reciprocal twists.",
+      "status": "related_different_problem"
+    },
+    {
+      "id": "S7",
+      "url": "https://github.com/AI-MathPhys/renewal-geometry",
+      "title": "AI-MathPhys/renewal-geometry",
+      "inspected": "README, PF folder description and scope claims.",
+      "relation": "Potential PF dependency only. Actual source not retrieved; no matching formal proof verified.",
+      "status": "unclear",
+      "commit_sha": "unavailable"
+    },
+    {
+      "id": "S8",
+      "url": "https://github.com/google-deepmind/formal-conjectures",
+      "title": "google-deepmind/formal-conjectures",
+      "inspected": "Repository front page/README.",
+      "relation": "Statement-bank presence is not a proof; topic code search failed.",
+      "status": "unclear",
+      "commit_sha": "unavailable"
+    },
+    {
+      "id": "S9",
+      "url": "https://github.com/leanprover-community/mathlib4",
+      "title": "leanprover-community/mathlib4",
+      "inspected": "Search-rendered repository page/README.",
+      "relation": "PF candidate source path failed; no main theorem formalization verified.",
+      "status": "unclear",
+      "commit_sha": "unavailable"
+    },
+    {
+      "id": "S10",
+      "url": "https://people.math.wisc.edu/hans/paper_archive/scanned_papers/hs074.pdf",
+      "title": "Eaves, Hoffman, Rothblum, Schneider (1985), Line-sum-symmetric scalings of square nonnegative matrices",
+      "inspected": "Original PDF, Theorems 2-3 and Corollary 3, including proof",
+      "relation": "The nonlinear minimizing gauge in T1 is classical matrix balancing.",
+      "status": "known_background"
+    },
+    {
+      "id": "S11",
+      "url": "https://arxiv.org/html/1605.07542",
+      "title": "Pietzonka, Barato, Seifert (2016), Affinity- and topology-dependent bound on current fluctuations",
+      "inspected": "Original HTML proof, equations (19)-(20), equilibrium (31)-(34)",
+      "relation": "Confirms proven current bound and fixed-density current-cost antecedent; not a verified T4-T9 priority match.",
+      "status": "partial_known"
+    },
+    {
+      "id": "S12",
+      "url": "https://elib.uni-stuttgart.de/server/api/core/bitstreams/308abaab-0856-45c9-ab31-819fb1cecdcb/content",
+      "title": "Pietzonka (2018), Thermodynamic bounds on current fluctuations",
+      "inspected": "Thesis PDF metadata and accessible Chapter 6 excerpts; citation path followed to original paper",
+      "relation": "Background/citation chain only; not audited in full.",
+      "status": "partial_known"
+    },
+    {
+      "id": "N1101-01",
+      "url": "https://arxiv.org/html/1605.09692",
+      "title": "Polettini, Lazarescu, Esposito, Tightening the uncertainty principle for stochastic currents",
+      "version_observed": "1605.09692v3, 2016-11-03",
+      "inspected": "Sections IV.1-IV.3, equations (49)-(72); Appendix A, equations (73)-(76), optimal quadratic bounds and curvature discussion.",
+      "relation": "Quadratic current-rate upper bounds and linear-response optimality, not the full conductance-dependent cosh-optimized defect or its unicyclic vanishing-order classification.",
+      "status": "related_different_problem",
+      "limitation": "Only the stated sections inspected; not a full independent audit.",
+      "date": "2026-11-01"
+    },
+    {
+      "id": "N1101-02",
+      "url": "https://arxiv.org/html/2106.00425",
+      "title": "Polettini, Falasco, Esposito, Tight uncertainty relations for cycle currents",
+      "version_observed": "2106.00425v1, 2021-06-01",
+      "inspected": "Setup; cycle currents/involutions; Hilbert-space and instantaneous bounds equations (9)-(13); Cycle bounds for transition currents; Discussion and Conclusions.",
+      "relation": "Loop-erased path cycle-completion observables and dispersion bounds. The inspected v1 leaves long-time cycle-current uncertainty proof open; no same-target defect classification found. Do not extend v1 limitations to later versions without checking them.",
+      "status": "related_different_problem",
+      "limitation": "Only the stated sections inspected; not a full independent audit.",
+      "date": "2026-11-01"
+    },
+    {
+      "id": "N1101-03",
+      "url": "https://arxiv.org/pdf/1508.01143",
+      "title": "Verley, Nonequilibrium thermodynamic potentials for continuous-time Markov chains",
+      "version_observed": "1508.01143v2, 2016-01-06 (PDF arXiv margin); PDF title separately prints 2018-10-18",
+      "inspected": "Introduction; end of II C and II D, equations (25)-(40); III B, equations (43)-(52).",
+      "relation": "Escape-rate equality and Doob transform are explicit antecedents of base equality. Arbitrary edge-observable parameterization is supplied by N1101-04; no unicyclic 4/8/12 classification was found in inspected sections.",
+      "status": "known_background",
+      "limitation": "Only the stated sections inspected; not a full independent audit.",
+      "date": "2026-11-01"
+    },
+    {
+      "id": "N1101-04",
+      "url": "https://arxiv.org/html/1506.05291",
+      "title": "Chetrite, Touchette, Variational and optimal control representations of conditioned and driven processes",
+      "version_observed": "1506.05291v3, 2015-11-22",
+      "inspected": "Section III.4, equations (52)-(58); Appendix B, equations (118)-(138).",
+      "relation": "General tilted jump observable, Doob rates, balanced-flow relative entropy and variational SCGF. The project's E is exactly the pi=u^2 density-restricted value; see the author derivation in MARKOV_COMPARISON.md. General entropy-gap mechanism is not claimed as new.",
+      "status": "known_background",
+      "limitation": "Only the stated sections inspected; not a full independent audit.",
+      "date": "2026-11-01"
+    },
+    {
+      "id": "N1101-05",
+      "url": "https://arxiv.org/html/2605.15884v3",
+      "title": "Kolchinsky, Ohga, Ito, Cycle affinity and winding localize eigenvalues of Markov generators",
+      "version_observed": "2605.15884v3, 2026-10-08",
+      "inspected": "Unicyclic model equations (1)-(2), Theorems 1-2, derivation opening equations (11)-(12), portions of supplement 1.1 winding-index proof.",
+      "relation": "Localization of nonreal generator eigenvalues and uniform-cycle saturation. An explicit alternating four-cycle in MARKOV_COMPARISON.md has Delta=0 but strict inequalities for the nonreal pair, so the saturation questions differ.",
+      "status": "related_different_problem",
+      "limitation": "Only the stated sections inspected; not a full independent audit.",
+      "date": "2026-11-01"
+    }
+  ],
+  "unavailable_channels": [
+    {
+      "channel": "GitHub source",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/LinearAlgebra/Matrix/PerronFrobenius.lean",
+      "reason": "Cache miss; candidate filename unconfirmed."
+    },
+    {
+      "channel": "GitHub source",
+      "url": "https://github.com/AI-MathPhys/renewal-geometry/tree/main/MathPhys/NCG/PerronFrobenius",
+      "reason": "Cache miss."
+    },
+    {
+      "channel": "GitHub issues",
+      "url": "https://github.com/AI-MathPhys/renewal-geometry/issues?q=is%3Aissue+Perron",
+      "reason": "Cache miss."
+    },
+    {
+      "channel": "GitHub PRs",
+      "url": "https://github.com/AI-MathPhys/renewal-geometry/pulls?q=is%3Apr+Perron",
+      "reason": "Cache miss."
+    },
+    {
+      "channel": "GitHub API",
+      "url": "https://api.github.com/repos/AI-MathPhys/renewal-geometry/contents/MathPhys/NCG/PerronFrobenius",
+      "reason": "Web inaccessible; read-only PowerShell failed SSL; no TLS bypass."
+    },
+    {
+      "channel": "GitHub code search",
+      "url": "https://github.com/google-deepmind/formal-conjectures/search?q=Perron&type=code",
+      "reason": "Cache miss."
+    },
+    {
+      "channel": "GitHub code search",
+      "url": "https://github.com/openai/math/search?q=Perron&type=code",
+      "reason": "Cache miss."
+    },
+    {
+      "channel": "GitHub code search",
+      "url": "https://github.com/teorth/erdosproblems/search?q=Perron&type=code",
+      "reason": "Cache miss."
+    },
+    {
+      "channel": "Crossref",
+      "url": "https://api.crossref.org/works/10.1007/s10955-009-9723-3",
+      "reason": "Web inaccessible."
+    },
+    {
+      "channel": "Author PDF",
+      "url": "https://www2.pd.infn.it/~baiesi/papers/P___0903JSP_BaiesiMaesNetocny_cumulants.pdf",
+      "reason": "Cache miss; arXiv alternative successfully inspected."
+    },
+    {
+      "channel": "GitHub discussions",
+      "url": "https://github.com/AI-MathPhys/renewal-geometry/discussions",
+      "reason": "Web fetch returned cache miss."
+    },
+    {
+      "channel": "GitHub releases",
+      "url": "https://github.com/AI-MathPhys/renewal-geometry/releases",
+      "reason": "Web fetch returned cache miss."
+    },
+    {
+      "channel": "GitHub tags",
+      "url": "https://github.com/AI-MathPhys/renewal-geometry/tags",
+      "reason": "Web fetch returned cache miss."
+    },
+    {
+      "channel": "GitHub commits/main/",
+      "url": "https://github.com/AI-MathPhys/renewal-geometry/commits/main/",
+      "reason": "Web fetch returned cache miss."
+    }
+  ],
+  "not_run_channels": [
+    "Native Google Scholar, MathSciNet, zbMATH and OpenAlex comprehensive citation searches",
+    "GitLab/Codeberg: no relevant lead followed",
+    "OEIS: no sequence-identification target"
+  ],
+  "ai_formalization_check": "AI/LLM/ChatGPT/Lean query executed. No actual matching proof inspected; absence not established.",
+  "next_action": "Targeted novelty comparison saved 2026-11-01: exact Markov/entropy dictionary and alternating four-cycle distinguish known framework from T5/T9. Next novelty scope: forward citations of 1506.05291 for high-order fixed-density contact and finite-state realizations. T6-T8 coverage not expanded; preserve quota.",
+  "independent_review_result": {
+    "decision": "INCONCLUSIVE",
+    "review_id": "REV-52d92791988fa2e9dbd2e10b",
+    "report": "C:/Users/Administrator/Desktop/数学/codex-workspace/review-jobs/perron-r5-sol-20261026/novelty/response/report.md",
+    "search_log": "C:/Users/Administrator/Desktop/数学/codex-workspace/review-jobs/perron-r5-sol-20261026/novelty/response/searches.json",
+    "assessment": "T1-T4 have known-tool/direct-corollary antecedents; no equivalent complete T5-T9 result located in the documented limited search; global priority remains unestablished."
+  },
+  "targeted_followup_20261027": {
+    "report": "research/novelty-20261027/report.md",
+    "queries": "research/novelty-20261027/searches.json",
+    "native_evidence": [
+      "research/novelty-20261027/direct-retrieval.json",
+      "research/novelty-20261027/targeted-followups.json"
+    ],
+    "core_targets": [
+      "T5",
+      "T6",
+      "T7",
+      "T8",
+      "T9"
+    ],
+    "core_observation": "no_prior_solution_found within the documented scope; not global originality confirmation",
+    "g4_resolution": "Part XXIV and pinned actual code use fixed-traffic additive generator deformation and different observables, not the target exponential-twist defect.",
+    "commit_sha": "ccdd7be8ec1b11a33c01e3e67288793bd88cbd56",
+    "forward_citations": "All 36 OpenAlex records for W2206999493 retrieved and title/DOI screened; two relevant citing papers inspected in relevant sections, not all full texts.",
+    "access_update": "Native OpenAlex, Crossref and GitHub Contents APIs accessible via verified HTTPS; older failed web-tool requests remain historical records."
+  },
+  "targeted_followup_20261101": {
+    "report": "research/novelty-20261101/report.md",
+    "queries": "research/novelty-20261101/searches.json",
+    "derivation": "research/novelty-20261101/MARKOV_COMPARISON.md",
+    "targets": [
+      "T1-T4 antecedent mapping",
+      "T5/T9 near-source comparison"
+    ],
+    "result": "Exact escape-rate/relative-entropy dictionary strengthens known-background attribution. No same-target unicyclic order classification found in the inspected sections. T6-T8 realization/dimension coverage was not expanded this round.",
+    "verification": "Author algebraic derivation only; no numerical job, formal proof, independent review or subagent.",
+    "statement_unchanged": true,
+    "main_proof_files_unchanged": true
+  },
+  "delivery_20261101": {
+    "additional_search_this_packaging_turn": false,
+    "scope": "Preserves recorded searches through 2026-11-01, includes original independent INCONCLUSIVE response. Packaging adds no priority evidence.",
+    "status": "partial_known"
+  }
+}

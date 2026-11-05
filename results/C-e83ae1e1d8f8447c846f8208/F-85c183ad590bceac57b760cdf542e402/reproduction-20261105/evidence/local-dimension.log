@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "orders": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32
+  ],
+  "dimensions": [
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18
+  ],
+  "minimum_fourth_order_coefficient": "2/16875",
+  "full_matrix_dimensions": [
+    6,
+    8,
+    10,
+    20
+  ]
+}

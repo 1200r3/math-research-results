@@ -1,0 +1,5 @@
+44 materials matched exact SHA-256 and byte length
+Finished support and exact resistance-grid enumerations
+Finished exact rational unicyclic and K_(2,3) Taylor checks
+Finished T6/T7 m=1..4 and their bipartite lifts
+Finished all finite-twist tests; checks.json contains reproducible coefficients

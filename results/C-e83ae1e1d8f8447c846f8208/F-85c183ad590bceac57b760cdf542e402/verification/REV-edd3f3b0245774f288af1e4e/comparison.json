@@ -1,0 +1,72 @@
+{
+  "original_request": "REQ-9c20d7ac3a0157e0672ebb39",
+  "clarified_request": "REQ-33af82f05d8fee08edf9770b",
+  "original_manifest_sha256": "89761f83c5ce045bb8f3d24c54d6584b311833c9bc946304354969003f0981c7",
+  "clarified_manifest_sha256": "c4bf138b0ee3bdff299816b33115ef9aee4030bada98c412cb5e40dc18d8e827",
+  "statement_sha256": "8129cb1f43351f7192f7b2cbd2ae53b22bddd63b60e1566d5247261b194a3788",
+  "original_and_clarified_materials_checked": 44,
+  "byte_identical_materials": 42,
+  "changed_materials": [
+    {
+      "path": "proofs/FULL_PROOF.md",
+      "previous_size": 10794,
+      "previous_sha256": "08c1bb40099f1d0d29acd75e4d6334ce00f31fae5e3db094c3fbb9af6f5bd524",
+      "clarified_size": 11511,
+      "clarified_sha256": "f09d5fdf657f3812ddbde96e461d54b920cae963e91ac6d2908e0de1f393a1c3"
+    },
+    {
+      "path": "proofs/ZERO_DIAGONAL.md",
+      "previous_size": 5966,
+      "previous_sha256": "b356daa4cad82dda6374348b111ab81b106269e8964f9e533bc6ac6f5a9c8472",
+      "clarified_size": 6269,
+      "clarified_sha256": "16143e0729e02aeb74efd37352cbdf2ab33111b4eb284130a8430eb462bf4d67"
+    }
+  ],
+  "identical_replayed_fields": [
+    "arbitrary_orders",
+    "cycle_grid",
+    "finite_twists",
+    "graph_supports",
+    "multicycle_random",
+    "python",
+    "series_cases"
+  ],
+  "new_exposition_checks": {
+    "determinant_coefficients": {
+      "lambda^0 q^-3": 3,
+      "lambda^0 q^0": -6,
+      "lambda^0 q^3": 3,
+      "lambda^1 q^-3": -1,
+      "lambda^1 q^0": -10,
+      "lambda^1 q^3": -1,
+      "lambda^2 q^0": 19,
+      "lambda^3 q^0": -8,
+      "lambda^4 q^0": 1
+    },
+    "pinned_sublevel_rational_examples": 3,
+    "twisted_permutations": [
+      [
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        2,
+        0,
+        1,
+        3
+      ]
+    ],
+    "zero_diagonal_square_defect_coefficient": "36/300125",
+    "zero_diagonal_square_unnormalized_squared_norm": "12/12005"
+  },
+  "run_result": {
+    "ended": "2026-11-05T18:18:24+08:00",
+    "job_id": "JOB-41f3a5a703ef826de68a530b",
+    "log_sha256": "37d01d3812ab9820aab2110e85737dd9854749b0ffcf7bceddb52c9d32e4e106",
+    "resource_policy": "shared admission reservations + cooperative thread limits; no OS memory/CPU hard cap",
+    "returncode": 0,
+    "timed_out": false
+  }
+}

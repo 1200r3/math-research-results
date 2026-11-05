@@ -1,0 +1,13 @@
+[
+  {
+    "claim_id": "C-e83ae1e1d8f8447c846f8208",
+    "dependencies": [],
+    "fixed_id": "F-85c183ad590bceac57b760cdf542e402",
+    "kind": "main",
+    "license": "MIT AND CC-BY-4.0",
+    "revision": 5,
+    "source_package_sha256": "c4bf138b0ee3bdff299816b33115ef9aee4030bada98c412cb5e40dc18d8e827",
+    "title": "Perron defect hierarchy: efficient realizations, low-dimensional minima and constant-diagonal rigidity",
+    "validation_track": "paper"
+  }
+]

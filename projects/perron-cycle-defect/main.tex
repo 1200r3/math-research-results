@@ -1,0 +1,466 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,booktabs,microtype}
+\usepackage[margin=28mm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Perron defects under reciprocal edge twists},pdfauthor={1200}}
+\newtheorem{theorem}{Theorem}
+\DeclareMathOperator{\arsinh}{arsinh}
+\DeclareMathOperator{\arcosh}{arcosh}
+\DeclareMathOperator{\diag}{diag}
+\newcommand{\R}{\mathbb R}
+\newcommand{\ip}[2]{\langle #1,#2\rangle}
+\title{Perron defects under reciprocal edge twists\\
+\large Cycle rigidity and minimum realization sizes}
+\author{1200}
+\date{5 November 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We compare the Perron root of a reciprocal edge twist of a symmetric
+nonnegative matrix with an optimized lower bound at the untwisted Perron
+vector. A balanced gauge makes the left and right residuals equal, giving a
+Schur-complement formula for their spectral defect. Every finite nonzero
+order of vanishing is a multiple of four. On unicyclic support the only
+nonzero orders are \(4,8,12\); the zero-defect class at nonzero circulation
+is exactly a pure cycle with constant diagonal and two-periodic edge
+weights. Every order \(4m\) is realizable in dimension \(2m+2\), which
+is sharp in a specified two-cell class. The first three unrestricted
+minimum sizes are \(3,3,4\); for zero-diagonal bipartite realizations the
+first two are \(4,5\).
+\end{abstract}
+
+\section{Setup and relation to prior work}
+Let \(B=B^\top\geq0\) entrywise be \(n\times n\), \(n\geq2\), with connected
+simple off-diagonal support \(G=(V,E)\). Put \(\lambda_0=\rho(B)\) and
+normalize the positive Perron vector \(u\) by \(u^\top u=1\). For
+\(\{i,j\}\in E\) let \(c_{ij}=B_{ij}u_i u_j\). A real field \(h\) on
+oriented edges is antisymmetric. The twist \(A(h)\) keeps the diagonal
+of \(B\) and has off-diagonal entries \(B_{ij}e^{h_{ij}}\) on the support.
+Use \((\nabla\phi)_{ij}=\phi_j-\phi_i\) and set
+\begin{equation}
+ F_h(\phi)=2\sum_{e\in E}c_e\{\cosh(h_e+\nabla_e\phi)-1\},\qquad
+ E(h)=\min_{\phi_1=0} F_h(\phi).
+ \label{eq:energy}
+\end{equation}
+Each edge sum counts an undirected edge once; the choice of orientation
+does not affect it. Neighbor sums are directed. Define
+\(\Delta(t)=\rho(A(th))-\lambda_0-E(th)\).
+
+The starting variational bound is a fixed-vector specialization of the
+spectral-radius formula of Altenberg~\cite{altenberg}. The divergence-free
+\(\sinh\) balance is related to the force/current decomposition of
+Kaiser, Jack and Zimmer~\cite{kaiser}. In Markov coordinates
+\(\diag(u)^{-1}B\diag(u)-\lambda_0I\), the stationary law is \(u_i^2\);
+fixed-density flow optimization and comparison with driven rates fit the
+variational framework of Chetrite and Touchette~\cite[Appendix B]{chetrite}.
+Fourth-order perturbation uses the same reduced-resolvent machinery as
+current-cumulant expansions~\cite{baiesi}. Related current-fluctuation bounds
+and localization of complex generator eigenvalues
+\cite{pietzonka,kolchinsky} concern different comparisons. Our focus is the
+order, rigidity and realization size of the particular deficit \(\Delta\).
+We make no claim of a new general variational principle or of global priority.
+
+\section{Minimizing gauge and perturbation}
+For a minimizing field \(z=h+\nabla\phi\), write
+\[
+ k_i=u_i^{-2}\sum_j c_{ij}(\cosh z_{ij}-1).
+\]
+\begin{theorem}[T1]
+The pinned minimizer in \eqref{eq:energy} exists and is unique. It satisfies
+\(\sum_j c_{ij}\sinh z_{ij}=0\) at every vertex.
+One has \(\rho(A(h))\geq\lambda_0+E(h)\), with equality exactly when all
+\(k_i\) coincide.
+\end{theorem}
+\begin{proof}
+The Hessian in direction \(v\) is
+\(2\sum_E c_e\cosh(z_e)(\nabla_e v)^2\). Connectedness makes it positive
+on nonzero pinned directions. On a sublevel \(F_h\leq K\), every edge
+satisfies \(|h_e+\nabla_e\phi|\leq\arcosh(1+K/(2c_e))\). Summing the
+resulting bounds for \(|\nabla_e\phi|\) along fixed paths from vertex 1
+bounds every \(\phi_i\). Thus the nonempty sublevel \(F_h\leq F_h(0)\)
+is compact, and strict convexity gives uniqueness. The pinned gradient
+equations give the divergence condition at all but the pinned vertex;
+antisymmetry gives it there too.
+
+Gauge changes are diagonal similarities:
+\(A(h+\nabla\phi)=D^{-1}A(h)D\), \(D=\diag(e^{\phi_i})\).
+Write a positive right Perron vector of \(A(h)\) as \(u_i e^{q_i}\),
+scaled so that \(q_1=0\). Divide its equation in row \(i\) by that
+entry, multiply by \(u_i^2\), and sum. Pairing the two orientations
+gives \(\rho(A(h))-\lambda_0=F_h(q)\).
+At the minimizing gauge, cancellation of the \(\sinh\) terms gives
+\((A(z)u)_i/u_i=\lambda_0+k_i\), and \(\sum_i u_i^2 k_i=E(h)\).
+If the increments coincide, positivity identifies the displayed
+eigenvalue as the Perron root. Conversely equality makes \(q\) the
+minimizing gauge, so the Perron equation forces the increments to coincide.
+\end{proof}
+
+Let \(\alpha=h+\nabla\psi\) be the harmonic field, characterized by
+\(\sum_j c_{ij}\alpha_{ij}=0\) with \(\psi_1=0\); it is the unique
+minimizer of the positive grounded quadratic energy.
+For any potential \(f\), \(\sum_E c_e\alpha_e\nabla_e f=0\).
+Let \(R\) be the inverse of \(\lambda_0 I-B\) on \(u^\perp\), extended
+by zero on \(u\). Symmetry and simplicity of the largest eigenvalue give
+strict positivity of \(R\) on \(u^\perp\), including in the bipartite case.
+
+\begin{theorem}[T2]
+Put \(K_{2,ij}=B_{ij}\alpha_{ij}^2/2\) off the diagonal and \(K_{2,ii}=0\).
+For \(a=\sum_E c_e\alpha_e^2\), \(b=\sum_E c_e\alpha_e^4/12\), and
+\(g=K_2u-au\),
+\begin{align*}
+ E(th)&=at^2+bt^4+O(t^6),\\
+ \rho(A(th))&=\lambda_0+at^2+(b+g^\top Rg)t^4+O(t^6).
+\end{align*}
+The fourth-order coefficient of \(\Delta\) is nonnegative, vanishing
+exactly when \(K_2u=au\). The quantities are invariant under changing \(h\)
+by a gradient.
+\end{theorem}
+\begin{proof}
+Use the harmonic gauge. The divergence equations for the pinned
+minimizer \(\eta(t)\) at field \(t\alpha\) are analytic and their
+linearization in \(\eta\) at zero is the negative grounded weighted
+Laplacian. The analytic implicit-function theorem and uniqueness
+give an analytic odd solution, with \(\eta'(0)=0\) by harmonicity.
+In the energy expansion the fourth-order mixed term
+\(2\sum_E c_e\alpha_e\nabla_e\eta_3\) vanishes. This yields \(a,b\).
+
+Write \(A(t\alpha)=B+\sum_{\ell\geq1}t^\ell K_\ell\), where
+\(K_{\ell,ij}=B_{ij}\alpha_{ij}^{\ell}/\ell!\) off the diagonal.
+Odd \(K_\ell\) are skew, even ones symmetric; \(K_1u=0=u^\top K_1\).
+The simple eigenpair is analytic near zero, with eigenvector normalized
+by \(u^\top r(t)=1\), positive near zero. Transposition makes the
+eigenvalue even. Comparing orders one and two gives \(r_1=0\),
+\(u^\top K_2u=a\), and \(r_2=Rg\). Multiplying the fourth-order
+equation by \(u^\top\) eliminates \(K_1r_3\) and all eigenvector
+normalization terms. It leaves \(u^\top K_4u+u^\top K_2Rg=b+g^\top Rg\).
+Finally \(u^\top g=0\) and \(R\) is positive on \(u^\perp\).
+\end{proof}
+
+\section{Cycle current and the order mechanism}
+\begin{theorem}[T3]
+On a unicyclic support with oriented cycle \(C\) and circulation
+\(\Phi=\sum_C h_e\), the unique \(J\in\R\) satisfying
+\(\sum_C\arsinh(J/c_e)=\Phi\) gives
+\[
+ E(h)=2\sum_{e\in C}(\sqrt{c_e^2+J^2}-c_e).
+\]
+At nonzero \(\Phi\), any vertex off the cycle forces a strict bound in T1.
+At \(\Phi=0\), the twist is diagonally similar to \(B\).
+\end{theorem}
+\begin{proof}
+The divergence-free current \(c_{ij}\sinh z_{ij}\) vanishes on a bridge
+by summing divergences on one side. It is therefore constant in the cycle
+orientation. The sum of \(\arsinh(J/c_e)\) is strictly increasing and
+onto. This choice of field has the right cycle sum and differs from \(h\)
+by a gradient, as seen by integrating on a spanning tree. Substitution
+gives the energy. At nonzero circulation the increments are positive
+on the cycle and zero outside, so they cannot all coincide. Zero
+circulation gives \(J=0\).
+\end{proof}
+
+\begin{theorem}[T4]
+For the minimizing \(z(t)\) at \(th\) set \(e(t)=E(th)\) and
+\(v_i(t)=u_i(k_i(t)-e(t))\). The functions \(e,k,v\) are even and
+real analytic near zero. If \(v\equiv0\) near zero then \(\Delta\equiv0\)
+there. Otherwise let \(2m\) be the least degree of a nonzero Taylor
+coefficient \(v_{2m}\). Then
+\begin{equation}
+ \Delta(t)=(v_{2m}^{\top}R v_{2m})\,t^{4m}+O(t^{4m+2}),
+ \qquad v_{2m}^{\top}R v_{2m}>0 .
+ \label{eq:hierarchy}
+\end{equation}
+\end{theorem}
+\begin{proof}
+The minimizing field is analytic and odd by the implicit-function
+argument and gauge invariance. Put \(M(t)=A(z(t))\). Balance cancels
+\(\sinh z\) in both \(M(t)u\) and \(M(t)^\top u\). Thus relative to
+\(\R u\oplus u^\perp\) the matrix has block form
+\[
+ M(t)=\begin{pmatrix}\lambda_0+e(t)&v(t)^\top\\ v(t)&\mathcal C(t)\end{pmatrix}.
+\]
+In particular \(v\perp u\). The compression \(\mathcal C(0)\) has no
+eigenvalue \(\lambda_0\), so \(\lambda(t)I-\mathcal C(t)\) is invertible
+near zero for \(\lambda(t)=\rho(A(th))\). A positive right eigenvector
+has nonzero \(u\)-component; eliminating its perpendicular component yields
+\[
+ \Delta(t)=v(t)^\top(\lambda(t)I-\mathcal C(t))^{-1}v(t).
+\]
+At zero the inverse is \(R|_{u^\perp}\). Expanding gives
+\eqref{eq:hierarchy}, with the odd remainder coefficient absent by
+transposition symmetry. In particular \(v_2=g\); if it vanishes
+then \(\Delta=O(t^8)\).
+\end{proof}
+
+\section{Sharp rigidity on one cycle}
+\begin{theorem}[T5]
+For unicyclic support and nonzero circulation, the defect has leading
+order \(4,8,12\), with positive coefficient, or vanishes for every real
+\(t\). The last case occurs exactly for a pure cycle with a constant
+diagonal and two-periodic edge weights. Odd cycles then have uniform
+weights. Any vertex outside the cycle forces order four, and all three
+finite orders occur.
+\end{theorem}
+\begin{proof}
+At an outside vertex the harmonic field vanishes on incident bridges,
+so \(g_i=-au_i\ne0\). On a pure cycle write \(r_i=1/c_i\) for successive
+edge resistances. The current is an analytic local parameter since
+\(J'(0)=\Phi/\sum_i r_i\ne0\). The first three coefficients of
+\(k_i(J)\) at degrees \(2,4,6\) are the incident sums of \(r,r^3,r^5\)
+divided by \(u_i^2\), multiplied by \(1/2,-1/8,1/16\), respectively.
+Changing from \(J\) to \(t\) preserves the first degree with a
+nonconstant coefficient.
+
+If all three coefficients are constant across vertices, then \(u_i^2\)
+is proportional to \(r_{i-1}+r_i\). Ratios of the higher incident sums
+to the first yield common values on every adjacent pair \((x,y)\):
+\[
+ Q=x^2-xy+y^2,\qquad H=(x^5+y^5)/(x+y)=Q^2+xyQ-(xy)^2.
+\]
+Compare \((x,y)\) and \((y,z)\). Equality of \(Q\) implies
+\((x-z)(x+z-y)=0\). If \(x\ne z\) then \(y=x+z\); the difference of
+the \(H\) values is \(y(x-z)(Q-y^2)=-xyz(x-z)\ne0\), impossible.
+Thus \(r_{i+1}=r_{i-1}\), and the first test makes \(u\) uniform.
+The Perron equation gives constant diagonal and two-periodic weights
+of \(B\). Conversely those weights and a constant diagonal yield
+uniform \(u\) and identical increments at every \(J\); T1 then gives
+global equality. If any of the three tests fails, the first such test
+and T4 give the stated order. The following exact witnesses prove sharpness.
+\end{proof}
+
+\paragraph{Exact witnesses.}
+Use the unnormalized convention \(U>0\), \(M=U^\top U\), and positive
+conductances \(C_i\) around a pure cycle. Define
+\(B_{ij}=C_{ij}/(U_iU_j)\) on edges and
+\(B_{ii}=\lambda_0-\sum_j C_{ij}/U_i^2\).
+In each row below the diagonal is nonnegative and \(BU=\lambda_0U\).
+Write \(r_i=1/C_i\), \(S=\sum_i r_i\); set \(h_i=r_i/S\) in the
+cycle orientation. The conductances in \eqref{eq:energy} are \(C_i/M\).
+\begin{center}
+\small
+\begin{tabular}{@{}cllc@{}}
+\toprule
+Order & \(U\) & \(C\) around the cycle & \(\lambda_0\)\\
+\midrule
+\(4\)  & \((1,1,1)\) & \((1,1,2)\) & \(5\)\\
+\(8\)  & \((2,3,3)\) & \((1/2,1/7,1/2)\) & \(1\)\\
+\(12\) & \((3,3,4,4)\) & \((3/2,3/25,3/23,3/25)\) & \(1\)\\
+\bottomrule
+\end{tabular}
+\end{center}
+For the first nonconstant incident moment
+\(F_i=(r_{i-1}^{2j-1}+r_i^{2j-1})/U_i^2\), the leading
+\(\sqrt M\,v_{2j}\) is \(b_j U_i(F_i-\bar F)/S^{2j}\) in row \(i\),
+where \(\bar F=\sum_i U_i^2 F_i/M\) and
+\(b_1=1/2,b_2=-1/8,b_3=1/16\).
+Indeed the lower moments are constant and cancel after centering,
+and the current for \(C\) has first coefficient \(1/S\).
+In the eighth-order example \(S=11\), the first moment is constant and
+the third is \((4,39,39)\). In the twelfth-order example \(S=25\),
+the first and third are constant, \(1\) and \(193/3\); the fifth
+takes two values whose difference is \(8050/27\).
+Substitution gives these certificates (each \(x\perp U\)):
+\[
+\begin{array}{c|c|c|c}
+ 4j & x & \sqrt M\,v_{2j} & Rx\\ \hline
+ 4 & (-1,2,-1) & x/75 & x/3\\
+ 8 & (3,-1,-1) & 105x/(4\cdot11^5) & 36x/11\\
+ 12 & (4,4,-3,-3) & 161x/(18\cdot25^6) & 48x
+\end{array}
+\]
+The coefficients from \eqref{eq:hierarchy} are respectively
+\(2/16875,\ 99225/(8\cdot11^{11}),\ 103684/(27\cdot25^{12})\).
+The resolvent relations are verified by multiplying by
+\(\lambda_0 I-B\); the factor \(1/M\) in the quadratic form converts
+the unnormalized vectors to unit-Perron coordinates.
+
+\section{Every multiple of four and smaller realizations}
+\begin{theorem}[T6--T7]
+For every integer \(m\geq1\), rational matrices with positive diagonal
+and integer twists realize the coefficient \(1/[2((2m)!)^2]\) at order
+\(4m\), in dimensions \(4m+2\) and \(2m+2\). Each construction has a
+connected zero-diagonal bipartite lift preserving the entire defect,
+in dimensions \(8m+4\) and \(4m+4\), respectively.
+The dimension \(2m+2\) is minimal within the two-cell class specified below.
+\end{theorem}
+\begin{proof}
+For \(1\leq a\leq m\) put
+\[
+ d_a=\frac{1}{a^2\prod_{b\ne a}(a^2-b^2)},\qquad
+ \sum_{a=1}^m d_a a^{2j}=\begin{cases}0,&1\leq j<m,\\1,&j=m.\end{cases}
+\]
+The identity is the highest-coefficient comparison for Lagrange
+interpolation of \(x^{j-1}\) at the distinct nodes \(a^2\).
+Let \(D(t)=\sum_a d_a(\cosh(at)-1)=t^{2m}/(2m)!+O(t^{2m+2})\).
+
+For the first construction take two cyclic cells of size \(2m+1\).
+The oriented edges \(i\to i+a\) for all vertices \(i\) and \(1\leq a\leq m\)
+cover each unordered pair exactly once. Use twist \(a\) and weights
+\(w_a^\pm=1+\max(\pm d_a,0)\) in the two cells. Connect corresponding
+vertices by weight-one edges of zero twist. Choose a common row sum
+\(\lambda_0=2+2\sum_a\max(w_a^+,w_a^-)\) by filling the diagonal.
+All diagonal entries are at least one. The Perron vector is uniform.
+At zero potential, each color balances in the \(\sinh\) equation at
+every vertex. The row increments \(k_\pm=2\sum_a w_a^\pm(\cosh(at)-1)\)
+are constant on the cells and \(E=(k_++k_-)/2\).
+The cell-constant quotient has diagonal
+\(\lambda_0-1+k_\pm\) and off-diagonal entries one. Its positive
+Perron eigenvector lifts, so its Perron root is the full one. Therefore
+\(\Delta(t)=\sqrt{1+D(t)^2}-1\), proving the claimed order and constant.
+
+For the smaller construction put the positive and negative indices of
+\(d_a\) in separate cells, with \(k_+,k_-\) indices respectively and
+\(L_\pm=2k_\pm+1\) vertices in each cell. The \(r\)-th index \(a\) in a
+cell is assigned to all cyclic edges \(i\to i+r\), with weight
+\(|d_a|\) and twist \(a\). A cell without indices is a singleton.
+Write \(n=L_++L_-\), \(p=L_+/n\), \(q=L_-/n\), and give every
+cross-cell edge weight \(w=8L_+L_-/n^3\) and twist zero.
+Then \(\gamma=nw=8pq\), with cross-cell row sums \(q\gamma,p\gamma\).
+Choose \(\lambda_0\) one larger than the maximum off-diagonal row
+sum and fill the diagonal. Again the Perron vector is uniform, zero
+potential minimizes the energy, and \(E=p k_++q k_-\).
+Now \(d=k_+-k_-=2D\). The quotient after subtracting
+\((\lambda_0+E)I\) is
+\[
+ \begin{pmatrix} -q\gamma+qd & q\gamma\\ p\gamma &-p\gamma-pd\end{pmatrix}.
+\]
+Its trace is \(-\gamma+(q-p)d\) and determinant \(-pq d^2\).
+The nonnegative root \(\Delta\) satisfies
+\(\Delta^2+[\gamma+(p-q)d]\Delta-pq d^2=0\).
+Expansion of the larger root near zero gives
+\(\Delta=(pq/\gamma)d^2+O(d^3)\), and the moment identity yields
+the same coefficient \(1/[2((2m)!)^2]\) and remainder \(O(t^{4m+2})\).
+
+For either construction use the bipartite lift
+\(\widehat B=\left(\begin{smallmatrix}0&B\\ B&0\end{smallmatrix}\right)\)
+with off-diagonal blocks \(A(th)\) in the twist. The edges from the
+positive diagonal connect corresponding vertices across sheets; the
+original support ensures connectedness. A positive Perron vector
+\(r(t)\) lifts to \((r(t),r(t))\), so the root is unchanged.
+The normalized base vector is \((u,u)/\sqrt2\). The energy and
+its minimizer modulo constants are invariant under swapping sheets;
+if the potentials differed by a constant under this involution, two
+swaps would double it, so it is zero. At the symmetric potential,
+two copies of each old edge contribute half its old energy each,
+and the diagonal edges contribute zero. Hence the defect is identical.
+
+For the lower bound consider only realizations with uniform \(u\),
+two nonempty cells, zero twists across cells, zero minimizing potential
+near \(0\), and increments constant in each cell near \(0\).
+The analytic functions \(\cosh(at)-1\) for distinct \(a>0\) are linearly
+independent by their first even coefficients (a Vandermonde matrix).
+Thus every vertex in a cell sees all \(s_\pm\) nonzero twist magnitudes
+of that cell. Independence of the corresponding \(\sinh(at)\) makes
+each magnitude balance separately, requiring at least two incident
+edges per magnitude at each vertex. Each cell has at least \(2s_\pm+1\)
+vertices. The difference of increments has at most \(s_++s_-\)
+magnitudes. To begin at degree \(2m\) it needs at least \(m\)
+magnitudes, by the same Vandermonde argument. T4 identifies this degree
+when the defect has order \(4m\); thus \(n\geq2m+2\).
+\end{proof}
+
+\section{Minimum dimensions and constant-diagonal rigidity}
+\begin{theorem}[T8]
+Let \(N_m\) be the least dimension allowing a strictly positive leading
+term of order \(4m\) under the initial assumptions. Then
+\(N_1=3,\ N_2=3,\ N_3=4\). For \(m\geq4\),
+\(4\leq N_m\leq2m+2\).
+\end{theorem}
+\begin{proof}
+On a tree every field is a gradient, so dimension two is impossible.
+A connected three-vertex support is a tree or a triangle. On a triangle
+with nonzero circulation, if the first two tests from T5 are constant,
+\(Q(x,y)\) has the same value on each pair of its three resistances.
+For \(x\) the smallest, \(Q(x,s)\) is strictly increasing on \(s\geq x\);
+hence the other two resistances are equal, say \(y\). Then
+\(Q(x,y)=Q(y,y)\) gives \(x(x-y)=0\), forcing all equal. The first test
+gives uniform \(u\), and T5 gives equality rather than order twelve
+or higher. The three witnesses in Section 4 attain the lower bounds,
+and T7 supplies the general upper bound.
+\end{proof}
+
+\begin{theorem}[T9]
+On unicyclic support with constant diagonal, the only possibilities
+are order four or identically zero, with the same nonzero-circulation
+equality class as T5. If \(Z_m\) is the minimum for zero-diagonal
+bipartite realizations of order \(4m\), then
+\[
+ Z_1=4,\qquad Z_2=5,\qquad 5\leq Z_3\leq8 .
+\]
+A five-vertex \(K_{2,3}\) witness has coefficient \(5/512\) at order eight.
+\end{theorem}
+\begin{proof}
+A common diagonal can be subtracted without changing \(u,c,E\)
+or the defect: both positive Perron eigenvalues decrease by exactly
+that diagonal. Zero circulation and outside vertices are covered
+by T3 and T5. On a zero-diagonal pure cycle with nonzero circulation
+let \(J_0=\Phi/\sum_E c_e^{-1}\). If \(g=0\), the harmonic field
+\(\alpha_e=J_0/c_e\) gives
+\[
+ J_0^2(c_{i-1}^{-1}+c_i^{-1})=2a u_i^2,\qquad
+ \lambda_0 u_i^2=c_{i-1}+c_i .
+\]
+Cancel the positive sum to get a constant product
+\(c_{i-1}c_i=\lambda_0J_0^2/(2a)\). Hence the conductances are
+two-periodic, \(u\) is uniform and T5 gives equality. Otherwise T2
+gives order four.
+
+For the witnesses, use positive rational \(C_{ij}\) on edges, masses
+\(\mu_i=\sum_j C_{ij}\), and \(U_i=\sqrt{\mu_i}\). Set
+\(B_{ij}=C_{ij}/(U_iU_j)\) on edges, with zero diagonal, so \(BU=U\);
+\(M=\sum_i\mu_i\) and \(u=U/\sqrt M\).
+For a four-cycle use \(C=(1,1,1,2)\), with harmonic
+\(h=(2/7,2/7,2/7,1/7)\). The masses are \((3,2,2,3)\).
+The centered second-order increment is
+\(f_2=(-2,3,3,-2)/245\). In these coordinates
+\(\sum_j C_{ij}f_{2,j}/\mu_i=f_{2,i}/6\) and
+\(\sum_i\mu_i f_{2,i}^2=60/245^2\).
+The fourth-order coefficient is \((6/5)(60/245^2)/10=36/300125\).
+
+For \(K_{2,3}\), orient its three two-edge paths from \(L\) to \(R\)
+through \(M_1,M_2,M_3\). Give the six consecutive edges conductances
+\((1,4,4,1,4,4)\) and twists \((2,1/2,1/2,2,-1,-1)\).
+Path currents are \(2,2,-4\), so the twist is harmonic.
+The masses are \((9,9,5,5,8)\), and \(k_2=1/2\) at every vertex.
+The cubic potential coefficient \(\eta_3\) solves
+\(L_C\eta_3=\operatorname{div}(C h^3)/6\), where \(L_C\) is the
+positive weighted graph Laplacian and divergence sums outward fields.
+Up to a constant it is \((5/24,-5/24,-3/8,3/8,0)\):
+substitution on the three paths verifies the equation.
+The fourth-order increments follow by summing
+\(C_e[h_e\nabla_e\eta_3+h_e^4/24]/\mu_i\) at each vertex. They are
+\((3/32,3/32,-1/32,-1/32,1/4)\), of weighted mean \(3/32\).
+Thus \(f_4=(0,0,-1/8,-1/8,5/32)\). Each
+\(\sum_j C_{ij}f_{4,j}=0\); consequently \(B(U f_4)=0\) and
+\(R(U f_4)=U f_4\). The defect coefficient is
+\(\sum_i\mu_i f_{4,i}^2/36=5/512\).
+
+Connected bipartite supports on at most three vertices are trees,
+and on four vertices the only non-tree possibility is a four-cycle.
+The dichotomy excludes order eight or higher on that zero-diagonal
+cycle. The witnesses attain \(Z_1=4\) and \(Z_2=5\), and lifting
+the order-twelve four-cycle gives the upper bound \(Z_3\leq8\).
+\end{proof}
+
+\section{Scope and reproducibility}
+The proof covers the precise revision-5 statements T1--T9 of
+\texttt{C-e83ae1e1d8f8447c846f8208}. The general \(2m+2\) upper bound
+does not prove global optimality, \(Z_3\) is not determined, and the
+bipartite minima do not classify unrestricted zero-diagonal realizations.
+All asymptotic remainders are for fixed \(B,h\).
+
+The companion proof files include further exact certificates, including
+a direct characteristic-polynomial check for a triangle with a leaf.
+Five Python reproduction programs and the separate bounded search give
+finite checks, not proofs of universal assertions. The exact clarified
+proof snapshot passed two independent full paper reviews and a separate
+bounded counterexample and boundary review
+(fixed record \texttt{F-85c183ad590bceac57b760cdf542e402}).
+The review and drafting process used AI assistance. This is a
+versioned paper-track validation, with no Lean formalization or claim of
+journal peer review. The article and original exposition are available
+under CC BY 4.0; the supplied reproduction scripts are MIT-licensed.
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

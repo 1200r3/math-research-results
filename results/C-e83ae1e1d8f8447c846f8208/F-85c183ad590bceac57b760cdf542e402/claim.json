@@ -1,0 +1,48 @@
+{
+  "claim_id": "C-e83ae1e1d8f8447c846f8208",
+  "delivery_assessment": {
+    "current_package_acceptance": "not_fixed; previous PASS not automatically transferred",
+    "date": "2026-11-01",
+    "entry_point": "DELIVERY_README.md",
+    "novelty": "partial_known; global priority unestablished",
+    "paper_review": "Two full fresh-context AI PASS on the previous immutable r5 snapshot; original records included",
+    "uncompleted_checks": [
+      "independent counterexample/boundary review",
+      "formal follow-up of normalization wording/new snapshot",
+      "main theorem formal verification"
+    ],
+    "written_proof": "complete for exact T1-T9; no identified substantive mathematical gap"
+  },
+  "dependencies": [],
+  "kind": "main",
+  "license": "MIT AND CC-BY-4.0",
+  "original_problem_relationship": "Revision 5 preserves T1-T8 and adds T9: constant-diagonal unicyclic dichotomy and exact zero-diagonal bipartite minima Z1=4, Z2=5. Restricted versus global dimension claims remain explicit.",
+  "previous_snapshot_package_id": "PKG-e7489888f5d4be435d315a7d",
+  "proof_exposition_update": {
+    "adverse_review_ids": [
+      "REV-68c00354cfad00bd8404cb05",
+      "REV-2bf80cfc37ed001c069f79f1"
+    ],
+    "prior_package": "PKG-f5b8d8f4d760dd9bf2bb0f6a",
+    "scope": "rooted-path coercivity, determinant expansion and four-vertex weighted norm; unchanged T1–T9"
+  },
+  "publication_metadata": {
+    "author": "1200",
+    "author_owned_proof_and_prose_license": "CC-BY-4.0",
+    "code_license": "MIT",
+    "third_party_reviews_and_cited_sources": "original terms; not selected for public release"
+  },
+  "research_status": "candidate",
+  "revision": 5,
+  "sources": [
+    "https://arxiv.org/html/1912.12771",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6566214/",
+    "https://doi.org/10.1103/PhysRevE.93.052145",
+    "https://arxiv.org/html/0807.0145",
+    "https://arxiv.org/html/1605.07542",
+    "https://people.math.wisc.edu/hans/paper_archive/scanned_papers/hs074.pdf"
+  ],
+  "statement_file": "statement.md",
+  "statement_sha256": "8129cb1f43351f7192f7b2cbd2ae53b22bddd63b60e1566d5247261b194a3788",
+  "title": "Perron defect hierarchy: efficient realizations, low-dimensional minima and constant-diagonal rigidity"
+}

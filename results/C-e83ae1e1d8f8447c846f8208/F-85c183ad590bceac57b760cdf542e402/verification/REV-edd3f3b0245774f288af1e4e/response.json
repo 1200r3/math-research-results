@@ -1,0 +1,51 @@
+{
+  "checked_entire_claim": true,
+  "checked_scope": [
+    "T1–T4：在新包上重跑 33 个具名精确级数样本、36 个多环样本、7 个有限扭转证书。",
+    "T5、T8–T9：重跑 21,824 列循环电阻、1,098 个标号支撑掩码和各阶见证，包括 K_(2,3) 的 5/512。",
+    "T6–T7：重跑 m=1–4 的两套构造和其提升及 255 个受限类矩系统。",
+    "新增对两份改动证明的 3 项检查：子水平集、24 个置换项的精确行列式和零对角四环的归一化。"
+  ],
+  "context_id": "perron-r5-clarified-fresh-boundary-20261105",
+  "decision": "PASS",
+  "findings": [
+    {
+      "id": "C01",
+      "location": "T1–T4; checks.json",
+      "result": "级数、零及近零环流、有限扭转结果与先前独立检查相同。"
+    },
+    {
+      "id": "C02",
+      "location": "T5, T8–T9; checks.json",
+      "result": "循环矩测试、奇偶刚性、常数对角以及四、八、十二阶见证均与先前相同。"
+    },
+    {
+      "id": "C03",
+      "location": "T6–T7; checks.json",
+      "result": "两套构造及提升的精确展开与受限类矩系统重新通过。"
+    },
+    {
+      "id": "C04",
+      "location": "T8–T9; checks.json",
+      "result": "低阶支撑障碍和 K_(2,3) 的首项 (5/512)t^8 重新通过。"
+    },
+    {
+      "id": "C05",
+      "location": "FULL_PROOF.md §§1,8; ZERO_DIAGONAL.md §3; checks.json clarified_exposition",
+      "result": "三段澄清均与独立计算相符；未改变命题或样本所检结论。"
+    }
+  ],
+  "fresh_context": true,
+  "kind": "counterexample_search",
+  "limitations": [
+    "同一独立边界审查上下文对原请求 REQ-9c20d7ac3a0157e0672ebb39 的复核；独立于作者和纸面审稿人，但不是与原边界审查不同的审查人或独立票。",
+    "PASS 仅表示有限反例与边界搜索完成且未发现反例；checked_entire_claim 只指 T1–T9 均纳入该种有限检查。",
+    "未穷尽任意正实权、扭转和图阶；最高 Taylor 次数 16；不认证全称证明、查新或形式化。"
+  ],
+  "manifest_sha256": "c4bf138b0ee3bdff299816b33115ef9aee4030bada98c412cb5e40dc18d8e827",
+  "model": "UNKNOWN",
+  "open_issues": [],
+  "request_id": "REQ-33af82f05d8fee08edf9770b",
+  "reviewer": "perron-clarified-boundary-20261105",
+  "follow_up_of_request_id": "REQ-9c20d7ac3a0157e0672ebb39"
+}
