@@ -1,0 +1,29 @@
+{
+  "execution_receipts": {
+    "example46-exact": {
+      "ended": "2026-11-05T11:14:57+00:00",
+      "job_id": "JOB-2816cedd9c2e03d25a2002de",
+      "log_sha256": "268a8209d03c5baff017f3df018e1688fadfd34b3326143c28b87862cb20b06a",
+      "resource_policy": "shared admission reservations + cooperative thread limits; no OS memory/CPU hard cap",
+      "returncode": 0,
+      "timed_out": false
+    },
+    "example46-lean-01": {
+      "ended": "2026-11-05T11:20:02+00:00",
+      "job_id": "JOB-5be3f80c7624af0a4fcf0252",
+      "log_sha256": "06bc30f9fe1e51b91117c33553d57da6d40a22cd7d473b9f1c7ffd499aa51c87",
+      "resource_policy": "shared admission reservations + cooperative thread limits; no OS memory/CPU hard cap",
+      "returncode": 0,
+      "timed_out": false
+    }
+  },
+  "lean_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "lean_project_objects_verified_against_previous_formal_check": 47,
+  "previous_fixed_id": "F-fed30c64910e057406f3342025deff71",
+  "previous_formal_check": "CHECK-a647218bbe7d06bb2a9763db",
+  "scope": "companion exact arithmetic and Lean specialization; no new formal acceptance"
+}

@@ -7,9 +7,9 @@ Krystian Gajdzica, *The Turán and Laguerre inequalities for quasi-polynomial-li
 - Theorems 4.3–4.4: earlier sufficient criteria and the smooth leading coefficient. These are prior work, not claimed as this repository's discoveries.
 - Examples 4.5–4.6: periodic examples, including four colored parts of size one and one part of size 300. That special case is known.
 - Problem 5.6 asks for stronger criteria for quasi-polynomial-like functions. QP01 treats the explicitly specified two-parameter partition family, not the entire broader problem.
-- The source Example 4.6 writes residue 297 modulo 300, whereas our exact definitions use m dividing n+2d. We preserve the source's wording and our exact theorem separately; neither a silently edited quotation nor an unverified claim of correction priority is made.
+- For the source's displayed $h_A=T_2/2$, the exceptional residue is **296**, and the actual ordinary leading coefficient is **1/1080000**, rather than the printed **1/135000**. The exceptional coefficient is **151/1080000**. These corrections preserve the example's eventual positivity. See the [derivation and exact checks](ERRATUM-2026-11-05.md).
 
-[Paper bibliography in BibTeX](paper/refs.bib) · [Proof architecture](proofs/LEAN_MAIN_PROOFS_QP01.md)
+[Paper bibliography in BibTeX](paper/2026-11-05-correction/refs.bib) · [Proof architecture](proofs/LEAN_MAIN_PROOFS_QP01.md)
 
 ## Related work checked during publication preparation
 
@@ -19,6 +19,6 @@ Publication-preparation access date: 5 November 2026 (Asia/Shanghai). The origin
 
 ## Cite this project
 
-Author: **1200**. Title: *Discrete Laguerre inequalities for a colored partition family*. Public research artifact and preprint, not a claim of journal acceptance. Cite the exact release and commit shown by the repository's verification record. This project has no registered DOI; the Gajdzica DOI above identifies the source paper, not our result.
+Corrected paper byline: **1200** and **GPT Astra (AI contributor)**. Title: *Discrete Laguerre inequalities for a colored partition family*. Public research artifact and preprint, not a claim of journal acceptance. Cite the exact release and commit shown by the repository's verification record. This project has no registered DOI; the Gajdzica DOI above identifies the source paper, not our result.
 
-Repository: [1200r3/math-research-results](https://github.com/1200r3/math-research-results). Machine-readable citation: [CITATION.cff](../../CITATION.cff). Code and Lean: MIT. Paper and authored prose: CC BY 4.0. Third-party sources and dependencies retain their own licenses.
+Repository: [1200r3/math-research-results](https://github.com/1200r3/math-research-results). Machine-readable citation: [CITATION.cff](CITATION.cff) · [BibTeX](CITE.bib). Code and Lean: MIT. Paper and authored prose: CC BY 4.0. Third-party sources and dependencies retain their own licenses.

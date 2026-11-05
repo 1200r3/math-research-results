@@ -14,3 +14,7 @@ The two exact targets are `PartitionLaguerre.mainClassification` and `PartitionL
 [Immutable accepted artifacts](../../results/C-bba98a2a8d611310a056937d/F-fed30c64910e057406f3342025deff71) · [Actual verification evidence](../../results/C-bba98a2a8d611310a056937d/F-fed30c64910e057406f3342025deff71/verification)
 
 The PDF was prepared on 30 October and preserves its earlier pending-review wording. The versioned acceptance records linked here describe the later completed acceptance on 5 November 2026 (Asia/Shanghai). Neither the PDF nor these checks imply journal peer review, acceptance or worldwide priority. The original novelty record remains dated 29 October; the later limited source recheck is documented in [REFERENCES](REFERENCES.md).
+
+## Corrected paper and Example 4.6 regression (2026-11-05)
+
+The accepted sources and two formal targets are byte-for-byte unchanged. The [erratum](ERRATUM-2026-11-05.md) includes a separately compiled [Lean specialization](lean/Example46Regression.lean) and an exact [300-residue check](code/check_example46.py). These are supplemental checks; they do not replace the formal acceptance or add a new fixed version.

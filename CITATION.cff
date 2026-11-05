@@ -7,4 +7,13 @@ type: software
 version: "F-fed30c64910e057406f3342025deff71"
 date-released: "2026-11-05"
 repository-code: "https://github.com/1200r3/math-research-results"
-url: "https://github.com/1200r3/math-research-results/blob/main/projects/qp01/paper/main.pdf"
+url: "https://github.com/1200r3/math-research-results/blob/main/projects/qp01/paper/2026-11-05-correction/main.pdf"
+preferred-citation:
+  type: article
+  title: "Discrete Laguerre inequalities for a colored partition family"
+  authors:
+    - name: "1200"
+    - name: "GPT Astra (AI contributor)"
+  year: 2026
+  version: "2026-11-05-correction"
+  url: "https://github.com/1200r3/math-research-results/blob/main/projects/qp01/paper/2026-11-05-correction/main.pdf"

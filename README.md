@@ -6,7 +6,7 @@ Number theory, combinatorics and formal mathematics. Read exact statements, prog
 
 | Project | Result and progress | Read |
 |---|---|---|
-| QP01 | Discrete Laguerre inequalities for a colored partition family: full specified-family paper and Lean proofs supplied by the author; independent statement and formal audits passed; repository formal acceptance recorded | [Summary](projects/qp01/README.md) · [Paper PDF](projects/qp01/paper/main.pdf) · [Lean](projects/qp01/lean/MainClassification.lean) |
+| QP01 | Discrete Laguerre inequalities for a colored partition family: full specified-family paper and Lean proofs supplied by the author; independent statement and formal audits passed; repository formal acceptance recorded | [Summary](projects/qp01/README.md) · [Paper PDF](projects/qp01/paper/2026-11-05-correction/main.pdf) · [Lean](projects/qp01/lean/MainClassification.lean) |
 
 Search terms: restricted partitions, colored partitions, discrete Laguerre inequalities, quasi-polynomials, periodic coefficients, central binomial coefficient, eventual positivity, Lean 4, Mathlib, Gajdzica Problem 5.6.
 

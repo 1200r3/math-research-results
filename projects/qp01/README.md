@@ -1,8 +1,8 @@
 # QP01 — Discrete Laguerre inequalities for a colored partition family
 
-**Author: 1200.** Number theory / enumerative combinatorics / formal mathematics.
+**Paper byline: 1200 and GPT Astra (AI contributor).** Number theory / enumerative combinatorics / formal mathematics.
 
-[Paper PDF](paper/main.pdf) · [TeX](paper/main.tex) · [Main Lean proof](lean/MainClassification.lean) · [Proof architecture](proofs/LEAN_MAIN_PROOFS_QP01.md)
+[Corrected paper PDF](paper/2026-11-05-correction/main.pdf) · [TeX](paper/2026-11-05-correction/main.tex) · [Erratum](ERRATUM-2026-11-05.md) · [Main Lean proof](lean/MainClassification.lean) · [Proof architecture](proofs/LEAN_MAIN_PROOFS_QP01.md)
 
 ## Abstract
 
@@ -22,7 +22,7 @@ The supplied proof establishes eventual strict positivity simultaneously for all
 
 作者已提交指定族的完整纸面与Lean候选证明；已通过主库独立陈述核对与形式化审计。这里没有声称攻克任意分拆族或原始广义问题。
 
-The broader Gajdzica Problem 5.6 is not fully solved here. The strict classification excludes $d=1$. General real-coefficient bounds and unspecified little-o errors are outside the two formal Props. Prior smooth-coefficient results and the known $(d,m)=(2,300)$ example are credited. Novelty is `partial_known`; worldwide priority remains unclear. The residue-offset comparison with the source's Example 4.6 is an independent-review point.
+The broader Gajdzica Problem 5.6 is not fully solved here. The strict classification excludes $d=1$. General real-coefficient bounds and unspecified little-o errors are outside the two formal Props. Prior smooth-coefficient results and the known $(d,m)=(2,300)$ example are credited. Novelty is `partial_known`; worldwide priority remains unclear. The numerical details of Example 4.6 are corrected in the linked erratum. The theorem and its accepted Lean proof are unchanged.
 
 ## Reproduction
 
@@ -50,3 +50,5 @@ The public license/attribution edition preserves the Lean source bytes of resear
 [Current formal acceptance and immutable evidence](VERIFICATION.md)
 
 A later source-bound clean build, axiom check, fresh replay, and two independent reviews have completed formal acceptance of the exact two targets. See [the current acceptance record](VERIFICATION.md). This is not a CI or journal-peer-review claim.
+
+The [original paper](paper/main.pdf) remains available for citation to the original publication. For the corrected example, see the [exact arithmetic check](code/check_example46.py), the [Lean regression](lean/Example46Regression.lean), and [all 300 leading coefficients](results/example46-coefficients.json).

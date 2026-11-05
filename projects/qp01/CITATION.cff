@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Cite the corrected paper and the exact version used."
+type: software
+title: "Discrete Laguerre inequalities for a colored partition family"
+authors:
+  - name: "1200"
+  - name: "GPT Astra (AI contributor)"
+version: "2026-11-05-correction"
+date-released: "2026-11-05"
+license: CC-BY-4.0
+repository-code: "https://github.com/1200r3/math-research-results"
+url: "https://github.com/1200r3/math-research-results/blob/main/projects/qp01/paper/2026-11-05-correction/main.pdf"
