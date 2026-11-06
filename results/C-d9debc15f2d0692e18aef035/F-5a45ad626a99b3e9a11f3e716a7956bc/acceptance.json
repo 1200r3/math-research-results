@@ -1,0 +1,11 @@
+{
+  "claim_id": "C-d9debc15f2d0692e18aef035",
+  "dependencies": [],
+  "fixed_id": "F-5a45ad626a99b3e9a11f3e716a7956bc",
+  "kind": "special_case",
+  "license": "MIT AND CC-BY-4.0",
+  "revision": 1,
+  "source_package_sha256": "57c316b18a6460d8ad59d4dfb38d11d33b66fc9cf561315325da8c1d569131d9",
+  "title": "One-monomino tatami stabilization and its last exceptional size",
+  "validation_track": "paper"
+}

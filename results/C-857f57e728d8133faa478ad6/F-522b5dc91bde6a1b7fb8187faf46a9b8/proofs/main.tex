@@ -1,0 +1,118 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=.87in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,amsthm,booktabs}
+\usepackage[hidelinks]{hyperref}
+\newtheorem{theorem}{Theorem}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{.45em}
+\raggedbottom
+\title{\textbf{Three-color classification\\for shifted Schur equations}}
+\author{1200}
+\date{6 November 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Assign a nonnegative shift to each of three colors and forbid monochromatic
+solutions of the corresponding shifted Schur equation. We give one explicit
+periodic coloring for every nonconstant triple of shifts. On the diagonal,
+Schaal's formula gives the exact finite threshold.
+\end{abstract}
+
+\section{Statement}
+Let $R_3(c_0,c_1,c_2)$ be the least $N\geq1$ such that every map
+$[1,N]\to\{0,1,2\}$ has $x,y,z$ of a color $i$ with $x+y+c_i=z$.
+Set $R_3=\infty$ if there is no such $N$. We allow $x=y$ and empty color classes.
+
+\begin{theorem}
+For nonnegative integer shifts,
+\[
+ R_3(c_0,c_1,c_2)=
+ \begin{cases}
+  13c+14,& c_0=c_1=c_2=c,\\
+  \infty,& \text{otherwise}.
+ \end{cases}
+\]
+In the nonconstant case there is an avoiding coloring of $\mathbb Z$ of period
+$2^{s+1}$, where $s$ is the least $2$-adic valuation of a nonzero pairwise
+difference of the shifts.
+\end{theorem}
+
+\section{A periodic coloring for unequal shifts}
+Put $m=2^s$. The three shifts agree modulo $m$, and at least two differ
+modulo $2m$. Exactly two therefore have the same residue $a$ modulo $2m$;
+the remaining residue is $a+m$ modulo $2m$. Relabel colors so that the
+first two agree. Under the translation $u=x+a-1$, $v=y+a-1$, $w=z+a-1$,
+the equation becomes $u+v+(c_i-a+1)=w$. Thus the new shifts modulo $2m$
+are $(1,1,1+m)$.
+
+Write each representative as $hm+r$, with $h\in\{0,1\}$ and $0\leq r<m$.
+Let $q\in\{1,-1\}$ represent $m$ modulo $3$. Define the color of a representative by
+\[
+ \chi(hm+r)=
+ \begin{cases}r\bmod 3,&h=0,\\ (1+q-r)\bmod 3,&h=1.\end{cases}
+\]
+For a monochromatic solution of color $i$, set $H=h_u+h_v-h_w$ and
+$\delta=\mathbf 1_{\{i=2\}}$. The residue equation gives
+\[
+ r_u+r_v+1-r_w=jm,\qquad j\equiv H+\delta\pmod 2.
+\]
+The left side lies in $[2-m,2m-1]$, so $j$ is $0$ or $1$, including when $m=1$.
+A representative of color $i$ has $r\equiv i+(1+q-2i)h\pmod3$.
+Consequently a solution would make $i+1+(1+q-2i)H-jq$ vanish modulo $3$.
+The following table evaluates its residue; $j$ is the representative of
+$H+\delta$ in $\{0,1\}$.
+\[
+\begin{array}{cc|rrrr}
+ q&i&H=-1&H=0&H=1&H=2\\ \hline
+ 1&0&1&1&2&2\\
+ 1&1&1&2&1&2\\
+ 1&2&2&2&1&1\\
+ -1&0&2&1&2&1\\
+ -1&1&2&2&1&1\\
+ -1&2&1&1&2&2
+\end{array}
+\]
+No entry is zero. Pull the coloring back along $x\mapsto (x+a-1)\bmod 2m$
+and undo the relabeling. Any integer solution would yield a modular solution,
+so the coloring also works on every positive interval.
+
+\section{The diagonal value}
+The diagonal formula is due to Schaal~\cite{schaal}. Here is the scaling
+argument of Adhikari et al.~\cite[Proposition 4.9 and Corollary 4.10]{adhikari}.
+Set $b=c+1$ and translate each variable by $c$. The equation becomes
+ordinary addition on $[b,N+c]$. For $N=13c+14$ this interval contains
+$b,2b,\ldots,14b$. Every three-coloring of $[1,14]$ has a monochromatic
+sum triple, by the classical three-color Schur value. Pulling the coloring
+on the multiples of $b$ back to $[1,14]$ proves the upper bound.
+
+For $N=13c+13$ the translated interval is $[b,14b-1]$. Color a translated
+integer $y$ by the set containing $\lfloor y/b\rfloor$, using
+\[
+ \{1,4,10,13\},\quad \{2,3,11,12\},\quad \{5,6,7,8,9\}.
+\]
+For any one of these sets $A$ and $u,v\in A$, neither $u+v$ nor $u+v+1$
+belongs to $A$. These are the only two possible block indices of the sum
+of integers with block indices $u,v$. This proves the lower bound.
+
+\section{Scope and reproducibility}
+Adak et al.~\cite{adak} treat two colors with two assigned shifts. Their
+classification does not cover the three-color problem. Schaal's formula
+is the known diagonal input. A short companion script checks the residue
+table, the carry condition and the Schur endpoint $14$. The proof is a
+paper proof. It does not rely on the archived Lean prototype.
+
+\textbf{AI contribution.} GLM5.3F (source project credit supplied by the
+author). The periodic argument was simplified with GPT Sol Max assistance.
+
+\begin{thebibliography}{9}
+\bibitem{schaal} D. Schaal, A family of 3-color Rado numbers,
+\emph{Congr. Numer.} \textbf{111} (1995), 150--160.
+\bibitem{adhikari} S. D. Adhikari, L. Boza, S. Eliahou, J. M. Marín,
+M. P. Revuelta and M. I. Sanz, On the $n$-color Rado number for the equation
+$x_1+\cdots+x_k+c=x_{k+1}$, \emph{Math. Comp.} \textbf{85} (2016),
+2047--2064. \href{https://doi.org/10.1090/mcom3034}{doi:10.1090/mcom3034}.
+\bibitem{adak} R. Adak, Y. Bakshi, L. S. Chandran and S. G. Nanoti, Off-diagonal Rado numbers for
+$x+y+c=z$ and $x+y+k=z$, \href{https://arxiv.org/abs/2603.28216}{arXiv:2603.28216} (2026).
+\end{thebibliography}
+\end{document}

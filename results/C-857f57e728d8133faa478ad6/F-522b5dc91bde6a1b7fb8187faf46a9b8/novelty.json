@@ -1,0 +1,70 @@
+{
+  "as_of": "2026-11-06",
+  "closest_results": [
+    {
+      "comparison": "R_3(c,c,c)=13c+14 for all c>=0, with repeated variables.",
+      "locator": "Proposition 4.9 and Corollary 4.10",
+      "scope": "diagonal",
+      "source": "https://idus.us.es/bitstreams/f1a1a79d-9e6f-4778-9c3d-e73ded5f7c2c/download",
+      "status": "known"
+    },
+    {
+      "comparison": "Two assigned shifts only; exact two-color thresholds do not imply the three-color classification.",
+      "locator": "Definition 1.2, §§3.1 and 4",
+      "scope": "different number of colors",
+      "source": "https://arxiv.org/html/2603.28216"
+    },
+    {
+      "comparison": "Three color classes with varying number of summands and no shifts; no implication for different inhomogeneous constants.",
+      "locator": "Definition 1.2 and §3",
+      "scope": "different equations",
+      "source": "https://arxiv.org/html/2604.11030"
+    }
+  ],
+  "conclusion": "The diagonal is known. No exact all-nonconstant three-shift classification or the same uniform periodic coloring was located in the recorded sources. This is a scoped finding, without a global priority claim.",
+  "open_source_check": "targeted_web_search_and_selected_repository_pages",
+  "scope": "Exact three assigned shifts over positive integers; off-diagonal periodic witnesses and diagonal exact value assessed separately.",
+  "searches": [
+    {
+      "channel": "academic_index_and_citations",
+      "date": "2026-11-06",
+      "query": "A Family of 3-Color Rado Numbers Schaal 111 150; 13c+14 three-color nonhomogeneous Rado",
+      "result": "Adhikari et al. (2016) §4.4, Proposition 4.9 and Corollary 4.10 give the same diagonal result and credit Schaal (1995); confirmed Schaal's title via cited bibliography. Crossref API not accessible in this session.",
+      "url": "https://idus.us.es/bitstreams/f1a1a79d-9e6f-4778-9c3d-e73ded5f7c2c/download"
+    },
+    {
+      "channel": "preprint_and_authors",
+      "date": "2026-11-06",
+      "query": "off-diagonal shifted Schur three colors; related two-color x+y+c=z; generalized off-diagonal Schur numbers",
+      "result": "Adak et al. v2 Definition 1.2, §3.1 and §4: only two assigned shifts and two colors; more colors listed as future work. Song–Mao arXiv:2604.11030 §1 and Theorem 2: per-color equations vary in number of homogeneous summands; the shared [1,14] endpoint is the intersection with our diagonal c=0.",
+      "url": "https://arxiv.org/html/2603.28216"
+    },
+    {
+      "channel": "community",
+      "date": "2026-11-06",
+      "query": "site:mathoverflow.net OR site:math.stackexchange.com off-diagonal rado shifted Schur color 3",
+      "result": "Ordinary homogeneous Schur coloring bounds; no exact three assigned shifts in inspected community results.",
+      "url": "https://math.stackexchange.com/questions/5134933/how-to-construct-a-coloring-to-prove-nr%E2%89%A53nr%E2%88%921-in-schur-s-theorem"
+    },
+    {
+      "channel": "GitHub / open_source",
+      "date": "2026-11-06",
+      "query": "site:github.com Rado number shifted Schur off-diagonal; exact certificate Lean; SAT Rado numbers",
+      "result": "Repository README describes two-color homogeneous sums of squares, an unrelated computational scope. The located three-color coefficient SAT work arXiv:2210.03262 also uses homogeneous equations. No matching repository was located by this bounded search. External code was not run.",
+      "url": "https://github.com/Leo-Y-Zhang/RadoRecords"
+    },
+    {
+      "channel": "local_library",
+      "date": "2026-11-06",
+      "query": "Rado.?3 | C-857f57e728d8133faa478ad6 in local RESULTS_INDEX, SETUP_REPORT, REVIEW_REPORT and PROJECT_STATUS",
+      "result": "No indexed match before intake in the checked index files. Current input PKG-21b896ada55da58f1e48cea1 contains the same theorem candidate, an older split proof and a partial Lean prototype; same project lineage."
+    }
+  ],
+  "status": "partial_known",
+  "unavailable_channels": [
+    "Original Schaal 1995 scan not inspected; theorem confirmed in the 2016 primary follow-up",
+    "Crossref API access failed",
+    "One proposed mirror of the 2007 disjunctive article did not open; bibliography and abstract of related author talk located",
+    "No exhaustive GitHub code, PR or issue index; no closed or unindexed material claimed"
+  ]
+}

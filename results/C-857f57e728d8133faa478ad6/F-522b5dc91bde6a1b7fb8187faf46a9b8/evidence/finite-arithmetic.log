@@ -1,0 +1,26 @@
+Command: python -X utf8 code/check_finite_arithmetic.py
+Executed: 2026-11-06T01:59:06+00:00
+Python: 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]
+q= 1 i=0: (1, 1, 2, 2)
+q= 1 i=1: (1, 2, 1, 2)
+q= 1 i=2: (2, 2, 1, 1)
+q=-1 i=0: (2, 1, 2, 1)
+q=-1 i=1: (2, 2, 1, 1)
+q=-1 i=2: (1, 1, 2, 2)
+Canonical residue systems checked directly for periods 2 through 1024.
+Carry-free partition checked, including x=y.
+Schur-free colorings on [1,1]: 3
+Schur-free colorings on [1,2]: 6
+Schur-free colorings on [1,3]: 18
+Schur-free colorings on [1,4]: 30
+Schur-free colorings on [1,5]: 66
+Schur-free colorings on [1,6]: 120
+Schur-free colorings on [1,7]: 258
+Schur-free colorings on [1,8]: 288
+Schur-free colorings on [1,9]: 546
+Schur-free colorings on [1,10]: 300
+Schur-free colorings on [1,11]: 186
+Schur-free colorings on [1,12]: 114
+Schur-free colorings on [1,13]: 18
+Schur-free colorings on [1,14]: 0
+EXIT=0

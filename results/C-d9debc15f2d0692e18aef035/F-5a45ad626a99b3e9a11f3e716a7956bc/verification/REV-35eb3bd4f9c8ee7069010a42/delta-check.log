@@ -1,0 +1,13 @@
+Original request REQ-15d131aa3112a4764554bbda; package PKG-8e587cb4625e66fe71a84c97; canonical manifest SHA-256 43b98be16112d6f056234dc2fc5b3db7f5bdc5f012c48116f903083554a2a38f
+Licensed request REQ-240dc1af284ce906440a8b1d; package PKG-01b66dea6d410d13175a741e; canonical manifest SHA-256 57c316b18a6460d8ad59d4dfb38d11d33b66fc9cf561315325da8c1d569131d9
+Both package digests and all declared payload files verified.
+Mathematical materials byte-identical (path, bytes, SHA-256):
+code/check_coefficients.py 1082 ef55c277ad20fd95acdcf383f6e083cb6a092ddc9a269b2391970ff6bd5e4883
+evidence/finite-arithmetic.log 1263 2750ef5cb1f0083692d63deaa556d2463cbb749447dc3ec5ad5747b33ed887ed
+proofs/main.tex 5583 712e26c6f8dbbf6a25454bc7a0903a819cb79bb4487c48c7a748e650c8828505
+proofs/one-monomino-stabilization.md 3502 6d486d88bc1460521dd1310f9366f829f8213a178b11ca67423df78203d9e72c
+proofs/tatami-one-monomino.pdf 185790 3bd6e06be92849c58b62f417622d543d5fb0db4cb369ea161c60d9de60c155df
+statement.md 1061 e8afb37a5d297a241ad6881e1bf18d7d7a175caad95c41cfe4863b284910c7c7
+Payload files: 11 original, 12 licensed. One addition LICENSES.txt, SHA-256 e3333971dae1bdec1f5f618c775d6e412617349a5baeecc05d54a4978ac67cb0.
+Only changed existing file is claim.json, only changed field is license.
+PASS

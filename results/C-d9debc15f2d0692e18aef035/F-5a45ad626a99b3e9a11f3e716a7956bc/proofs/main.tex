@@ -1,0 +1,109 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1.05in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,amsthm,booktabs}
+\usepackage[hidelinks]{hyperref}
+\newtheorem{theorem}{Theorem}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{.55em}
+\raggedbottom
+\title{\textbf{One-monomino stabilization\\in near-square tatami rectangles}}
+\author{1200}
+\date{6 November 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We extract the fixed-gap one-monomino stabilization law from the
+generating function of Alhazov, Morita and Iwamoto. The eventual count is
+four at gap two and zero at larger even gaps. We identify the last exception
+and distinguish a parity-admissible anchor from an integer cutoff.
+\end{abstract}
+
+\section{Statement}
+Let $T(r,w,m)$ be the number of tilings of a labelled $r$-by-$w$ grid by
+dominoes and exactly $m$ unit squares (monominoes), with no four tile corners
+meeting at a grid vertex. Reflected or rotated tilings are counted separately
+whenever they are distinct. For $m=1$, the area must be odd, so a positive
+odd gap $d=w-r$ allows no tiling, and for even $d$ only odd $r$ is admissible.
+
+\begin{theorem}
+For $d=2$, $T(5,7,1)=8$ and $T(r,r+2,1)=4$ for every odd $r\geq7$,
+with one tiling for each choice of the monomino's corner.
+For every even $d\geq4$, $T(d+3,2d+3,1)=4$, and $T(r,r+d,1)=0$
+for every odd $r\geq d+5$.
+\end{theorem}
+
+For even $d\geq2$, the least admissible stabilization anchor is $d+5$.
+The least integer cutoff beyond which the admissible subsequence has
+its eventual value is $d+4$. An anchor must itself have the prescribed parity.
+
+\section{Literature input}
+For odd $r\geq5$ and $w\geq r$, use Alhazov, Morita and Iwamoto's
+one-monomino enumeration~\cite[\S\S3, 5 and 7]{ami}. In the variable $z$
+marking width, put $P=z^{r-1}+z^{r+1}$. The count at width $w$ is the
+coefficient of $z^w$ in $B+C$, where
+\[
+ B=\frac{4(z^{r-2}+z^r)}{1-P},
+ \qquad C=\frac{2(z+z^r)}{(1-P)^2}.
+\]
+In $B$, the numerator marks the two special corner block widths. In $C$,
+the numerator marks the single-column block $L_r$, which has a monomino at
+one end, and the width-$r$ block $M_r$; the two factors $(1-P)^{-1}$ describe
+lists of pure domino blocks on either side. We use the widths and formulas
+from \S7: the second shift in the printed \S6 recurrence for $B$ and the
+inequality introducing \S7 are inconsistent with the block enumeration
+and intended longer-width range.
+
+\section{Extracting the fixed-gap coefficients}
+Expand $(1-P)^{-1}$ as $\sum_{k\geq0}P^k$ and $(1-P)^{-2}$ as
+$\sum_{k\geq0}(k+1)P^k$. A single $P$ contributes exponent $r-1$ or $r+1$;
+two or more factors have exponent at least $2(r-1)$.
+At $w=r+d$, the coefficient offsets from the two monomials in $B$ are
+$d+2,d$; the offsets in $C$ are $r+d-1,d$.
+
+For $d=2$ and odd $r\geq7$, both offsets in $B$ and the second offset in
+$C$ are positive and less than $r-1$. The first offset in $C$ is $r+1$,
+which comes from one $P$ factor and yields $2\cdot2=4$. These tilings use
+$L_r$ and one width-$(r+1)$ block, so their monominoes are at the corners.
+The two axis reflections act transitively on corners, giving one tiling
+at each. At $r=5$ the same $C$ term contributes four, and $B$ contributes
+another four from $d+2=r-1$.
+
+For even $d\geq4$ and odd $r\geq d+5$, both $B$ offsets and the second
+$C$ offset are smaller than $r-1$ and positive. The first $C$ offset
+satisfies $r+1<r+d-1<2(r-1)$, so it contributes nothing either.
+At $r=d+3$, the first $B$ offset is $r-1$, contributing four. The other
+$B$ offset and second $C$ offset are below $r-1$; the first $C$ offset
+is $2r-4$, strictly between $r+1$ and $2(r-1)$ since $r\geq7$.
+This proves both the eventual value and the last exception.
+
+\section{What this says about the conjecture}
+The last exceptional admissible size is $d+3$ for every positive even
+$d$, so the next admissible size $d+5$ is the least anchor. The cutoff
+need only exclude $d+3$, giving $d+4$. For instance, $T(7,11,1)=4$,
+and all counts from $r=8$ onward are zero at $d=4$. Even if one anchors
+to the value at the cutoff itself, the literal integer minimum here is
+$8$, whereas the experimental expression $m+d+4$ in the formulation of
+Erickson et al.~\cite[\S4.1, Conjecture 3]{ersw} gives $9$.
+Restricting the anchor to admissible sizes gives $9$ and removes this
+discrepancy. With $d$ odd there is no admissible subsequence for $m=1$.
+The square case is covered separately by Erickson and Schurch~\cite{es}.
+
+This note uses a published enumeration and does not resolve the general
+fixed-$m$ conjecture. The companion script checks finite coefficient examples.
+
+\textbf{AI contribution.} GLM5.3F (source project credit supplied by the
+author). Literature verification and preparation used GPT Sol Max assistance.
+
+\begin{thebibliography}{9}
+\bibitem{ami} A. Alhazov, K. Morita and C. Iwamoto, A note on tatami tilings,
+\emph{RIMS K\^oky\^uroku} \textbf{1691} (2010), 1--7.
+\href{https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1691-01.pdf}{Kyoto University archive}.
+\bibitem{ersw} A. Erickson, F. Ruskey, M. Schurch and J. Woodcock,
+Auspicious tatami mat arrangements,
+\href{https://arxiv.org/abs/1103.3309}{arXiv:1103.3309} (2011).
+\bibitem{es} A. Erickson and M. Schurch, Monomer-dimer tatami tilings of
+square regions, \emph{J. Discrete Algorithms} \textbf{16} (2012), 258--269.
+\href{https://arxiv.org/abs/1110.5103}{arXiv:1110.5103}.
+\end{thebibliography}
+\end{document}

@@ -1,0 +1,52 @@
+{
+  "checked_entire_claim": true,
+  "checked_scope": [
+    "原完整纸面审查 REQ-5ec2ba2109495e593535ffb3 的全部范围，详见原报告。",
+    "精确陈述、奇偶定义、标号计数、四角分布、两个最小阈值；对照 Markdown、TeX 及两页 PDF；校验 6 个材料。",
+    "核对 Alhazov–Morita–Iwamoto §§3.2、5–7 的分解、两个级数、印刷错号和宽度不等式；核对 Erickson 等猜想 3 的量词。",
+    "对所有送审参数独立重推按总宽度的两种可能贡献；核对最后例外、稳定尾部和边界。",
+    "用另写逐格法核查小例和角分布；静态核对附带系数脚本和封存日志的范围。",
+    "许可版差异复核：比较两份请求及模板全部字段、材料清单、实际文件集、字节数、SHA-256 和完整字节。"
+  ],
+  "context_id": "CTX-067f7871baee939e1b5b14d1",
+  "decision": "PASS",
+  "findings": [
+    {
+      "finding": "标号计数、边界和奇偶条件一致。偶面积与恰好一个单位方块不相容。",
+      "id": "A-T1",
+      "location": "statement.md; proofs/main.tex §1; PDF pp. 1–2"
+    },
+    {
+      "finding": "§7 的两种角块标记与 §6 计数结构恢复正确的 w-r+2；正向宽度域 w≥r 由 §3.2、§5、§6 和目标序列确认。",
+      "id": "A-T2",
+      "location": "AMI §§3.2, 5–7; proofs/main.tex §2"
+    },
+    {
+      "finding": "逐项核对所有宽度、角分布、尾值及最小阈值；建议把 cutoff 的文字明写为 r≥K，非数学缺口。",
+      "id": "A-T3",
+      "location": "proofs/main.tex §§3–4; Erickson et al. §4.1"
+    },
+    {
+      "finding": "独立逐格检查得到 5×7=8、7×9=4（四角各一）、7×11=4、9×13=0；附带脚本只检查选定系数。",
+      "id": "A-T4",
+      "location": "code/check_coefficients.py; report.md A-T4"
+    },
+    {
+      "finding": "仅请求登记元数据改变；两边 6 个送审材料字节逐一相同，均符合原、新清单，原完整纸面审查仍适用。",
+      "id": "A-L1",
+      "location": "原版与许可版的 request.json、response.template.json、materials/"
+    }
+  ],
+  "fresh_context": true,
+  "kind": "paper",
+  "limitations": [
+    "使用已发表的拼块分类；没有把有限枚举当作全尺寸计数证明，也没有执行作者脚本、重建 TeX 或形式化核验。",
+    "逐格检查只覆盖报告所列小例，另一个尺寸到预设上限停止；未作一般固定 m 命题、新颖性或许可证判定。",
+    "本次复核沿用原独立上下文；仅核对送审材料不变，不复跑代码、不审定发布许可。"
+  ],
+  "manifest_sha256": "57c316b18a6460d8ad59d4dfb38d11d33b66fc9cf561315325da8c1d569131d9",
+  "model": "gpt-6.1-sol",
+  "open_issues": [],
+  "request_id": "REQ-23540966d55b4470d14c84d4",
+  "reviewer": "independent-sol-paper-a"
+}

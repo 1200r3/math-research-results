@@ -1,0 +1,11 @@
+{
+  "archived_input_package": "PKG-336fe59e3499d185bbaabe2e",
+  "formal_verification": "not_claimed",
+  "os": "Windows-11-10.0.26200-SP0",
+  "profile": "formal",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "tools": {
+    "python": "stdlib only"
+  },
+  "validation_track": "paper"
+}

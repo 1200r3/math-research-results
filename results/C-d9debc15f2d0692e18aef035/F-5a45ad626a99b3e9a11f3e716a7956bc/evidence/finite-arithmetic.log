@@ -1,0 +1,24 @@
+Command: python -X utf8 code/check_coefficients.py
+Executed: 2026-11-06T01:59:06+00:00
+Python: 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]
+d= 2: last exception r= 5, count=8; anchor= 7, tail=4
+d= 4: last exception r= 7, count=4; anchor= 9, tail=0
+d= 6: last exception r= 9, count=4; anchor=11, tail=0
+d= 8: last exception r=11, count=4; anchor=13, tail=0
+d=10: last exception r=13, count=4; anchor=15, tail=0
+d=12: last exception r=15, count=4; anchor=17, tail=0
+d=14: last exception r=17, count=4; anchor=19, tail=0
+d=16: last exception r=19, count=4; anchor=21, tail=0
+d=18: last exception r=21, count=4; anchor=23, tail=0
+d=20: last exception r=23, count=4; anchor=25, tail=0
+d=22: last exception r=25, count=4; anchor=27, tail=0
+d=24: last exception r=27, count=4; anchor=29, tail=0
+d=26: last exception r=29, count=4; anchor=31, tail=0
+d=28: last exception r=31, count=4; anchor=33, tail=0
+d=30: last exception r=33, count=4; anchor=35, tail=0
+d=32: last exception r=35, count=4; anchor=37, tail=0
+d=34: last exception r=37, count=4; anchor=39, tail=0
+d=36: last exception r=39, count=4; anchor=41, tail=0
+d=38: last exception r=41, count=4; anchor=43, tail=0
+d=40: last exception r=43, count=4; anchor=45, tail=0
+EXIT=0

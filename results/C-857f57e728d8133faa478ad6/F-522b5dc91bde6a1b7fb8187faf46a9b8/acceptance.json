@@ -1,0 +1,11 @@
+{
+  "claim_id": "C-857f57e728d8133faa478ad6",
+  "dependencies": [],
+  "fixed_id": "F-522b5dc91bde6a1b7fb8187faf46a9b8",
+  "kind": "main",
+  "license": "MIT AND CC-BY-4.0",
+  "revision": 2,
+  "source_package_sha256": "182de2ad44dd39be45360d5e8a58b0c7f0845aa4c54184b06d06d2e50a7e5f92",
+  "title": "Three-color classification for shifted Schur equations",
+  "validation_track": "paper"
+}

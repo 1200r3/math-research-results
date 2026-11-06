@@ -1,0 +1,51 @@
+{
+  "checked_entire_claim": true,
+  "checked_scope": [
+    "正整数 n,d 的奇偶性与带标签计数；奇 d 无奇偶可容许下标，偶 d 的偶 n 计数为零。",
+    "d=2 的 5×7 末例外、每个奇 n≥7 的总数和角分配，以及所有偶 d≥4 的 n=d+3 末例外和奇 n≥d+5 的零尾。",
+    "用下标 n≥K 的包含式约定分别检查最小整数截点、最小可容许锚点；复核原文区块计数与两处排印错误，另逐格核对 27 个有限边界棋盘。",
+    "许可版本差量复审：原请求 REQ-5c06c37f07aaa5996b64cd0a 与新请求的数学材料路径、内容、字节数和 SHA-256 逐一一致；新请求身份已核对。"
+  ],
+  "context_id": "CTX-5522a3a0959e8826718f2b1a",
+  "decision": "PASS",
+  "findings": [
+    {
+      "detail": "奇 d 无可容许下标；偶 d 的奇偶可容许性恰等价于 n 为奇数。原文计数在奇面积等价于恰一个单格，且保留不同对称铺法。",
+      "id": "T-B1",
+      "location": "statement.md: parity and counting convention",
+      "status": "checked"
+    },
+    {
+      "detail": "原文 §6 的宽度移位与 §7 开头的范围有印刷问题；封存稿采用的 §7 分项符合区块宽度、正确范围及独立计数。",
+      "id": "T-B2",
+      "location": "proofs/one-monomino-stabilization.md: The literature input; original paper §§3.2,5–7",
+      "status": "checked"
+    },
+    {
+      "detail": "全部声称尺寸的指数端点、d=2 的每角恰一、末例外及包含式截点最小性均核对。27 块独立格点计数未发现冲突。",
+      "id": "T-B3",
+      "location": "statement.md: d=2 and even d≥4; proofs/one-monomino-stabilization.md: Coefficient extraction / Cutoffs and scope",
+      "status": "checked"
+    },
+    {
+      "detail": "原审查 REQ-5c06c37f07aaa5996b64cd0a 的 6 份材料和本请求的材料逐字节相同；两侧逐文件重算 SHA-256、字节数并核对目录完整性。命题版本、声明哈希、来源与审稿人上下文均相同。原检查适用于新请求绑定；本次复审未重新运行有限检查。",
+      "id": "T-BD",
+      "location": "request.json: request identity / materials; materials/** (all files)",
+      "status": "checked"
+    }
+  ],
+  "fresh_context": true,
+  "kind": "counterexample_search",
+  "limitations": [
+    "反例与边界 PASS 表示已完成规定检查且未发现反例；不是独立 paper 审查或形式化认证。",
+    "无限范围依据原始论文的一个单格区块分类和指数区间；本审查没有重新证明原论文的一般分类，直接计数仅限所列棋盘。",
+    "不评价 d=0、一般固定单格数的猜想或新颖性；有几块域外校验仅用于识别边界。",
+    "同一独立审稿人和上下文的差量复审，沿用原全范围检查；未重新执行原有限测试，也不构成另一个独立审查。",
+    "审查范围限两份请求中实际附送的材料；未评价许可证条款或请求未附送的包元数据。"
+  ],
+  "manifest_sha256": "57c316b18a6460d8ad59d4dfb38d11d33b66fc9cf561315325da8c1d569131d9",
+  "model": "gpt-6.1-sol",
+  "open_issues": [],
+  "request_id": "REQ-010b2ee2142df959a05b9769",
+  "reviewer": "independent-sol-boundary"
+}

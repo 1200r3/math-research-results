@@ -1,0 +1,17 @@
+{
+  "claim_id": "C-d9debc15f2d0692e18aef035",
+  "dependencies": [],
+  "kind": "special_case",
+  "license": "MIT AND CC-BY-4.0",
+  "original_problem_relationship": "Known one-monomino special case and precise stabilization cutoffs; general conjecture is outside scope",
+  "research_status": "candidate",
+  "revision": 1,
+  "sources": [
+    "PKG-336fe59e3499d185bbaabe2e",
+    "https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1691-01.pdf",
+    "https://arxiv.org/abs/1103.3309"
+  ],
+  "statement_file": "statement.md",
+  "statement_sha256": "e8afb37a5d297a241ad6881e1bf18d7d7a175caad95c41cfe4863b284910c7c7",
+  "title": "One-monomino tatami stabilization and its last exceptional size"
+}

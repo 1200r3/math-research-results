@@ -1,0 +1,47 @@
+{
+  "checked_entire_claim": true,
+  "checked_scope": [
+    "Entire exact claim revision 2: all nonnegative shift triples; repeated inputs and empty colors; universal integer avoiding coloring of period 2^(s+1) and infinity for nonconstant shifts; exact Schaal diagonal endpoint.",
+    "All six sealed material sizes and SHA-256 hashes; statement, Markdown proof, TeX and both rendered PDF pages.",
+    "Independent recomputation of the residue table, cyclic class sums for powers-of-two periods 2 through 16384, both block carries, and exhaustive Schur-free subset partitions at endpoints 13 and 14.",
+    "Adhikari et al. section 1.1, Proposition 4.9, Corollary 4.10, and ref. 20; Adak et al. Definition 1.2 and Theorem 1.",
+    "Compared the sealed original and licensed request/material sets and canonical package manifests. All six mathematical materials are byte-identical and match their recorded lengths and hashes. Across the whole payload the only addition is LICENSES.txt, and claim.json changes only its license field."
+  ],
+  "context_id": "CTX-49f295956e151ab2e4a43c61",
+  "decision": "PASS",
+  "findings": [
+    {
+      "description": "Checked the two lifted residues, color relabeling, simultaneous translation, j=0 or 1 including m=1, and all 24 nonzero table entries. Pullback proves avoidance on all integers.",
+      "id": "B-RADO-01",
+      "location": "main-theorem-U.md, Off the diagonal; main.tex/PDF section 2"
+    },
+    {
+      "description": "Checked both interval endpoints, Schur threshold with repeated inputs, and both possible block carries. Independently counted 18 and 0 labelled avoiding colorings at 13 and 14.",
+      "id": "B-RADO-02",
+      "location": "main-theorem-U.md, On the diagonal; main.tex/PDF section 3"
+    },
+    {
+      "description": "Checked that the diagonal literature uses the same conventions and that Adak et al.'s cited result concerns two colors only; no mathematical mismatch between statement, Markdown, TeX and PDF.",
+      "id": "B-RADO-03",
+      "location": "main.tex/PDF sections 3-4 and references"
+    },
+    {
+      "description": "Compared the sealed original and licensed request/material sets and canonical package manifests. All six mathematical materials are byte-identical and match their recorded lengths and hashes. Across the whole payload the only addition is LICENSES.txt, and claim.json changes only its license field.",
+      "id": "B-RADO-04",
+      "location": "Original and licensed request materials; canonical package manifests; payload claim.json and LICENSES.txt"
+    }
+  ],
+  "fresh_context": true,
+  "kind": "paper",
+  "limitations": [
+    "The modular spot check is finite; the paper's arithmetic proof handles all s and all nonconstant shifts.",
+    "Schaal's 1995 full text was not obtained; the exact diagonal result and attribution are stated in Adhikari et al.'s primary proof and the result was independently derived.",
+    "This is a paper review, without a formal proof or novelty certification.",
+    "This is the original independent Paper B context continued for a license-only delta; the original mathematical verification was carried forward without re-running unchanged arithmetic."
+  ],
+  "manifest_sha256": "182de2ad44dd39be45360d5e8a58b0c7f0845aa4c54184b06d06d2e50a7e5f92",
+  "model": "gpt-6.1-sol",
+  "open_issues": [],
+  "request_id": "REQ-39cdd7d87a00d0b4040974f5",
+  "reviewer": "independent-sol-paper-b"
+}

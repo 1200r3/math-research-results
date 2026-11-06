@@ -1,0 +1,51 @@
+{
+  "checked_entire_claim": true,
+  "checked_scope": [
+    "非负三移位不全相等：非零差的最小二进估值、两种余数的标签、整数平移及周期避免染色，含 s=0、空色、重复输入和负整数固定点。",
+    "非负移位全相等：核对 13c+13 的避免染色和 13c+14 的保证端点、块内进位及 Schur 的重复变量约定。",
+    "独立有限检查：504 个小三元组、s=0 至 4 的全平移余数和标签、选定大 s 边界，以及 c=0,1,2 的精确对角端点。",
+    "许可版本差量复审：原请求 REQ-1d54ae13148c5675a319edbd 与新请求的数学材料路径、内容、字节数和 SHA-256 逐一一致；新请求身份已核对。"
+  ],
+  "context_id": "CTX-4cf71702202f56f0f4c579d8",
+  "decision": "PASS",
+  "findings": [
+    {
+      "detail": "最小非零差估值、余数归类、同步标签和平移均成立；覆盖真相等及仅模相等、零移位和整数固定点。",
+      "id": "R-B1",
+      "location": "statement.md: nonconstant branch; proofs/main-theorem-U.md: Off the diagonal",
+      "status": "checked"
+    },
+    {
+      "detail": "进位只可能 0 或 1，m=1 时仅 1；独立分组重算模 3 矛盾。空色符合定义，且 2m 确为该构造的最小正周期。",
+      "id": "R-B2",
+      "location": "proofs/main-theorem-U.md: Off the diagonal (carry and residue cases)",
+      "status": "checked"
+    },
+    {
+      "detail": "端点缩放及 0/1 进位排除核对无误；独立约束传播确认 c=0,1,2 的临界两个区间。",
+      "id": "R-B3",
+      "location": "statement.md: diagonal branch; proofs/main-theorem-U.md: On the diagonal",
+      "status": "checked"
+    },
+    {
+      "detail": "原审查 REQ-1d54ae13148c5675a319edbd 的 6 份材料和本请求的材料逐字节相同；两侧逐文件重算 SHA-256、字节数并核对目录完整性。命题版本、声明哈希、来源与审稿人上下文均相同。原检查适用于新请求绑定；本次复审未重新运行有限检查。",
+      "id": "R-BD",
+      "location": "request.json: request identity / materials; materials/** (all files)",
+      "status": "checked"
+    }
+  ],
+  "fresh_context": true,
+  "kind": "counterexample_search",
+  "limitations": [
+    "反例与边界 PASS 表示已完成规定检查且未发现反例；不是独立 paper 审查或形式化认证。",
+    "有限枚举范围明确列在报告及日志中；一般参数由估值、余数和端点论证核查。",
+    "未执行查新；Schaal 1995 原文未直接核读，归属核对了 Adhikari 等的 Corollary 4.10。不评价负移位对角、满射或只允许互异输入的版本。",
+    "同一独立审稿人和上下文的差量复审，沿用原全范围检查；未重新执行原有限测试，也不构成另一个独立审查。",
+    "审查范围限两份请求中实际附送的材料；未评价许可证条款或请求未附送的包元数据。"
+  ],
+  "manifest_sha256": "182de2ad44dd39be45360d5e8a58b0c7f0845aa4c54184b06d06d2e50a7e5f92",
+  "model": "gpt-6.1-sol",
+  "open_issues": [],
+  "request_id": "REQ-0f4325117062adbabd72b6c5",
+  "reviewer": "independent-sol-boundary"
+}

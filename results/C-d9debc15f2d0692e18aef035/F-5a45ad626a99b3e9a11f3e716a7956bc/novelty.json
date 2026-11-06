@@ -1,0 +1,63 @@
+{
+  "as_of": "2026-11-06",
+  "closest_results": [
+    {
+      "comparison": "Fixed-height exact enumeration implies the stable count, exceptions, and one tiling per corner at gap two. This note extracts the fixed-gap specialization and clarifies two cutoffs.",
+      "locator": "§3.2, Fig. 4, §§5–7",
+      "scope": "one-monomino count",
+      "source": "https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1691-01.pdf",
+      "status": "known"
+    },
+    {
+      "comparison": "All fixed monomino counts, with an experimental least-threshold suggestion. The new note only treats m=1. For (d,m)=(4,1) the literal minimum integer anchor is 8 if anchors need not be admissible; 9 is the least admissible anchor.",
+      "locator": "§4.1, Conjecture 3, PDF p.19",
+      "scope": "original conjecture",
+      "source": "https://arxiv.org/pdf/1103.3309"
+    }
+  ],
+  "conclusion": "The published exact enumeration already covers the result. Treat this as a verification and boundary clarification. No general stabilization result or novel counting theorem is asserted.",
+  "open_source_check": "targeted_web_search_and_selected_repository_pages",
+  "scope": "One monomino, positive fixed gap, and the exact parity-qualified cutoff. The archived general fixed-m conjecture is a separate open target.",
+  "searches": [
+    {
+      "channel": "academic_index_and_citations",
+      "date": "2026-11-06",
+      "query": "A Note on Tatami Tilings Alhazov Morita Iwamoto one monomino and citation by Ruskey Woodcock",
+      "result": "Ruskey–Woodcock's author page links the exact one-monomino work. Crossref API for 10.37236/596 unavailable; paper versions and primary source verified independently.",
+      "url": "https://webhome.cs.uvic.ca/~ruskey/Publications/Tatami/Tatami.html"
+    },
+    {
+      "channel": "preprint_and_authors",
+      "date": "2026-11-06",
+      "query": "tatami Conjecture 3 fixed gap stabilization; A Note on Tatami Tilings; arXiv 1103.3309 and 1110.5103",
+      "result": "Alhazov–Morita–Iwamoto §§3,5,7 give the generating function from which the exact one-monomino claim and all boundary values follow. §6 has a conflicting sign in the second shift; §7 introduction has a reversed inequality. Used the published §7 formula and the block widths, with finite verification. The arXiv conjecture §4.1 is for every m>=1; the square solution arXiv:1110.5103 does not cover positive gaps.",
+      "url": "https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1691-01.pdf"
+    },
+    {
+      "channel": "community",
+      "date": "2026-11-06",
+      "query": "MathOverflow monomer dimer tatami tilings fixed gap; OEIS tatami rectangle monomino A180965 A182110",
+      "result": "Related structural problems and OEIS tables. A180965 totals tilings of height 2 without fixing one monomino; A182110 counts square maximal-monomino coverings up to rotation. Different statistics from T(r,r+d,1).",
+      "url": "https://mathoverflow.net/questions/103165/monomer-dimer-tatami-tilings-need-better-relationships-with-other-math-summary"
+    },
+    {
+      "channel": "GitHub / open_source",
+      "date": "2026-11-06",
+      "query": "GitHub tatami solver enumeration tatami mat arrangement monomer dimer and stabilization",
+      "result": "Read tatami.rb: Arranger#init_field rejects odd area and uses width*height/2 dominoes; does not count the one-monomino case. jbosboom/tatamibari-solver README describes Tatamibari clue puzzles, a different problem. External code was not run.",
+      "url": "https://gist.github.com/takehiko/35a372005f08a9c825dc"
+    },
+    {
+      "channel": "local_library",
+      "date": "2026-11-06",
+      "query": "tatami | A-007096a9a300c061186287e1 in local RESULTS_INDEX, SETUP_REPORT, REVIEW_REPORT and PROJECT_STATUS",
+      "result": "No indexed match before intake in the checked index files. New input PKG-336fe59e3499d185bbaabe2e claims A and proposes a general construction. Its general proof does not close; its one-monomino count is a direct corollary of the 2010 paper."
+    }
+  ],
+  "status": "known",
+  "unavailable_channels": [
+    "Submitted Zenodo record 23047536: landing page, API and DataCite URL not accessible; presence or contents unverified",
+    "HAL direct search was not accessible; index search did not identify a corresponding full solution",
+    "No exhaustive GitHub issue or code index; absence of a match is not evidence of global novelty"
+  ]
+}

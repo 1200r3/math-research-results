@@ -1,0 +1,52 @@
+{
+  "checked_entire_claim": true,
+  "checked_scope": [
+    "原完整纸面审查 REQ-1b0d8358cb58dd2beeb4bd3c 的全部范围，详见原报告。",
+    "精确陈述、完整量词和边界；对照 Markdown、TeX 及两页 PDF；校验 6 个材料哈希及字节数。",
+    "独立重推任意非恒定三元组的周期构造、24 项模 3 检查以及拉回至全体整数。",
+    "重推对角上下界，独立核验 Schur 端点与携带进位的分拆；核对 Schaal 归属和两色相关文献范围。",
+    "静态核对附带算术脚本、覆盖范围与封存日志的证据角色。",
+    "许可版差异复核：比较两份请求及模板全部字段、材料清单、实际文件集、字节数、SHA-256 和完整字节。"
+  ],
+  "context_id": "CTX-fbf236c1f47dd0a1e8e43e39",
+  "decision": "PASS",
+  "findings": [
+    {
+      "finding": "送审材料身份和命题一致，覆盖允许重复输入及缺色的任意着色。",
+      "id": "A-R1",
+      "location": "statement.md; proofs/main.tex §1; PDF pp. 1–2"
+    },
+    {
+      "finding": "规范化、j 的严格界、全部余数格及向整数拉回均成立，m=1 无例外。",
+      "id": "A-R2",
+      "location": "proofs/main-theorem-U.md; proofs/main.tex §2"
+    },
+    {
+      "finding": "核实 b=c+1 缩放和进位分拆；独立约束搜索固定首色后在 13 有 6 解、14 无解。",
+      "id": "A-R3",
+      "location": "proofs/main.tex §3; Adhikari et al., Prop. 4.9 and Cor. 4.10"
+    },
+    {
+      "finding": "脚本与证明有限核验一致；直接验证的模数只有 2 到 1024 间的二次幂。",
+      "id": "A-R4",
+      "location": "code/check_finite_arithmetic.py; evidence/finite-arithmetic.log"
+    },
+    {
+      "finding": "仅请求登记元数据改变；两边 6 个送审材料字节逐一相同，均符合原、新清单，原完整纸面审查仍适用。",
+      "id": "A-L1",
+      "location": "原版与许可版的 request.json、response.template.json、materials/"
+    }
+  ],
+  "fresh_context": true,
+  "kind": "paper",
+  "limitations": [
+    "纸面审查；未执行作者代码、重建 TeX 或做形式化检查。另写约束搜索仅复核小 Schur 端点。",
+    "Schaal 历史归属依据 Adhikari 等原论文的归引和重证。未作完整查新、授权或许可证判定。",
+    "本次复核沿用原独立上下文；仅核对送审材料不变，不复跑代码、不审定发布许可。"
+  ],
+  "manifest_sha256": "182de2ad44dd39be45360d5e8a58b0c7f0845aa4c54184b06d06d2e50a7e5f92",
+  "model": "gpt-6.1-sol",
+  "open_issues": [],
+  "request_id": "REQ-09b1397b1a4d40d94ae2caad",
+  "reviewer": "independent-sol-paper-a"
+}

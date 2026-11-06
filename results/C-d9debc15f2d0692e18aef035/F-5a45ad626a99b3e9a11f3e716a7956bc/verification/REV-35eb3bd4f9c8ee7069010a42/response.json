@@ -1,0 +1,51 @@
+{
+  "checked_entire_claim": true,
+  "checked_scope": [
+    "Entire exact claim revision 1: labelled-grid tatami definition, odd-gap and even-height parity exclusions, gap-two count and one per corner, larger even-gap exception and zero tail, and both minimal threshold conventions.",
+    "All six sealed material sizes and SHA-256 hashes; statement, Markdown proof, TeX and both rendered PDF pages.",
+    "AMI sections 2-7 and interpretation of the inconsistent section 6 shift and section 7 inequality; published Conjecture 3 wording and separately cited square case.",
+    "Independent row-profile geometry on 60 rectangles and separate parity controls; direct binomial arithmetic for all even gaps 2 through 100 at the last exception and first 11 admissible tail sizes.",
+    "Compared the sealed original and licensed request/material sets and canonical package manifests. All six mathematical materials are byte-identical and match their recorded lengths and hashes. Across the whole payload the only addition is LICENSES.txt, and claim.json changes only its license field."
+  ],
+  "context_id": "CTX-0cb8ef48cf5eb9ea95793e3c",
+  "decision": "PASS",
+  "findings": [
+    {
+      "description": "Parity and the labelled counting convention match the primary source. Section 7 formulas and the block widths support the two corrections to the printed source.",
+      "id": "B-TATAMI-01",
+      "location": "one-monomino-stabilization.md, Literature input; main.tex/PDF sections 1-2"
+    },
+    {
+      "description": "Checked all coefficient offsets and multiplicities, the r=5 endpoint, and the four corner counts by symmetry. Verified both inequalities excluding exponents at larger even gaps and the single contribution at r=d+3.",
+      "id": "B-TATAMI-02",
+      "location": "main.tex/PDF section 3"
+    },
+    {
+      "description": "The last differing admissible size proves both minimal thresholds, with inclusive r>=cutoff. The literal d=4 conjecture comparison and published wording agree.",
+      "id": "B-TATAMI-03",
+      "location": "statement.md; main.tex/PDF sections 1, 4"
+    },
+    {
+      "description": "Independent labelled-grid counts agree with the series on all 60 tested rectangles, including the exact small boundaries and per-corner counts. Independent binomial checks agree with the endpoint and tail formulas in the stated finite range.",
+      "id": "B-TATAMI-04",
+      "location": "independent_check.py and independent_check.log"
+    },
+    {
+      "description": "Compared the sealed original and licensed request/material sets and canonical package manifests. All six mathematical materials are byte-identical and match their recorded lengths and hashes. Across the whole payload the only addition is LICENSES.txt, and claim.json changes only its license field.",
+      "id": "B-TATAMI-05",
+      "location": "Original and licensed request materials; canonical package manifests; payload claim.json and LICENSES.txt"
+    }
+  ],
+  "fresh_context": true,
+  "kind": "paper",
+  "limitations": [
+    "The infinite-range paper deduction uses AMI's published block enumeration as the cited theorem; the grid and coefficient checks are finite supplements.",
+    "The claim is for one monomino and positive gaps, without a general fixed-m result, novelty certification or formal proof.",
+    "This is the original independent Paper B context continued for a license-only delta; the original mathematical verification was carried forward without re-running unchanged arithmetic."
+  ],
+  "manifest_sha256": "57c316b18a6460d8ad59d4dfb38d11d33b66fc9cf561315325da8c1d569131d9",
+  "model": "gpt-6.1-sol",
+  "open_issues": [],
+  "request_id": "REQ-240dc1af284ce906440a8b1d",
+  "reviewer": "independent-sol-paper-b"
+}

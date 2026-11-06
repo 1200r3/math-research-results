@@ -1,0 +1,17 @@
+{
+  "claim_id": "C-857f57e728d8133faa478ad6",
+  "dependencies": [],
+  "kind": "main",
+  "license": "MIT AND CC-BY-4.0",
+  "original_problem_relationship": "Exact solution of the archived three-shift problem; diagonal previously known",
+  "research_status": "candidate",
+  "revision": 2,
+  "sources": [
+    "PKG-21b896ada55da58f1e48cea1",
+    "https://doi.org/10.1090/mcom3034",
+    "https://arxiv.org/abs/2603.28216"
+  ],
+  "statement_file": "statement.md",
+  "statement_sha256": "4023f1270cb923cc808c7a52ee9aad94a75788354d2468aa456d34cb455e6fc4",
+  "title": "Three-color classification for shifted Schur equations"
+}
