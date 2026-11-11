@@ -1,0 +1,23 @@
+{
+  "checked_entire_claim": true,
+  "checked_scope": [
+    "All 28 sealed material SHA-256 digests",
+    "Complete finite class coverage and collision separation",
+    "All submitted finite-count implementations audited and freshly rerun",
+    "Mathematically independent set-partition and precedence-DP recomputation of all six critical n=11 totals"
+  ],
+  "context_id": "CTX-0869d529259cd62f384a22f1",
+  "decision": "PASS",
+  "findings": [],
+  "fresh_context": true,
+  "kind": "computation",
+  "limitations": [
+    "All-length equivalences within submitted literature classes belong to the independent reduction review.",
+    "Shared admission memory reservation is not an OS hard limit."
+  ],
+  "manifest_sha256": "27469f12a166c53b3942714a605e66ccff3b4c43d6cf54fb9aee0932c5001d68",
+  "model": "gpt-6-astra",
+  "open_issues": [],
+  "request_id": "REQ-33953b3924c5f107ebe1e15c",
+  "reviewer": "c86-astra-compute"
+}

@@ -1,0 +1,1 @@
+Run verify_coverage.py to check the exact archived counts and class coverage. To recompute, run each run_*.py on Windows with the x64 .NET Framework C# compiler. Each program is single-threaded; Joint.cs is the largest run. The class representatives are factual data transcribed from the cited authors’ table, and reversal/complement expands them.

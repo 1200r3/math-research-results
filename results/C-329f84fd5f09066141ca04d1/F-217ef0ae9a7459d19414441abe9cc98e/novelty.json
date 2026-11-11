@@ -1,0 +1,56 @@
+{
+  "as_of": "2026-11-11",
+  "closest_results": [
+    {
+      "comparison": "Same general implication; published anchor check through length nine.",
+      "locator": "pp.294–295, Proposition 8.3 and Conjecture 8.6",
+      "source": "https://ajc.maths.uq.edu.au/pdf/94/ajc_v94_p267.pdf"
+    },
+    {
+      "comparison": "Source of fixed-alphabet classes and all-n equivalences.",
+      "locator": "§§1.1, 1.4 and Appendix A",
+      "source": "https://doi.org/10.37236/147"
+    }
+  ],
+  "conclusion": "Precisely scoped equivalence certificate, not a general solution or claim of worldwide priority.",
+  "searches": [
+    {
+      "channel": "journal and cited work",
+      "date": "2026-11-11",
+      "query": "CCEG Conjecture 8.6; Jelínek–Mansour w-equivalence through length six",
+      "result": "CCEG states the conjecture and the specific equal-through-nine candidate pair. JM proves all-n ordinary word equivalences, not the implication from packed total equality.",
+      "url": "https://doi.org/10.37236/147"
+    },
+    {
+      "channel": "author and preprint materials",
+      "date": "2026-11-11",
+      "query": "Cayley equivalent Cayley max equivalent 8.6 arXiv; author short-word class table",
+      "result": "Checked arXiv:2407.19583 and the JM author table. Rows establish the comparison partition; the new certificate distinguishes their packed totals.",
+      "url": "https://math.haifa.ac.il/toufik/enumerative/tablewords456.html"
+    },
+    {
+      "channel": "math community",
+      "date": "2026-11-11",
+      "query": "Cayley-equivalence content conjecture MathDB; 121123 122213 Cayley",
+      "result": "Related problem discussion/index, not an independently checked length-five classification.",
+      "url": "https://mathdb.com/p/364117/the-cayley-equivalence-content-conjecture"
+    },
+    {
+      "channel": "GitHub and tools",
+      "date": "2026-11-11",
+      "query": "reuse Cayley-v6-20261111 literature audit: insertion encoding, patternlab",
+      "result": "Enumeration tools are related. No matched same-scope C8.6 classification was found in the reviewed record; no comprehensive private or unindexed search.",
+      "url": "https://github.com/AbiOllson/cperms_ins_enc"
+    },
+    {
+      "channel": "local library",
+      "date": "2026-11-11",
+      "query": "Cayley v6 archival package and prior scoped pair proof",
+      "result": "Existing archive contains finite counts but incomplete class-pair coverage; prior accepted result was only the named test pair. This follow-up independently generated the scoped census and class distinction certificates."
+    }
+  ],
+  "status": "partial_known",
+  "unavailable_channels": [
+    "No comprehensive review of closed repositories or unindexed literature."
+  ]
+}

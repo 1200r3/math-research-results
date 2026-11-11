@@ -1,0 +1,13 @@
+[
+  {
+    "claim_id": "C-329f84fd5f09066141ca04d1",
+    "dependencies": [],
+    "fixed_id": "F-217ef0ae9a7459d19414441abe9cc98e",
+    "kind": "computation",
+    "license": "MIT AND CC-BY-4.0",
+    "revision": 1,
+    "source_package_sha256": "27469f12a166c53b3942714a605e66ccff3b4c43d6cf54fb9aee0932c5001d68",
+    "title": "Cayley equivalence for short patterns and binary patterns of length six",
+    "validation_track": "computational"
+  }
+]

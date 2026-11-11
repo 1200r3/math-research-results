@@ -1,0 +1,145 @@
+\documentclass[10pt]{article}
+\usepackage[letterpaper,margin=.85in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,amsthm,booktabs}
+\usepackage[hidelinks,pdftitle={Cayley equivalence for short patterns},pdfauthor={1200}]{hyperref}
+\newtheorem{theorem}{Theorem}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{.48em}
+\raggedbottom
+\title{\textbf{Cayley equivalence for short patterns}}
+\author{1200}
+\date{November 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We verify Conjecture 8.6 of Cerbai, Claesson, Ernst and Golab for all packed
+patterns of length at most five and for patterns of length six on at most
+two letters. In these ranges, total Cayley avoidance counts through length
+eleven already determine all fixed-alphabet avoidance counts. The proof
+combines exact finite distinguishing counts with the published word-Wilf
+equivalences of Jel\'{\i}nek and Mansour.
+\end{abstract}
+
+\section{Statement and reduction}
+A packed word has a set of letters of the form $[k]=\{1,\ldots,k\}$;
+the empty word has $k=0$. An occurrence of a packed pattern is a subsequence
+with the same order relations and equalities. For a pattern $p$, let
+$A_p(n,k)$ count the avoiding packed words of length $n$ on exactly $[k]$,
+let $A_p(n)=\sum_k A_p(n,k)$, and let $W_p(n,K)$ count avoiding words on
+$[K]$ without requiring every letter to occur.
+
+\begin{theorem}
+Suppose $p$ and $q$ have the same positive length $m$. If $m\le5$, or if
+$m=6$ and both patterns use at most two distinct values, then the
+following conditions are equivalent:
+\begin{enumerate}
+\setlength{\itemsep}{.14em}
+\item $A_p(n)=A_q(n)$ for every $0\le n\le11$;
+\item $A_p(n)=A_q(n)$ for every $n\ge0$;
+\item $A_p(n,k)=A_q(n,k)$ for every $n,k\ge0$;
+\item $W_p(n,K)=W_q(n,K)$ for every $n,K\ge0$.
+\end{enumerate}
+\end{theorem}
+
+Split a word on $[K]$ according to its set of used letters. Increasing
+relabelling preserves containment, so for each $n$,
+\[
+ W_p(n,K)=\sum_{k=0}^K \binom Kk A_p(n,k).
+\]
+This identity and binomial inversion give (3)$\Leftrightarrow$(4);
+summing gives (3)$\Rightarrow$(2), and (2)$\Rightarrow$(1) is immediate.
+We prove (1)$\Rightarrow$(4) by showing that distinct word-Wilf classes
+have distinct finite total signatures.
+
+\section{Class distinctions}
+Use the word-Wilf classification in \cite[\S\S1.1, 1.4 and Appendix A]{jm}.
+The authors' table \cite{table} lists representatives up to reversal and
+rank complement; both operations preserve fixed-alphabet avoidance.
+Expanding its rows covers exactly the 75 patterns of length four
+(16 classes), 541 of length five (116 classes), and 63 at-most-binary
+patterns of length six (18 classes), without overlap. Membership in
+the same row, after expansion, supplies the all-length implication.
+
+There is one pattern of length one. At length two the classes represented
+by $11$ and $12$ have totals 6 and 4 at host length three. At length three
+the classes represented by $111,112,123$ have totals 66, 60, and 56
+at host length four. At pattern lengths four and five, direct enumeration
+at host lengths eight and nine, respectively, separates all but the
+corresponding rows listed below. At pattern length six with at most two
+values, the vectors of totals at host lengths six through ten separate
+all but the last two rows. Each row of this table supplies a further
+host length that separates its pair.
+\begin{center}
+\begin{tabular}{clcrr}
+\toprule
+$m$ & Representatives $(p,q)$ & $n$ & $A_p(n)$ & $A_q(n)$\\
+\midrule
+4 & $1223,\ 1332$ & 9 & 4,472,716 & 4,472,712\\
+5 & $11212,\ 12121$ & 10 & 98,890,988 & 98,890,980\\
+5 & $11223,\ 11332$ & 11 & 1,445,533,180 & 1,445,533,200\\
+5 & $12123,\ 13232$ & 10 & 93,909,363 & 93,909,357\\
+5 & $12234,\ 12443$ & 10 & 87,548,792 & 87,548,796\\
+5 & $13442,\ 14233$ & 10 & 87,410,614 & 87,410,626\\
+6 & $112112,\ 121112$ & 11 & 1,616,420,895 & 1,616,420,896\\
+6 & $111212,\ 112121$ & 11 & 1,616,424,886 & 1,616,424,885\\
+\bottomrule
+\end{tabular}
+\end{center}
+Thus (1) forces membership in the same word-Wilf class, which gives (4)
+by the cited classification. This proves the stated part of Conjecture
+8.6 \cite[p.~295]{cceg}. The original conjecture for arbitrary pattern
+length is outside the result.
+
+\section{Exact counts}
+For the two complete censuses, enumerate each host on its actual
+alphabet, retaining only words that use every value of that alphabet.
+At a leaf, standardize each increasing selection of positions and count
+each resulting pattern once for that host. The code checks the total
+population against the sum of the layers given by the surjection recurrence
+\[
+ F(n,k)=k\bigl(F(n-1,k)+F(n-1,k-1)\bigr), \qquad F(0,0)=1.
+\]
+Deleting the last letter either leaves all $k$ letters or removes the
+only instance of that letter, giving the two terms. Subtracting containing
+hosts from the population gives avoidance.
+
+For individual patterns, an alternative count starts at the pattern
+and inserts one letter at every step. Either the letter is already
+present, or it is a new rank and all old ranks at least as large are
+increased by one. In any larger containing word, deleting a position
+outside a fixed occurrence and standardizing gives a containing parent.
+Conversely either insertion preserves that occurrence. This proves
+coverage, and storing the words in sets handles repeated generation.
+
+The large comparison $11223/11332$ uses a streaming recognizer.
+Both patterns have the form $(a,a,d,d,x)$, with $a<d<x$ for the first
+or $a<x<d$ for the second. While reading a prefix, maintain the minimum
+repeated value, the least $a<d$ for each realized prefix $(a,a,d)$,
+and the possible final ranks following any $(a,a,d,d)$. A new letter is
+tested as a final rank before updating shorter prefixes. The least $a$
+for each $d$ gives the whole interval of possible middle ranks; for the
+other pattern, only the minimum completed $d$ matters. If both patterns
+have occurred, their common remaining packed completions can be added
+by a recurrence on the remaining positions and unused letters.
+The streaming counts agree with insertion enumeration at lengths
+nine and ten. The accompanying archive includes source code, execution
+records, and a coverage checker.
+
+\textbf{AI contributions: GLM5.3F and GPT Astra.}
+GLM5.3F contributed to the source research. GPT Astra assisted with the
+short-pattern classification, proof development, and independent verification.
+
+\begin{thebibliography}{9}
+\bibitem{cceg} G. Cerbai, A. Claesson, D. C. Ernst and H. Golab,
+Pattern-avoiding Cayley permutations via combinatorial species,
+\href{https://ajc.maths.uq.edu.au/pdf/94/ajc_v94_p267.pdf}
+{Australas. J. Combin. \textbf{94}(2) (2026), 267--299}.
+\bibitem{jm} V. Jel\'{\i}nek and T. Mansour, Wilf-equivalence on $k$-ary words,
+compositions, and parking functions,
+\href{https://doi.org/10.37236/147}{Electron. J. Combin. \textbf{16}(1) (2009), \#R58}.
+\bibitem{table} V. Jel\'{\i}nek and T. Mansour,
+\href{https://math.haifa.ac.il/toufik/enumerative/tablewords456.html}
+{Supplementary classification table for patterns of lengths four, five, and six}.
+\end{thebibliography}
+\end{document}

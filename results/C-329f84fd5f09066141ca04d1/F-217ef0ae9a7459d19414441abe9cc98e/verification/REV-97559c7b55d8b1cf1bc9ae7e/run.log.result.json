@@ -1,0 +1,8 @@
+{
+  "ended": "2026-11-11T11:09:51+00:00",
+  "job_id": "JOB-3df90d883698a5154c8efaf3",
+  "log_sha256": "2aeb959321612d87831b9fe4ea8dd0700bdd659a786e3aac278bfdb1ce6e8aad",
+  "resource_policy": "shared admission reservations + cooperative thread limits; no OS memory/CPU hard cap",
+  "returncode": 0,
+  "timed_out": false
+}

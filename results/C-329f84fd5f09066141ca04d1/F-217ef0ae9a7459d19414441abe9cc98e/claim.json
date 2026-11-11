@@ -1,0 +1,18 @@
+{
+  "claim_id": "C-329f84fd5f09066141ca04d1",
+  "dependencies": [],
+  "kind": "computation",
+  "license": "MIT AND CC-BY-4.0",
+  "original_problem_relationship": "Proves CCEG Conjecture 8.6 for m<=5 and for m=6 with both pattern maxima at most 2; not the general conjecture.",
+  "research_status": "candidate",
+  "revision": 1,
+  "sources": [
+    "PKG-f55f1e14e5b999775d9aa4f9",
+    "https://ajc.maths.uq.edu.au/pdf/94/ajc_v94_p267.pdf",
+    "https://doi.org/10.37236/147",
+    "https://math.haifa.ac.il/toufik/enumerative/tablewords456.html"
+  ],
+  "statement_file": "statement.md",
+  "statement_sha256": "efef26c86ca81c21df1e9ea945b2f1cc3d84ca7d971352c2c82061375cf29610",
+  "title": "Cayley equivalence for short patterns and binary patterns of length six"
+}

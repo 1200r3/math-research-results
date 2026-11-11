@@ -1,0 +1,150 @@
+{
+  "4": {
+    "classes": 16,
+    "baseline_host_length": 8,
+    "collisions": [
+      {
+        "patterns": [
+          "1223",
+          "1332"
+        ],
+        "common_length": 8,
+        "common_count": 394884,
+        "witness_length": 9,
+        "counts": [
+          4472716,
+          4472712
+        ]
+      }
+    ]
+  },
+  "5": {
+    "classes": 116,
+    "baseline_host_length": 9,
+    "collisions": [
+      {
+        "patterns": [
+          "13442",
+          "14233"
+        ],
+        "common_length": 9,
+        "common_count": 6422046,
+        "witness_length": 10,
+        "counts": [
+          87410614,
+          87410626
+        ]
+      },
+      {
+        "patterns": [
+          "12234",
+          "12443"
+        ],
+        "common_length": 9,
+        "common_count": 6426616,
+        "witness_length": 10,
+        "counts": [
+          87548792,
+          87548796
+        ]
+      },
+      {
+        "patterns": [
+          "12123",
+          "13232"
+        ],
+        "common_length": 9,
+        "common_count": 6695989,
+        "witness_length": 10,
+        "counts": [
+          93909363,
+          93909357
+        ]
+      },
+      {
+        "patterns": [
+          "11223",
+          "11332"
+        ],
+        "common_length": 9,
+        "common_count": 6702104,
+        "witness_length": 11,
+        "counts": [
+          1445533180,
+          1445533200
+        ]
+      },
+      {
+        "patterns": [
+          "11212",
+          "12121"
+        ],
+        "common_length": 9,
+        "common_count": 6916076,
+        "witness_length": 10,
+        "counts": [
+          98890988,
+          98890980
+        ]
+      }
+    ]
+  },
+  "6binary": {
+    "classes": 18,
+    "baseline_host_lengths": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "collisions": [
+      {
+        "patterns": [
+          "111212",
+          "112121"
+        ],
+        "witness_length": 11,
+        "counts": [
+          1616424886,
+          1616424885
+        ]
+      },
+      {
+        "patterns": [
+          "112112",
+          "121112"
+        ],
+        "witness_length": 11,
+        "counts": [
+          1616420895,
+          1616420896
+        ]
+      }
+    ]
+  },
+  "2": {
+    "representatives": [
+      "11",
+      "12"
+    ],
+    "witness_length": 3,
+    "counts": [
+      6,
+      4
+    ]
+  },
+  "3": {
+    "representatives": [
+      "111",
+      "112",
+      "123"
+    ],
+    "witness_length": 4,
+    "counts": [
+      66,
+      60,
+      56
+    ]
+  }
+}

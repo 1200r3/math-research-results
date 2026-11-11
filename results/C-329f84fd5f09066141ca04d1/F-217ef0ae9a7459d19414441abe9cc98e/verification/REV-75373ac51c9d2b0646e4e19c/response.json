@@ -1,0 +1,27 @@
+{
+  "checked_entire_claim": true,
+  "checked_scope": [
+    "Complete paper reduction for all stated lengths and alphabets",
+    "Published all-length word equivalence and symmetry closures",
+    "Exhaustive census and upward expansion correctness",
+    "Joint automaton and numerical separation certificate structure"
+  ],
+  "context_id": "CTX-760a7a42cf6f81f174ab49f2",
+  "decision": "PASS",
+  "findings": [
+    "P1: Binomial transform and inversion establish (2) iff (3); finite cross-class separation establishes the remaining implication.",
+    "P2: JM sections 1.1 and 1.4 and Appendix A support all-length within-row equivalence, including the binary length-six nontrivial row.",
+    "P3: Census, shadow expansion and Joint state invariants are correct in the stated finite range."
+  ],
+  "fresh_context": true,
+  "kind": "paper",
+  "limitations": [
+    "Paper/reduction review only; no independent heavy numerical rerun or execution certification was performed.",
+    "Coverage log and numerical receipts were inspected as submitted evidence; independent recomputation belongs to computation review."
+  ],
+  "manifest_sha256": "27469f12a166c53b3942714a605e66ccff3b4c43d6cf54fb9aee0932c5001d68",
+  "model": "gpt-6-astra",
+  "open_issues": [],
+  "request_id": "REQ-14ba68f1d9ee09de4da243e4",
+  "reviewer": "c86-astra-paper"
+}
