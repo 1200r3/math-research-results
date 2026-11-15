@@ -1,0 +1,11 @@
+{
+  "profile": "reasoning",
+  "reproduction": {
+    "command": "python code/verify_coloring.py",
+    "interpreter": "Python 3.10+ standard library",
+    "lean_component_status": "not_run in current verification; outside computational publication track",
+    "scope": "finite search and direct witness check",
+    "tested_runtime": "3.14.7"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,23 @@
+{
+  "ai_contributions": [
+    "GLM5.3flash"
+  ],
+  "author_credit": "1200",
+  "claim_id": "C-2e758d6d2b2eca9cb61e7c16",
+  "code_license": "MIT",
+  "dependencies": [],
+  "kind": "main",
+  "license": "CC-BY-4.0",
+  "original_problem_relationship": "Answers Question 2 and sharpens the T_12 upper bound",
+  "research_status": "candidate",
+  "revision": 2,
+  "sources": [
+    {
+      "locator": "Section 2, Question 2 and upper-bound table",
+      "url": "https://arxiv.org/html/2405.12321v1"
+    }
+  ],
+  "statement_file": "statement.md",
+  "statement_sha256": "85adff06aef2f8cd96ac17cd359459da56a0028d208ce69439198e1ef60d8407",
+  "title": "Four colors are necessary and sufficient on triangular lattice patches of orders 9 through 12"
+}

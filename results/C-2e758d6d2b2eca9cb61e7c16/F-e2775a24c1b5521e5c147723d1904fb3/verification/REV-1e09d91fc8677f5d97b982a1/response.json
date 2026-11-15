@@ -1,0 +1,46 @@
+{
+  "checked_entire_claim": true,
+  "checked_scope": [
+    "Exact claim revision 2: no proper three-coloring of T9; proper four-coloring of T12; f(9)=f(10)=f(11)=f(12)=4 and f(n)>=4 for every n>=9.",
+    "Geometric enumeration, integer boundaries, exhaustive search reduction and implementation, supplied finite logs, independent witness check, and comparison to the source question."
+  ],
+  "context_id": "c02-reduction-fresh-20261115",
+  "decision": "PASS",
+  "findings": [
+    {
+      "location": "Proof section 1; verifier geometry",
+      "id": "R1",
+      "finding": "The lattice metric and both rotations enumerate exactly the distinct equilateral triples."
+    },
+    {
+      "location": "Proof section 2; verifier three",
+      "id": "R2",
+      "finding": "The origin relabeling, singleton propagation, branch isolation and branch coverage preserve all proper completions."
+    },
+    {
+      "location": "Proof section 3; witness data",
+      "id": "R3",
+      "finding": "The printed T12 witness matches the JSON. Independent equal-distance checks found no monochromatic equilateral triples in any of the four supplied witnesses."
+    },
+    {
+      "location": "Exact statement; proof sections 1 and 3",
+      "id": "R4",
+      "finding": "Restriction gives the exact interval and the claimed lower bound for all larger orders. The cited definition, question and upper bounds match."
+    },
+    {
+      "finding": "The added evidence references the supplied log, matches its SHA-256 hash, and reproduces its parsed output. The exact statement, proof, verifier, log and witnesses are byte-identical to the reviewed version.",
+      "location": "Final package evidence/verification.json",
+      "id": "R5"
+    }
+  ],
+  "fresh_context": true,
+  "kind": "paper",
+  "limitations": [
+    "Independent paper review of the reduction, with an independent witness check. Independent reproduction of the exhaustive search is covered by the separate computational review. This is not a novelty review."
+  ],
+  "manifest_sha256": "db647a74c005a5188534482c4202d79131b5acbbccdad5a963fc2282a021f7d1",
+  "model": "GPT-6 / Codex (exact variant undisclosed)",
+  "open_issues": [],
+  "request_id": "REQ-21d3dc55a2c9de3b4531d2b4",
+  "reviewer": "c02-reduction-codex"
+}

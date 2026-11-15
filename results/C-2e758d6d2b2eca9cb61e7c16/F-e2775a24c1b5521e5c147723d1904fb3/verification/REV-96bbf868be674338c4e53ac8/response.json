@@ -1,0 +1,36 @@
+{
+  "checked_entire_claim": true,
+  "checked_scope": [
+    "All three assertions of the exact bound mathematical statement. Independently enumerated every equilateral triple by exact squared distances; verified T9 three-color impossibility by exhaustive search and separate proof-tree replay; checked the coordinate witnesses through T12 and the manuscript table; verified monotonicity by restriction.",
+    "Re-review by the same independent reviewer. Recomputed the final manifest hash and all seven material hashes; compared the six original materials byte for byte with the previously reviewed versions; verified the added JSON evidence against the matching computation log."
+  ],
+  "context_id": "c02-compute-fresh-20261115",
+  "decision": "PASS",
+  "findings": [
+    {
+      "detail": "The added evidence records the same JSON result as the previously reviewed log and correctly identifies the log by SHA-256. All six original mathematical review materials are byte-identical.",
+      "id": "C02-COMP-00",
+      "location": "evidence/verification.json; data/verify_coloring.log"
+    },
+    {
+      "detail": "T9 has 45 points and 330 triangles. Verified independently that 2,737 complete branch splits lead to 2,760 contradiction leaves with no symmetry reduction.",
+      "id": "C02-COMP-01",
+      "location": "statement.md, assertion 1; proofs/triangular-coloring.tex, Exhaustive search for three colors"
+    },
+    {
+      "detail": "T12 witness covers all 78 points with zero monochromatic triangles over 1,001 triples. Its 78 colors match the manuscript. Witness restrictions and the lower bound prove all stated values.",
+      "id": "C02-COMP-02",
+      "location": "statement.md, assertions 2–3; data/c02_fourcolor_witnesses.json; proofs/triangular-coloring.tex, Four colors and restriction"
+    }
+  ],
+  "fresh_context": true,
+  "kind": "computation",
+  "limitations": [
+    "No four-colorability result for T13 or novelty/priority conclusion. The auxiliary exact count of T8 three-colorings was not required or independently enumerated."
+  ],
+  "manifest_sha256": "db647a74c005a5188534482c4202d79131b5acbbccdad5a963fc2282a021f7d1",
+  "model": "GPT-6 / Codex (exact variant undisclosed)",
+  "open_issues": [],
+  "request_id": "REQ-77276ca0d8e91e0842a10627",
+  "reviewer": "c02-compute-codex"
+}

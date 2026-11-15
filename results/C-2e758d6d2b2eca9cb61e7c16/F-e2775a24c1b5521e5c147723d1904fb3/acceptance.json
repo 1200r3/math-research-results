@@ -1,0 +1,11 @@
+{
+  "claim_id": "C-2e758d6d2b2eca9cb61e7c16",
+  "dependencies": [],
+  "fixed_id": "F-e2775a24c1b5521e5c147723d1904fb3",
+  "kind": "main",
+  "license": "CC-BY-4.0",
+  "revision": 2,
+  "source_package_sha256": "db647a74c005a5188534482c4202d79131b5acbbccdad5a963fc2282a021f7d1",
+  "title": "Four colors are necessary and sufficient on triangular lattice patches of orders 9 through 12",
+  "validation_track": "computational"
+}

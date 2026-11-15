@@ -1,0 +1,63 @@
+\documentclass[11pt]{amsart}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,booktabs}
+\usepackage[letterpaper,margin=1.1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\newtheorem{theorem}{Theorem}
+\title[Four colors on triangular lattice patches]{Four colors are necessary and sufficient on triangular lattice patches of orders 9 through 12}
+\author{1200}
+\date{November 15, 2026}
+\begin{document}
+\begin{abstract}
+We show by an exact finite search that the nine-row triangular lattice patch has no three-coloring avoiding monochromatic equilateral triangles in all orientations. We verify an explicit four-coloring of the twelve-row patch. Restricting colorings to smaller patches gives the exact minimum for each order from 9 to 12, and answers Question 2 of Brouwer, Joe, Noble, and Noble.
+\end{abstract}
+\maketitle
+\section{Statement and geometry}
+For $n\ge1$ put $T_n=\{(i,j)\in\mathbb Z_{\ge0}^2:i+j\le n-1\}$, embedded by unit basis vectors at angle $60^\circ$. A coloring is proper if no three distinct vertices of an equilateral triangle are all the same color. Let $f(n)$ be the minimum size of a palette that admits a proper coloring. Brouwer, Joe, Noble, and Noble \cite{BJN} asked whether $T_9$ has a proper three-coloring and gave $f(9),f(10),f(11)\le 4$ and $f(12)\le 5$.
+\begin{theorem}
+The patch $T_9$ has no proper three-coloring, $T_{12}$ has a proper four-coloring, and $f(9)=f(10)=f(11)=f(12)=4$.
+\end{theorem}
+In lattice coordinates, the squared length of $(u,v)$ is $u^2+uv+v^2$. The two rotations through $\pm60^\circ$ send $(u,v)$ to $(-v,u+v)$ and $(u+v,-u)$. From a distinct pair $p,q$ the only two possible completions are therefore $p+R_+(q-p)$ and $p+R_-(q-p)$. Enumerate both completions for every unordered pair, retain those in $T_n$, sort each triple, and deduplicate. This lists every equilateral triple, irrespective of orientation. In particular there are 330 triples on 45 points for $n=9$ and 1001 triples on 78 points for $n=12$.
+\section{Exhaustive search for three colors}
+Associate a domain $D(v)\subseteq\{0,1,2\}$ with each point. At the root fix the origin to color 0; any proper coloring can be relabeled to satisfy this choice. Leave the other domains unrestricted.
+\par
+Whenever two vertices of a triple both have singleton domain $\{c\}$, delete $c$ from the third domain. This is necessary for every proper completion. The implementation puts newly singleton vertices in a queue and checks all incident triples when it processes a vertex. It suffices to check triples incident to a new singleton: all previously processed singleton pairs were already checked, and shrinking domains never reintroduces colors. An empty domain closes the branch.
+\par
+If no domain is empty and some domain has more than one color, branch over all its colors, using a fresh copy of the domains in each branch. The code chooses the smallest nonsingleton domain, preferring the highest triangle incidence and then the first point in lexicographic order. A proper completion is retained on at least one branch, as each deletion is sound and branching considers every remaining choice. The search terminates because each branch fixes at least one additional vertex. If all domains are singleton the resulting assignment is checked against all triples.
+\begin{center}
+\begin{tabular}{rrrrr}
+\toprule
+Rows & Points & Triples & Search nodes & Colorings with origin 0\\
+\midrule
+8 & 36 & 210 & 8,505 & 216\\
+9 & 45 & 330 & 6,837 & 0\\
+\bottomrule
+\end{tabular}
+\end{center}
+The executable verifier uses only the Python standard library. Its output also reports 3,436 conflict leaves at order 9. Order 8 provides a positive control for the search; it is not used to deduce the impossibility at order 9.
+\section{Four colors and restriction}
+The following rows specify a coloring of $T_{12}$. Row $i$ lists its colors in increasing order of $j$.
+\begin{center}
+\begin{tabular}{r@{\quad}l r@{\quad}l}
+\toprule
+$i$ & Colors & $i$ & Colors\\
+\midrule
+0 & \texttt{122010030210} & 6 & \texttt{210233} \\
+1 & \texttt{30330111121} & 7 & \texttt{20320} \\
+2 & \texttt{2012333012} & 8 & \texttt{1101} \\
+3 & \texttt{020312032} & 9 & \texttt{330} \\
+4 & \texttt{21131222} & 10 & \texttt{03} \\
+5 & \texttt{3012003} & 11 & \texttt{0} \\
+\bottomrule
+\end{tabular}
+\end{center}
+Checking all 1001 triples yields zero monochromatic triples. Thus $f(12)\le4$. Every proper coloring of $T_n$ restricts to a proper coloring of $T_m$ when $m\le n$, since any monochromatic equilateral triple in the restriction would already be present in the larger patch. Thus $4\le f(9)\le f(n)\le f(12)\le4$ for $9\le n\le12$.
+\par
+\textbf{Reproduction.} From the artifact root, run
+\begin{center}\texttt{python code/verify\_coloring.py}\end{center} It also checks the supplied four-color witnesses for orders 9, 10, and 11. The theorem is a computational result; no answer at order 13 is asserted here.
+\par
+\textbf{AI contribution: GLM5.3flash.} Original research assistance in the supplied result.
+\begin{thebibliography}{9}
+\bibitem{BJN} G. A. Brouwer, J. Joe, A. A. Noble, and M. Noble, \emph{Problems on the Triangular Lattice}, arXiv:2405.12321v1 (2024), Section 2, Question 2. \url{https://arxiv.org/abs/2405.12321}
+\end{thebibliography}
+\end{document}

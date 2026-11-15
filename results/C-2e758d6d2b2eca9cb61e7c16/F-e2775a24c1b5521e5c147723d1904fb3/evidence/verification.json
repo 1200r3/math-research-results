@@ -1,0 +1,44 @@
+{
+  "command": "python code/verify_coloring.py",
+  "result": {
+    "8": {
+      "conflicts": 4054,
+      "models_with_origin_color_0": 216,
+      "nodes": 8505,
+      "points": 36,
+      "triangles": 210
+    },
+    "9": {
+      "conflicts": 3436,
+      "models_with_origin_color_0": 0,
+      "nodes": 6837,
+      "points": 45,
+      "triangles": 330
+    },
+    "four_color": {
+      "10": {
+        "monochromatic": 0,
+        "points": 55,
+        "triangles": 495
+      },
+      "11": {
+        "monochromatic": 0,
+        "points": 66,
+        "triangles": 715
+      },
+      "12": {
+        "monochromatic": 0,
+        "points": 78,
+        "triangles": 1001
+      },
+      "9": {
+        "monochromatic": 0,
+        "points": 45,
+        "triangles": 330
+      }
+    }
+  },
+  "schema_version": 1,
+  "sha256": "b6e4524a03a45e6c0f18230b3a0521899720968adcc46dabf59279a0f8c60d95",
+  "source": "data/verify_coloring.log"
+}

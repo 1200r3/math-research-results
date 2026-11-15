@@ -1,0 +1,77 @@
+{
+  "geometry": {
+    "T2": {
+      "points": 3,
+      "triangles": 1,
+      "horizontal_edge": 1,
+      "no_horizontal_edge": 0
+    },
+    "T3": {
+      "points": 6,
+      "triangles": 5,
+      "horizontal_edge": 5,
+      "no_horizontal_edge": 0
+    },
+    "T4": {
+      "points": 10,
+      "triangles": 15,
+      "horizontal_edge": 13,
+      "no_horizontal_edge": 2
+    },
+    "T5": {
+      "points": 15,
+      "triangles": 35,
+      "horizontal_edge": 27,
+      "no_horizontal_edge": 8
+    },
+    "T6": {
+      "points": 21,
+      "triangles": 70,
+      "horizontal_edge": 48,
+      "no_horizontal_edge": 22
+    },
+    "T7": {
+      "points": 28,
+      "triangles": 126,
+      "horizontal_edge": 78,
+      "no_horizontal_edge": 48
+    },
+    "T8": {
+      "points": 36,
+      "triangles": 210,
+      "horizontal_edge": 118,
+      "no_horizontal_edge": 92
+    },
+    "T9": {
+      "points": 45,
+      "triangles": 330,
+      "horizontal_edge": 170,
+      "no_horizontal_edge": 160
+    },
+    "T10": {
+      "points": 55,
+      "triangles": 495,
+      "horizontal_edge": 235,
+      "no_horizontal_edge": 260
+    },
+    "T11": {
+      "points": 66,
+      "triangles": 715,
+      "horizontal_edge": 315,
+      "no_horizontal_edge": 400
+    },
+    "T12": {
+      "points": 78,
+      "triangles": 1001,
+      "horizontal_edge": 411,
+      "no_horizontal_edge": 590
+    },
+    "T13": {
+      "points": 91,
+      "triangles": 1365,
+      "horizontal_edge": 525,
+      "no_horizontal_edge": 840
+    }
+  },
+  "certificate_sha256": "3034d5c1f05e66570b36580490aa59a02bea4d178e6c0c17bb850bbc4b2bc9dd"
+}

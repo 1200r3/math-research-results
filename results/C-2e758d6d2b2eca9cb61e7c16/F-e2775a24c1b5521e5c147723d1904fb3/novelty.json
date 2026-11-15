@@ -1,0 +1,65 @@
+{
+  "as_of": "2026-11-15",
+  "closest_results": [
+    {
+      "relation": "Same question for T9; upper bounds only for orders 9 through 12.",
+      "url": "https://arxiv.org/html/2405.12321v1"
+    },
+    {
+      "relation": "Same lattice geometry and pair-completion counts, no finite chromatic threshold.",
+      "url": "https://arxiv.org/abs/2608.15925"
+    },
+    {
+      "relation": "Till Rauch-Müller and Arsenii Sagdeev, planar monochromatic-or-rainbow Ramsey property; different quantifiers and triangle shapes, not avoidance of monochromatic equilateral triples on T9.",
+      "url": "https://arxiv.org/abs/2611.13066"
+    },
+    {
+      "relation": "Same f(n) in introduction; sections 2 and 3 develop lower bounds and horizontal-only h(n), not the exact T9 or T12 thresholds.",
+      "url": "https://yau-awards.com/uploads/file/20241106/20241106151459_87807.pdf"
+    },
+    {
+      "relation": "Same hypergraph, independence number of T15, different invariant and order.",
+      "url": "https://theoremdb.org/statements/P2680/"
+    },
+    {
+      "relation": "Enumeration of maximal triangle-avoiding subsets, not the coloring number.",
+      "url": "https://oeis.org/A243211"
+    }
+  ],
+  "searches": [
+    {
+      "channel": "Academic indexes / original",
+      "date": "2026-11-15",
+      "query": "arXiv:2405.12321v1 section 2; OpenAlex cites:W4398229848; zbMATH and exact-phrase web queries",
+      "result": "Original Question 2 asks precisely T9 three-color infeasibility; original upper bound T12 is 5. Direct read-only OpenAlex cites:W4398229848 succeeded with one hit, 2608.15925; no threshold result, corroborating the prior snapshot."
+    },
+    {
+      "channel": "Preprints and author material",
+      "date": "2026-11-15",
+      "query": "2405.12321 2608.15925 2611.13066; He Yao Coloring Problems on the Triangular Lattice",
+      "result": "Checked Creighton Dement on completion counts, Till Rauch-Müller and Arsenii Sagdeev on monochromatic-or-rainbow planar Ramsey results, and He Yao on asymptotic lower bounds and horizontal-only triangles (full award PDF retrieved, sections 2 and 3); none establishes the exact finite result."
+    },
+    {
+      "channel": "Math communities",
+      "date": "2026-11-15",
+      "query": "T9 triangular lattice equilateral 3-coloring 2405.12321 site:mathoverflow.net OR site:math.stackexchange.com OR site:oeis.org",
+      "result": "No exact solution surfaced; TheoremDB P2680 is independence of T15, not this coloring threshold."
+    },
+    {
+      "channel": "GitHub and open source",
+      "date": "2026-11-15",
+      "query": "\"2405.12321\" GitHub code; \"triangular lattice\" \"T9\" equilateral coloring repository/Lean",
+      "result": "Native code search not accessible; indexed search found no solution to the finite threshold. Separate WSK ordinary vertex-coloring targets are unrelated."
+    },
+    {
+      "channel": "Local library",
+      "date": "2026-11-15",
+      "query": "RESULTS_INDEX, PROJECT_STATUS, SETUP_REPORT, REVIEW_REPORT: 2405.12321, triangular lattice, triangular coloring; compare main claims",
+      "result": "Rebuilt source package is confirmed. C02 zero-sum in main index is a different problem. No exact local duplicate surfaced in those indexes."
+    }
+  ],
+  "status": "pending",
+  "unavailable_channels": [
+    "Native GitHub code search unavailable; checked web-indexed GitHub search instead. Google Scholar and MathSciNet not verified. No global priority claim."
+  ]
+}
